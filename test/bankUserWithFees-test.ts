@@ -19,6 +19,7 @@ describe("BankUserTest", async function () {
           type: WalletTypes.EverWallet,
           value: toNano(10),
           publicKey: signer1.publicKey,
+
         })
         .then(res => (userAccount = res.account));
       await locklift.factory.accounts
@@ -51,8 +52,8 @@ describe("BankUserTest", async function () {
                 bank_address: bank.address
           },
           constructorParams: {
-
             _initialBalance: 222,
+              _user_address: userAccount.address
           },
           value: toNano(10),
           publicKey: signer1.publicKey,

@@ -6,7 +6,8 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_initialBalance","type":"uint128"}
+				{"name":"_initialBalance","type":"uint128"},
+				{"name":"_user_address","type":"address"}
 			],
 			"outputs": [
 			]
@@ -22,8 +23,7 @@
 		{
 			"name": "loanReceived",
 			"inputs": [
-				{"name":"_loanNum","type":"uint256"},
-				{"name":"_initSender","type":"address"}
+				{"name":"_loanNum","type":"uint256"}
 			],
 			"outputs": [
 			]
@@ -39,8 +39,7 @@
 		{
 			"name": "repayAccepted",
 			"inputs": [
-				{"name":"_totalRepayAmount","type":"uint256"},
-				{"name":"_initSender","type":"address"}
+				{"name":"_totalRepayAmount","type":"uint256"}
 			],
 			"outputs": [
 			]
@@ -48,7 +47,6 @@
 		{
 			"name": "repayRejected",
 			"inputs": [
-				{"name":"_initSender","type":"address"}
 			],
 			"outputs": [
 			]
@@ -75,6 +73,14 @@
 			],
 			"outputs": [
 				{"name":"Bank","type":"address"}
+			]
+		},
+		{
+			"name": "user_address",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"user_address","type":"address"}
 			]
 		}
 	],
@@ -131,6 +137,7 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"money","type":"uint256"},
 		{"name":"Bank","type":"address"},
-		{"name":"bank_address","type":"address"}
+		{"name":"bank_address","type":"address"},
+		{"name":"user_address","type":"address"}
 	]
 }

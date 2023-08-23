@@ -75,7 +75,7 @@ contract bank {
 
         emit LoanTaken(msg.sender, loanNum);
 
-        User(msg.sender).loanReceived{value:0, flag:128}(loanNum,_initSender);
+        User(msg.sender).loanReceived{value:0, flag:128}(loanNum);
     }
 
     // check comments in User.repayLoan
@@ -93,10 +93,10 @@ contract bank {
 
         if(_repayAmount != calculating()){
             console.log(format("repayAmount {} calc {}",_repayAmount,calculating()));
-            User(msg.sender).repayRejected{value:0, flag:128}(_initSender);
+            User(msg.sender).repayRejected{value:0, flag:128}();
             return;
         }
-        User(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount, _initSender);
+        User(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
 
         bankProfit += (_repayAmount - loanNum);
         console.log(format("profit {}", bankProfit));

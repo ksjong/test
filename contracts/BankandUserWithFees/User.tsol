@@ -11,6 +11,8 @@ contract User {
 
     address static bank_address;
 
+    address public user_address;
+
 //    string static userName;
 //    string static password;
 
@@ -23,9 +25,11 @@ contract User {
     event RepayRejected(string message);
 
     constructor(
-        uint128 _initialBalance
+        uint128 _initialBalance,
+        address _user_address
     ) public {
         tvm.accept();
+        user_address = _user_address;
 
         // we will need some money for repay borrow amount + interesting rate, so let's imaging we have already had some money
         // 초기 자금을 생성자를 통해서 설정하고 약간의 돈이 있다고 가정.
@@ -47,12 +51,12 @@ contract User {
 
     // function loanReceived(...) // function that can be called only by Bank contract
     // and only after it we need to increase our money, and emit an event
-    function loanReceived(uint _loanNum, address _initSender) external {
+    function loanReceived(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         money += _loanNum;
         emit receivedSuccess( _loanNum);
 
-        _initSender.transfer({value:0, flag:128});
+        user_address.transfer({value:0, flag:128});
     }
 
     function repayLoan(
@@ -73,21 +77,21 @@ contract User {
     }
 // User.repayAccepted()/User.repayRejected()
     //    function repayLoan(
-    function repayAccepted(uint _totalRepayAmount, address _initSender) external {
+    function repayAccepted(uint _totalRepayAmount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
         require(_totalRepayAmount <= money, 1008);
         money -= _totalRepayAmount;
 
         emit repaySuccess(_totalRepayAmount);
 
-        _initSender.transfer({value:0, flag:128});
+        user_address.transfer({value:0, flag:128});
     }
 
-    function repayRejected(address _initSender) external {
+    function repayRejected() external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
 
         emit RepayRejected("Reject!");
-        _initSender.transfer({value:0, flag:128});
+        user_address.transfer({value:0, flag:128});
 
     }
     function getMoney() external view returns (uint _money){
