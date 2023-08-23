@@ -48,13 +48,12 @@ contract bank {
         tvm.accept();
         interestRate = _interestRate;
     }
-    function getAddress() public returns(address) {
+    function getAddress(address _bank_address) public returns(address) {
         tvm.accept();
         address userAddress = address(tvm.hash(tvm.buildStateInit({
             contr: User,
             varInit: {
-            userName: "KIM",
-            password: "1234"
+                bank_address: _bank_address
             },
             pubkey: owner,
             code: userContractCode
@@ -62,13 +61,13 @@ contract bank {
         })));
         return userAddress;
     }
-    function loan(uint _loanNum, address _initSender) external {
+    function loan(uint _loanNum, address _initSender, address _bank_address) external {
 //        tvm.accept();
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
 
-        console.log(format("ADDRESS {}", getAddress()));
+        console.log(format("ADDRESS {}", getAddress(_bank_address)));
         require(isLoanAvailable, 1002);
-        require(msg.sender == getAddress(), 2000);
+        require(msg.sender == getAddress(_bank_address), 2000);
 
         loanNum = _loanNum;
 
@@ -86,11 +85,11 @@ contract bank {
 
         return TotalRepay;
     }
-    function repaying(uint128 _repayAmount, address _initSender) external {
+    function repaying(uint128 _repayAmount, address _initSender, address _bank_address) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
 
 
-        require(msg.sender == getAddress(), 1003);
+        require(msg.sender == getAddress(_bank_address), 1003);
 
         if(_repayAmount != calculating()){
             console.log(format("repayAmount {} calc {}",_repayAmount,calculating()));

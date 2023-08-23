@@ -1,9 +1,10 @@
-import { Contract, Signer, toNano, WalletTypes } from "locklift";
-import { FactorySource } from "../build/factorySource";
-import { Account } from "everscale-standalone-client";
+import {Contract, Signer, toNano, WalletTypes} from "locklift";
+import {FactorySource} from "../build/factorySource";
+import {Account} from "everscale-standalone-client";
 
 let bank: Contract<FactorySource["bank"]>;
 let user: Contract<FactorySource["user"]>;
+let bankAccount: Account;
 let userAccount: Account;
 let signer1: Signer;
 
@@ -20,6 +21,13 @@ describe("BankUserTest", async function () {
           publicKey: signer1.publicKey,
         })
         .then(res => (userAccount = res.account));
+      await locklift.factory.accounts
+          .addNewAccount({
+              type: WalletTypes.EverWallet,
+              value: toNano(10),
+              publicKey: signer1.publicKey,
+          })
+          .then(res=>(bankAccount=res.account));
       const { code: userCode } = locklift.factory.getContractArtifacts("user");
       bank = await locklift.factory
         .deployContract({
@@ -40,11 +48,10 @@ describe("BankUserTest", async function () {
         .deployContract({
           contract: "user",
           initParams: {
-            userName: "KIM",
-            password: "1234",
+                bank_address: bank.address
           },
           constructorParams: {
-            _bank: bank.address,
+
             _initialBalance: 222,
           },
           value: toNano(10),
@@ -71,7 +78,7 @@ describe("BankUserTest", async function () {
       const { traceTree: repaid } = await locklift.tracing.trace(
         user.methods.repayLoan({ _repayAmount: Number(totalrepayAmount.value0) }).send({
           from: userAccount.address,
-          amount: toNano(20no),
+          amount: toNano(1),
         }),
       );
       await repaid?.beautyPrint();

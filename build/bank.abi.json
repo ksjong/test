@@ -23,6 +23,7 @@
 		{
 			"name": "getAddress",
 			"inputs": [
+				{"name":"_bank_address","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"address"}
@@ -32,7 +33,8 @@
 			"name": "loan",
 			"inputs": [
 				{"name":"_loanNum","type":"uint256"},
-				{"name":"_initSender","type":"address"}
+				{"name":"_initSender","type":"address"},
+				{"name":"_bank_address","type":"address"}
 			],
 			"outputs": [
 			]
@@ -49,7 +51,8 @@
 			"name": "repaying",
 			"inputs": [
 				{"name":"_repayAmount","type":"uint128"},
-				{"name":"_initSender","type":"address"}
+				{"name":"_initSender","type":"address"},
+				{"name":"_bank_address","type":"address"}
 			],
 			"outputs": [
 			]

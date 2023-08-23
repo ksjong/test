@@ -1,1098 +1,892 @@
 {
   "map": {
-    "07c8eab748264d03d1e0be8941d99550ed6a16b10c44e320cdaa73523a20debe": {
+    "17d8a2c61e390eb345ae39e3b811fee33d4a50d0abc7ff762c8762d1ca2de365": {
       "0": {
-        "filename": "stdlib.sol",
-        "line": 160
+        "filename": "User.code",
+        "line": 639
       },
       "8": {
-        "filename": "stdlib.sol",
-        "line": 160
+        "filename": "User.code",
+        "line": 640
       },
-      "24": {
-        "filename": "stdlib_sol_0_62_0.tvm",
+      "56": {
+        "filename": "User.code",
         "line": 641
-      }
-    },
-    "092f591153d86d6547f7a93adf9b6def50615fcc2acbe60e9a5fe518578cf7d1": {
-      "0": {
-        "filename": "User.code",
-        "line": 527
       },
-      "16": {
+      "64": {
         "filename": "User.code",
-        "line": 528
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 529
-      },
-      "40": {
-        "filename": "User.code",
-        "line": 530
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 531
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 532
+        "line": 642
       },
       "80": {
         "filename": "User.code",
-        "line": 533
+        "line": 645
       },
       "88": {
         "filename": "User.code",
-        "line": 534
+        "line": 646
       },
-      "104": {
+      "136": {
         "filename": "User.code",
-        "line": 535
-      },
-      "120": {
-        "filename": "User.code",
-        "line": 536
-      },
-      "128": {
-        "filename": "User.code",
-        "line": 537
+        "line": 647
       },
       "144": {
         "filename": "User.code",
-        "line": 538
+        "line": 648
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 651
       },
       "168": {
         "filename": "User.code",
-        "line": 539
-      },
-      "176": {
-        "filename": "User.code",
-        "line": 540
-      },
-      "184": {
-        "filename": "User.code",
-        "line": 541
-      },
-      "200": {
-        "filename": "User.code",
-        "line": 542
+        "line": 652
       },
       "216": {
         "filename": "User.code",
-        "line": 546
+        "line": 653
       },
       "224": {
         "filename": "User.code",
-        "line": 547
-      },
-      "248": {
-        "filename": "User.code",
-        "line": 548
-      },
-      "264": {
-        "filename": "User.code",
-        "line": 549
-      },
-      "272": {
-        "filename": "User.code",
-        "line": 550
-      },
-      "288": {
-        "filename": "User.code",
-        "line": 554
-      },
-      "296": {
-        "filename": "User.code",
-        "line": 555
-      },
-      "312": {
-        "filename": "User.code",
-        "line": 558
-      }
-    },
-    "0c6d676eadd7ee8b6a14d54427d7b901c5cf0890d7be69a5e4f22895c4ccd74f": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 161
-      }
-    },
-    "12ba783d844cb57ba0998c92ad42c055ee5e070d7adc34e6f3a14d8a929b81b5": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 99
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 100
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 100
-      },
-      "40": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 279
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 104
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 105
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 105
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 105
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 105
-      },
-      "104": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 321
-      },
-      "112": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 322
-      },
-      "120": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 323
-      }
-    },
-    "13e0a5390fe50df0e1084562bda6f99920d8fa8af56198cfd1558c3003367c55": {
-      "0": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
-      }
-    },
-    "1c358c128edfeea8814615b99d6fb9e62a0475a2b7dc32df7e609e9653a42988": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "120": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "128": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "136": {
-        "filename": "stdlib.sol",
-        "line": 132
-      }
-    },
-    "215d2f5fe6907ecd35731a74e8bee84ab3a2450065a85fea8a705b444e18d05b": {
-      "0": {
-        "filename": "User.code",
-        "line": 93
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 94
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 95
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 96
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 97
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 98
-      },
-      "88": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "96": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "104": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "120": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "128": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "136": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "144": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "152": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "168": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "176": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "192": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 49
-      },
-      "200": {
-        "filename": "User.code",
-        "line": 116
-      },
-      "216": {
-        "filename": "User.code",
-        "line": 119
-      },
-      "224": {
-        "filename": "User.code",
-        "line": 120
+        "line": 654
       },
       "240": {
         "filename": "User.code",
-        "line": 123
+        "line": 657
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 658
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 659
+      },
+      "304": {
+        "filename": "User.code",
+        "line": 660
       }
     },
-    "22de507d26fd32330327210bc4e8dfeb3edb853911a717e0c451d7e2b917472b": {
+    "21b72dc8974eae70c78cbb397bba32e4370a32edd387958afed9df224745b6f0": {
       "0": {
-        "filename": "stdlib.sol",
-        "line": 306
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 306
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 306
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 306
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 38
       },
       "48": {
-        "filename": "stdlib.sol",
-        "line": 306
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 38
       },
       "56": {
-        "filename": "stdlib.sol",
-        "line": 306
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 38
       },
       "72": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 1452
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
       },
       "80": {
-        "filename": "stdlib.sol",
-        "line": 311
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
       },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 311
+      "96": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "256": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "264": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "272": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "280": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "296": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "304": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "312": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 39
+      },
+      "328": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "344": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "360": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "368": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "384": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "392": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "416": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "424": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "432": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "456": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "472": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "480": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "528": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "544": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "552": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "560": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "568": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "576": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "584": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "592": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "600": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
+      },
+      "616": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 41
       }
     },
     "2b6bf40da63f90914bfb7248f5dd8a9bc5b3f1b0be15b8e77d250b24dbd153f8": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 88
+        "line": 77
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 88
+        "line": 77
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 88
+        "line": 77
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 89
+        "line": 78
       },
       "80": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 89
+        "line": 78
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 89
+        "line": 78
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 89
+        "line": 78
       },
       "128": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 90
+        "line": 79
       },
       "144": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 90
+        "line": 79
       },
       "152": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 90
+        "line": 79
       },
       "160": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 90
+        "line": 79
       },
       "176": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 90
+        "line": 79
       },
       "192": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "200": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "360": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "376": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "400": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "408": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 92
+        "line": 81
       },
       "424": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "456": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "464": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "480": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "496": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "504": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       },
       "520": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 94
+        "line": 83
       }
     },
-    "310da706257fa6812942775492296edb73c9a76f4660a1e1e7ca70a10bbe3ccd": {
+    "35a9dd9b01016e81a6243c05480cbcb16f4d1a4187fcf4e373848f45d68fbf5a": {
       "0": {
         "filename": "User.code",
-        "line": 619
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 620
+        "line": 494
       },
       "16": {
         "filename": "User.code",
-        "line": 621
-      },
-      "32": {
-        "filename": "User.code",
-        "line": 624
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 625
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 626
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 627
-      },
-      "232": {
-        "filename": "User.code",
-        "line": 628
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 629
-      },
-      "248": {
-        "filename": "User.code",
-        "line": 630
-      },
-      "256": {
-        "filename": "User.code",
-        "line": 631
-      },
-      "264": {
-        "filename": "User.code",
-        "line": 632
-      },
-      "272": {
-        "filename": "User.code",
-        "line": 633
-      },
-      "288": {
-        "filename": "User.code",
-        "line": 635
-      },
-      "296": {
-        "filename": "User.code",
-        "line": 636
-      }
-    },
-    "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
-      "0": {
-        "filename": "User.code",
-        "line": 460
-      }
-    },
-    "39d1223547d25735fe3c7bd6ced341d5d85111c6b609bacb84a7b2576c1e2ec9": {
-      "0": {
-        "filename": "User.code",
-        "line": 317
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 318
+        "line": 495
       },
       "24": {
         "filename": "User.code",
-        "line": 319
+        "line": 496
       },
-      "48": {
+      "40": {
         "filename": "User.code",
-        "line": 320
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 321
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 322
-      },
-      "88": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "96": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "104": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "112": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "120": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "128": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "136": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "152": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 97
-      },
-      "160": {
-        "filename": "User.code",
-        "line": 336
-      },
-      "176": {
-        "filename": "User.code",
-        "line": 339
-      },
-      "184": {
-        "filename": "User.code",
-        "line": 340
-      },
-      "200": {
-        "filename": "User.code",
-        "line": 343
-      }
-    },
-    "3a1be08bba06459650b6e44c025c64597e047066a1fd8b240906e6fbdbb20ab5": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 148
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 148
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 149
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 149
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 149
-      },
-      "64": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 554
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 151
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 151
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 151
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 152
-      },
-      "120": {
-        "filename": "stdlib.sol",
-        "line": 152
-      },
-      "128": {
-        "filename": "stdlib.sol",
-        "line": 153
-      },
-      "144": {
-        "filename": "stdlib.sol",
-        "line": 153
-      },
-      "152": {
-        "filename": "stdlib.sol",
-        "line": 153
-      },
-      "160": {
-        "filename": "stdlib.sol",
-        "line": 154
-      },
-      "176": {
-        "filename": "stdlib.sol",
-        "line": 154
-      },
-      "200": {
-        "filename": "stdlib.sol",
-        "line": 154
-      },
-      "208": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 594
-      },
-      "216": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "232": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "240": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "248": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "256": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "264": {
-        "filename": "stdlib.sol",
-        "line": 156
-      }
-    },
-    "3c0db4adbb8aaed164960e7fed7f9936b15d46c12b2551d2a3009a7553b15b39": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 307
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 307
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 307
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 308
-      }
-    },
-    "4dcd5b500edd2ce69ce3a9b8aa233df8a2b52b5188c5f5bbb8afe03dedd5f39f": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 165
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 165
-      },
-      "24": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 673
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 169
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 169
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 169
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 170
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 170
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 171
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 171
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 171
-      },
-      "128": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 733
-      }
-    },
-    "51a1ac3c6302419de30ef246e37ee46265e135011c487bd80ac5aec065caa561": {
-      "0": {
-        "filename": "User.code",
-        "line": 678
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 679
+        "line": 497
       },
       "56": {
         "filename": "User.code",
-        "line": 680
+        "line": 498
       },
-      "64": {
+      "72": {
         "filename": "User.code",
-        "line": 681
+        "line": 499
       },
       "80": {
         "filename": "User.code",
-        "line": 684
+        "line": 500
       },
       "88": {
         "filename": "User.code",
-        "line": 685
+        "line": 501
       },
-      "136": {
+      "104": {
         "filename": "User.code",
-        "line": 686
+        "line": 502
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 503
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 504
       },
       "144": {
         "filename": "User.code",
-        "line": 687
-      },
-      "160": {
-        "filename": "User.code",
-        "line": 690
+        "line": 505
       },
       "168": {
         "filename": "User.code",
-        "line": 691
+        "line": 506
+      },
+      "176": {
+        "filename": "User.code",
+        "line": 507
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 508
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 509
       },
       "216": {
         "filename": "User.code",
-        "line": 692
+        "line": 513
       },
       "224": {
         "filename": "User.code",
-        "line": 693
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 696
+        "line": 514
       },
       "248": {
         "filename": "User.code",
-        "line": 697
+        "line": 515
+      },
+      "264": {
+        "filename": "User.code",
+        "line": 516
+      },
+      "272": {
+        "filename": "User.code",
+        "line": 517
+      },
+      "288": {
+        "filename": "User.code",
+        "line": 521
       },
       "296": {
         "filename": "User.code",
-        "line": 698
+        "line": 522
+      },
+      "312": {
+        "filename": "User.code",
+        "line": 525
+      }
+    },
+    "38da77ff8ccc504f9343fa4555100ac5b2b427192ba487b0bd7e06f8b2bd47de": {
+      "0": {
+        "filename": "User.code",
+        "line": 347
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 348
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 349
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 350
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 351
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 352
+      },
+      "88": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 93
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 358
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 361
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 362
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 363
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 364
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 365
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 366
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 367
+      },
+      "192": {
+        "filename": "User.code",
+        "line": 368
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 369
+      },
+      "208": {
+        "filename": "User.code",
+        "line": 370
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 371
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 372
+      },
+      "288": {
+        "filename": "User.code",
+        "line": 373
+      },
+      "312": {
+        "filename": "User.code",
+        "line": 374
+      },
+      "328": {
+        "filename": "User.code",
+        "line": 375
+      },
+      "336": {
+        "filename": "User.code",
+        "line": 376
+      },
+      "344": {
+        "filename": "User.code",
+        "line": 377
+      },
+      "360": {
+        "filename": "User.code",
+        "line": 379
+      },
+      "368": {
+        "filename": "User.code",
+        "line": 380
+      },
+      "376": {
+        "filename": "User.code",
+        "line": 382
+      },
+      "384": {
+        "filename": "User.code",
+        "line": 383
+      },
+      "400": {
+        "filename": "User.code",
+        "line": 386
+      }
+    },
+    "3afb4a7aaf96e3a1c523101f5f071a249cddf4f76b6d5655e9d2e73916f25c75": {
+      "0": {
+        "filename": "User.code",
+        "line": 566
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 567
+      },
+      "16": {
+        "filename": "User.code",
+        "line": 568
+      },
+      "32": {
+        "filename": "User.code",
+        "line": 571
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 572
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 573
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 574
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 575
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 576
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 577
+      },
+      "264": {
+        "filename": "User.code",
+        "line": 578
+      },
+      "272": {
+        "filename": "User.code",
+        "line": 579
+      },
+      "280": {
+        "filename": "User.code",
+        "line": 580
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 582
       },
       "304": {
         "filename": "User.code",
-        "line": 699
+        "line": 583
       }
     },
-    "547b98aaf1a7dff6b45625da384284bed2cbf3f147194e2d1230e2913712150a": {
+    "3c6bf4f831afeb215e1875cbf0d749dd7163ef2575a2ff863d03db52fb320c01": {
       "0": {
+        "filename": "User.code",
+        "line": 291
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 292
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 293
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 294
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 295
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 296
+      },
+      "88": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "96": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "104": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "112": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "120": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "128": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "136": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "152": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 86
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 310
+      },
+      "176": {
+        "filename": "User.code",
+        "line": 313
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 314
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 317
+      }
+    },
+    "45c7220b43b8a5563bf7b4bc30f304ea1d92dfb4bfeef0cf24716b2bffb08dc1": {
+      "0": {
+        "filename": "User.code",
+        "line": 154
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 155
+      },
+      "24": {
         "filename": "User.code",
         "line": 156
       },
-      "8": {
+      "48": {
         "filename": "User.code",
         "line": 157
       },
-      "24": {
+      "64": {
         "filename": "User.code",
         "line": 158
       },
-      "48": {
+      "72": {
         "filename": "User.code",
         "line": 159
       },
-      "64": {
-        "filename": "User.code",
-        "line": 160
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 161
-      },
       "88": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 59
+        "line": 58
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 59
+        "line": 58
       },
       "112": {
         "filename": "User.code",
-        "line": 168
+        "line": 166
       },
       "128": {
         "filename": "User.code",
-        "line": 171
+        "line": 169
       },
       "136": {
         "filename": "User.code",
-        "line": 172
+        "line": 170
       },
       "152": {
         "filename": "User.code",
-        "line": 175
+        "line": 173
       }
     },
-    "585c39a6d6014f18b55179ee73cfb8e442e5fb7b43c9ebfb67f0279d44b131ce": {
+    "53af1942a9379085e0553178ae14d5a110f4275d1ca65187d905c65147a19f96": {
       "0": {
-        "filename": "stdlib.sol",
-        "line": 296
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 296
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 296
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 297
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 297
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 61
       },
       "48": {
-        "filename": "stdlib.sol",
-        "line": 297
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 61
       },
       "56": {
-        "filename": "stdlib.sol",
-        "line": 298
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 61
       },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 298
+      "72": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 63
       },
       "88": {
-        "filename": "stdlib.sol",
-        "line": 299
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 63
       },
       "96": {
-        "filename": "stdlib.sol",
-        "line": 299
-      }
-    },
-    "5c0140d945762962de8806a47954f1b0664f19b021ff7d1e15cff9b208b826d1": {
-      "0": {
-        "filename": "User.code",
-        "line": 35
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 36
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 37
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 38
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 39
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 40
-      },
-      "88": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 36
+        "line": 63
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 36
-      },
-      "112": {
-        "filename": "User.code",
-        "line": 47
+        "line": 63
       },
       "128": {
-        "filename": "User.code",
-        "line": 50
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
       },
       "136": {
-        "filename": "User.code",
-        "line": 51
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
       },
       "152": {
-        "filename": "User.code",
-        "line": 54
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "312": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "320": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "328": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "336": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "352": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "360": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "368": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 65
+      },
+      "384": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "400": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "416": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "424": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "440": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "448": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "472": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "480": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "488": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "512": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "528": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "536": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "584": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "600": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "608": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "616": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "624": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "632": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "640": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "648": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "656": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
+      },
+      "672": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 67
       }
     },
-    "5cecf5c4134171d661cdd7b9df3d48abfebb0a1ade63266c467bf29dfb08aae6": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 127
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 127
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 127
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 128
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 128
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 129
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 129
-      }
-    },
-    "60365ebf97d1cd5a996b1f968878afe9c775137a45eddbe3064b99792400711e": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 106
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 106
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 106
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 106
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 107
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 107
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 107
-      }
-    },
-    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
-      "0": {
-        "filename": "User.code",
-        "line": 568
-      }
-    },
-    "66056b56f67f766fcca55679dcafdb65f0344dec7755dc5e0e30c063fde20cf1": {
+    "56f834f17cb6f231968773794ffa6116c4da802f63c21b157d2ef6078ebc26ed": {
       "0": {
         "filename": "User.code",
         "line": 4
@@ -1121,261 +915,125 @@
         "filename": "User.code",
         "line": 12
       },
-      "88": {
+      "96": {
         "filename": "User.code",
         "line": 13
       },
-      "96": {
-        "filename": "User.code",
-        "line": 14
-      },
       "104": {
-        "filename": "User.code",
-        "line": 15
-      },
-      "112": {
-        "filename": "User.code",
-        "line": 16
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 28
       },
       "120": {
-        "filename": "User.code",
-        "line": 18
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 32
       },
-      "128": {
-        "filename": "User.code",
-        "line": 19
+      "136": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 34
       },
-      "144": {
-        "filename": "User.code",
-        "line": 20
-      },
-      "160": {
-        "filename": "User.code",
-        "line": 21
+      "152": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 34
       },
       "168": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 27
+        "filename": "User.code",
+        "line": 22
       },
       "184": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 31
-      },
-      "200": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 33
-      },
-      "216": {
         "filename": "User.code",
-        "line": 29
-      },
-      "232": {
-        "filename": "User.code",
-        "line": 32
+        "line": 25
       }
     },
-    "68da22e8f5660653af01e1587031efb547370527b882a89466887dbaf53b27fa": {
-      "0": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "16": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "32": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "48": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 67
-      },
-      "64": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 67
-      },
-      "72": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 67
-      },
-      "80": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 67
-      },
-      "104": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "112": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "128": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "288": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "296": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "304": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "312": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "328": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "336": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "344": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 70
-      },
-      "360": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "376": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "384": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "400": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "408": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "432": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "440": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "448": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "472": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "480": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "488": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "536": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "552": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "560": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "568": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "576": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      },
-      "592": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 72
-      }
-    },
-    "6f478bbf28438fc31f639cce2eff77192bd1b6f3c6a9835d1269d542cbd13a25": {
+    "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "User.code",
-        "line": 707
+        "line": 428
+      }
+    },
+    "709ec9919d9f8703837db4f8064c085177eaed4fa111dc380c6c403c3be8c5b9": {
+      "0": {
+        "filename": "User.code",
+        "line": 222
       },
       "8": {
         "filename": "User.code",
-        "line": 708
+        "line": 223
       },
-      "56": {
+      "24": {
         "filename": "User.code",
-        "line": 709
+        "line": 224
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 225
       },
       "64": {
         "filename": "User.code",
-        "line": 710
+        "line": 226
       },
-      "80": {
+      "72": {
         "filename": "User.code",
-        "line": 713
+        "line": 227
       },
       "88": {
-        "filename": "User.code",
-        "line": 714
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "96": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "104": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "120": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "128": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
       },
       "136": {
-        "filename": "User.code",
-        "line": 715
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
       },
       "144": {
-        "filename": "User.code",
-        "line": 716
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
       },
-      "160": {
-        "filename": "User.code",
-        "line": 719
+      "152": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
       },
       "168": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "176": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "192": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 76
+      },
+      "200": {
         "filename": "User.code",
-        "line": 720
+        "line": 245
       },
       "216": {
         "filename": "User.code",
-        "line": 721
+        "line": 248
       },
       "224": {
         "filename": "User.code",
-        "line": 722
+        "line": 249
       },
       "240": {
         "filename": "User.code",
-        "line": 725
-      },
-      "248": {
-        "filename": "User.code",
-        "line": 726
-      },
-      "296": {
-        "filename": "User.code",
-        "line": 727
-      },
-      "304": {
-        "filename": "User.code",
-        "line": 728
+        "line": 252
       }
     },
     "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
@@ -1388,601 +1046,44 @@
         "line": 2
       }
     },
-    "7945593add0cca536cdd0f6b2ffa3c981f25ab0248b4a5dabf1c2fb17a645d50": {
+    "73a58c298832573e5f7fa3871b0f7dc54cc95e42f35153f026abaaf1b69ad7ef": {
       "0": {
-        "filename": "User.code",
-        "line": 420
-      },
-      "16": {
-        "filename": "User.code",
-        "line": 421
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 422
-      },
-      "40": {
-        "filename": "User.code",
-        "line": 423
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 424
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 425
-      },
-      "80": {
-        "filename": "User.code",
-        "line": 426
-      },
-      "96": {
-        "filename": "User.code",
-        "line": 427
-      },
-      "104": {
-        "filename": "User.code",
-        "line": 428
-      },
-      "112": {
-        "filename": "User.code",
-        "line": 429
-      },
-      "120": {
-        "filename": "User.code",
-        "line": 430
-      },
-      "136": {
-        "filename": "User.code",
-        "line": 431
-      },
-      "144": {
-        "filename": "User.code",
-        "line": 432
-      },
-      "152": {
-        "filename": "User.code",
-        "line": 433
-      },
-      "160": {
-        "filename": "User.code",
-        "line": 434
-      },
-      "176": {
-        "filename": "User.code",
-        "line": 435
-      },
-      "192": {
-        "filename": "User.code",
-        "line": 436
-      },
-      "208": {
-        "filename": "User.code",
-        "line": 437
-      },
-      "224": {
-        "filename": "User.code",
-        "line": 438
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 439
-      }
-    },
-    "812f0c16ae2dae4c5b83ce95112281f13d854502f72b19335276f5a4b4427690": {
-      "0": {
-        "filename": "User.code",
-        "line": 562
-      },
-      "16": {
-        "filename": "User.code",
-        "line": 563
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 564
-      },
-      "40": {
-        "filename": "User.code",
-        "line": 565
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 566
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 567
-      },
-      "80": {
-        "filename": "User.code",
-        "line": 570
-      },
-      "96": {
-        "filename": "User.code",
-        "line": 571
-      },
-      "104": {
-        "filename": "User.code",
-        "line": 572
-      },
-      "120": {
-        "filename": "User.code",
-        "line": 575
-      },
-      "136": {
-        "filename": "User.code",
-        "line": 576
-      },
-      "144": {
-        "filename": "User.code",
-        "line": 577
-      },
-      "152": {
-        "filename": "User.code",
-        "line": 578
-      },
-      "168": {
-        "filename": "User.code",
-        "line": 579
-      },
-      "184": {
-        "filename": "User.code",
-        "line": 580
-      },
-      "192": {
-        "filename": "User.code",
-        "line": 581
-      },
-      "208": {
-        "filename": "User.code",
-        "line": 582
-      },
-      "216": {
-        "filename": "User.code",
-        "line": 583
-      },
-      "232": {
-        "filename": "User.code",
-        "line": 584
-      },
-      "248": {
-        "filename": "User.code",
-        "line": 585
-      },
-      "264": {
-        "filename": "User.code",
-        "line": 587
-      },
-      "272": {
-        "filename": "User.code",
-        "line": 588
-      },
-      "288": {
-        "filename": "User.code",
-        "line": 589
-      },
-      "296": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "312": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "320": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "328": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "344": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "352": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "368": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "392": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "400": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "440": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "448": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "456": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "472": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "488": {
-        "filename": "User.code",
-        "line": 591
-      },
-      "504": {
-        "filename": "User.code",
-        "line": 592
-      },
-      "512": {
-        "filename": "User.code",
-        "line": 593
-      },
-      "528": {
-        "filename": "User.code",
-        "line": 596
-      }
-    },
-    "81df4ded704a340d9c728fd62730d5a9566c91e18dfc9e1c6aa9c4307e6b885d": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 101
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 101
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 102
-      }
-    },
-    "84fddce4699d59619080970d3ffc0b0ccea6e777fd24ace4f0d673c097cb61da": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 143
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 143
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 143
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 144
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 144
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 145
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 145
-      }
-    },
-    "935831133278f050cb8a6b8c2ae62b0d0943d510d52e60590f2b6235e376a3db": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 132
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 133
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 133
-      },
-      "40": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 607
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 159
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 159
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 159
-      },
-      "88": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 643
-      },
-      "104": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 735
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 177
-      }
-    },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "986a9cc337bfd9c29964da8d50dba9e774d9f9d77ce99dc13441f7c2d6b274f2": {
-      "0": {
-        "filename": "User.code",
-        "line": 373
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 374
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 375
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 376
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 377
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 378
-      },
-      "88": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 104
-      },
-      "96": {
-        "filename": "User.code",
-        "line": 384
-      },
-      "112": {
-        "filename": "User.code",
-        "line": 387
-      },
-      "120": {
-        "filename": "User.code",
-        "line": 388
-      },
-      "136": {
-        "filename": "User.code",
-        "line": 389
-      },
-      "144": {
-        "filename": "User.code",
-        "line": 390
-      },
-      "152": {
-        "filename": "User.code",
-        "line": 391
-      },
-      "168": {
-        "filename": "User.code",
-        "line": 392
-      },
-      "184": {
-        "filename": "User.code",
-        "line": 393
-      },
-      "192": {
-        "filename": "User.code",
-        "line": 394
-      },
-      "200": {
-        "filename": "User.code",
-        "line": 395
-      },
-      "208": {
-        "filename": "User.code",
-        "line": 396
-      },
-      "232": {
-        "filename": "User.code",
-        "line": 397
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 398
-      },
-      "288": {
-        "filename": "User.code",
-        "line": 399
-      },
-      "312": {
-        "filename": "User.code",
-        "line": 400
-      },
-      "328": {
-        "filename": "User.code",
-        "line": 401
-      },
-      "336": {
-        "filename": "User.code",
-        "line": 402
-      },
-      "344": {
-        "filename": "User.code",
-        "line": 403
-      },
-      "360": {
-        "filename": "User.code",
-        "line": 405
-      },
-      "368": {
-        "filename": "User.code",
-        "line": 406
-      },
-      "376": {
-        "filename": "User.code",
-        "line": 408
-      },
-      "384": {
-        "filename": "User.code",
-        "line": 409
-      },
-      "400": {
-        "filename": "User.code",
-        "line": 412
-      }
-    },
-    "9e8fd41ce889b7cde2d02d2a8791d80cf3561a7ddfd27e96d37881f1b0c8a746": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 134
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 136
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 136
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 137
-      },
-      "120": {
-        "filename": "stdlib.sol",
-        "line": 137
-      },
-      "128": {
-        "filename": "stdlib.sol",
-        "line": 137
-      },
-      "144": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 544
-      },
-      "160": {
-        "filename": "stdlib.sol",
-        "line": 156
-      },
-      "168": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 605
-      }
-    },
-    "9f69cef25b61d2d7d7a59291dfe94eca10b04810f4db2c54664ef929cc99c8c3": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 118
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 118
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 118
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 119
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 119
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 120
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 120
-      }
-    },
-    "9f96a99bb00ac2e8c51d72a03521640ea640b8591d1714c91c5a7b6364a721e4": {
-      "0": {
-        "filename": "User.code",
-        "line": 447
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 448
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 449
-      },
-      "32": {
-        "filename": "User.code",
-        "line": 450
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 451
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 452
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 455
-      },
-      "72": {
         "filename": "User.code",
         "line": 456
       },
-      "80": {
+      "16": {
         "filename": "User.code",
         "line": 457
       },
-      "96": {
+      "32": {
         "filename": "User.code",
         "line": 458
       },
-      "112": {
+      "48": {
         "filename": "User.code",
         "line": 459
       },
-      "128": {
+      "64": {
+        "filename": "User.code",
+        "line": 460
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 461
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 462
+      },
+      "104": {
         "filename": "User.code",
         "line": 463
       },
-      "136": {
+      "120": {
         "filename": "User.code",
         "line": 464
       },
-      "144": {
+      "136": {
         "filename": "User.code",
         "line": 465
       },
@@ -1990,13 +1091,25 @@
         "filename": "User.code",
         "line": 466
       },
-      "168": {
+      "160": {
         "filename": "User.code",
         "line": 467
       },
-      "184": {
+      "168": {
         "filename": "User.code",
         "line": 468
+      },
+      "176": {
+        "filename": "User.code",
+        "line": 469
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 470
+      },
+      "192": {
+        "filename": "User.code",
+        "line": 471
       },
       "200": {
         "filename": "User.code",
@@ -2006,288 +1119,632 @@
         "filename": "User.code",
         "line": 473
       },
-      "224": {
+      "216": {
         "filename": "User.code",
         "line": 474
       },
-      "240": {
+      "224": {
         "filename": "User.code",
         "line": 475
+      }
+    },
+    "73b80e2adabfa20a9ab24cc0aae45244b0eb74f713c4f8c7781915497bfd9a82": {
+      "0": {
+        "filename": "User.code",
+        "line": 417
+      },
+      "16": {
+        "filename": "User.code",
+        "line": 418
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 419
+      },
+      "40": {
+        "filename": "User.code",
+        "line": 420
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 421
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 451
+      }
+    },
+    "8d0bfdd709ebd33d661678c10e8345bb27f8364d5d8ae8e7a1f190110791555f": {
+      "0": {
+        "filename": "User.code",
+        "line": 606
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 607
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 608
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 609
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 635
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 636
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 637
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 638
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 664
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 665
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 666
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 667
+      }
+    },
+    "8f2b407a8e2302b570c114ac0ebeb66890f3e10d5d8c3009a1677cb8330021aa": {
+      "0": {
+        "filename": "User.code",
+        "line": 586
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 587
+      },
+      "16": {
+        "filename": "User.code",
+        "line": 588
+      },
+      "32": {
+        "filename": "User.code",
+        "line": 591
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 592
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 593
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 594
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 595
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 596
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 597
       },
       "256": {
         "filename": "User.code",
-        "line": 476
+        "line": 598
+      },
+      "264": {
+        "filename": "User.code",
+        "line": 599
       },
       "272": {
         "filename": "User.code",
-        "line": 477
+        "line": 600
       },
       "288": {
         "filename": "User.code",
-        "line": 478
+        "line": 602
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 603
+      }
+    },
+    "8f720a466d67332f79754db60d414536b2b6e6510b9776f74c9dfc6b51b1a03f": {
+      "0": {
+        "filename": "User.code",
+        "line": 610
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 611
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 612
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 613
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 616
+      },
+      "88": {
+        "filename": "User.code",
+        "line": 617
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 618
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 619
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 622
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 623
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 624
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 625
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 628
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 629
+      },
+      "296": {
+        "filename": "User.code",
+        "line": 630
       },
       "304": {
         "filename": "User.code",
-        "line": 479
-      },
-      "320": {
+        "line": 631
+      }
+    },
+    "953fe82160e5bfe3b33b4c0a2f9e700278b85fb5965fc62d9eb2e04342303230": {
+      "0": {
         "filename": "User.code",
-        "line": 480
+        "line": 28
       },
-      "344": {
+      "8": {
         "filename": "User.code",
-        "line": 481
+        "line": 29
       },
-      "360": {
+      "24": {
         "filename": "User.code",
-        "line": 482
+        "line": 30
       },
-      "368": {
+      "48": {
         "filename": "User.code",
-        "line": 483
+        "line": 31
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 32
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 33
+      },
+      "88": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 37
+      },
+      "104": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 37
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 40
+      },
+      "128": {
+        "filename": "User.code",
+        "line": 43
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 44
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 47
       }
     },
     "a2323b1f9ea80b42c0e1151ab01523b0a2469f788cb1d54841d920f52cb22446": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 50
+        "line": 51
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 50
+        "line": 51
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 50
+        "line": 51
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 51
+        "line": 52
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 51
+        "line": 52
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 51
+        "line": 52
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 51
+        "line": 52
       },
       "120": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "128": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "288": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "296": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "304": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "320": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "328": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "336": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 52
+        "line": 53
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "360": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "384": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "408": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "424": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       },
       "448": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 54
+        "line": 55
       }
     },
-    "a55818382626056a4c02d30737e01f57e8397aae2f69200223c6da1baadcea2f": {
+    "aebeffe5e72e9e1a8c733b54758af247618266eecd8bf9e2a8d3821b67a896f5": {
       "0": {
         "filename": "User.code",
-        "line": 490
+        "line": 422
       },
-      "16": {
+      "8": {
         "filename": "User.code",
-        "line": 491
+        "line": 423
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 424
       },
       "32": {
         "filename": "User.code",
-        "line": 492
+        "line": 425
       },
       "48": {
         "filename": "User.code",
-        "line": 493
+        "line": 426
+      },
+      "56": {
+        "filename": "User.code",
+        "line": 427
       },
       "64": {
         "filename": "User.code",
-        "line": 494
+        "line": 430
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 431
       },
       "80": {
         "filename": "User.code",
-        "line": 495
+        "line": 432
       },
       "96": {
         "filename": "User.code",
-        "line": 496
+        "line": 433
       },
-      "104": {
+      "112": {
         "filename": "User.code",
-        "line": 497
+        "line": 434
       },
-      "120": {
+      "128": {
         "filename": "User.code",
-        "line": 498
+        "line": 439
       },
       "136": {
         "filename": "User.code",
-        "line": 499
+        "line": 440
       },
       "152": {
         "filename": "User.code",
-        "line": 500
+        "line": 441
       },
       "168": {
         "filename": "User.code",
-        "line": 501
+        "line": 442
       },
       "184": {
         "filename": "User.code",
-        "line": 502
-      },
-      "192": {
-        "filename": "User.code",
-        "line": 503
+        "line": 443
       },
       "200": {
         "filename": "User.code",
-        "line": 504
-      },
-      "208": {
-        "filename": "User.code",
-        "line": 505
+        "line": 444
       },
       "216": {
         "filename": "User.code",
-        "line": 506
-      },
-      "224": {
-        "filename": "User.code",
-        "line": 507
+        "line": 445
       },
       "232": {
         "filename": "User.code",
-        "line": 508
+        "line": 446
+      },
+      "256": {
+        "filename": "User.code",
+        "line": 447
+      },
+      "272": {
+        "filename": "User.code",
+        "line": 448
+      },
+      "280": {
+        "filename": "User.code",
+        "line": 449
       }
     },
-    "ac0924ee58cc41b457f7202bfd198ae664710f042af501dca8bd7e70b0583135": {
+    "b5a53c49506555ea0b6889b0f31c0825b6b7741c06a0717aaf620acd077321b9": {
       "0": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
-      },
-      "8": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
+        "filename": "User.code",
+        "line": 394
       },
       "16": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
+        "filename": "User.code",
+        "line": 395
       },
       "24": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
-      },
-      "32": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
+        "filename": "User.code",
+        "line": 396
       },
       "40": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
-      },
-      "48": {
-        "filename": "../node_modules/locklift/src/console.tsol",
-        "line": 10
-      }
-    },
-    "b84abb66a3f17646c361fe25d5c8e98d85717d1679ec1ddde59cf02458c4ce3b": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 161
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 162
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 162
+        "filename": "User.code",
+        "line": 397
       },
       "56": {
-        "filename": "stdlib.sol",
-        "line": 162
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 162
+        "filename": "User.code",
+        "line": 398
       },
       "72": {
-        "filename": "stdlib.sol",
-        "line": 162
+        "filename": "User.code",
+        "line": 399
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 400
       },
       "96": {
-        "filename": "stdlib.sol",
-        "line": 162
+        "filename": "User.code",
+        "line": 401
+      },
+      "104": {
+        "filename": "User.code",
+        "line": 402
+      },
+      "112": {
+        "filename": "User.code",
+        "line": 403
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 404
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 405
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 406
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 407
+      },
+      "160": {
+        "filename": "User.code",
+        "line": 408
+      },
+      "176": {
+        "filename": "User.code",
+        "line": 409
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 410
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 411
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 412
+      },
+      "232": {
+        "filename": "User.code",
+        "line": 413
+      },
+      "248": {
+        "filename": "User.code",
+        "line": 414
       }
     },
-    "c0d7fdc7df6def853c67700e2540e9646fe7fc988a846fc078fddb5c6a09da6e": {
+    "c5957c10c7302bdd8d8933987acc7aecabe055d174154612a6b7bda77414ad6f": {
+      "0": {
+        "filename": "User.code",
+        "line": 91
+      },
+      "8": {
+        "filename": "User.code",
+        "line": 92
+      },
+      "24": {
+        "filename": "User.code",
+        "line": 93
+      },
+      "48": {
+        "filename": "User.code",
+        "line": 94
+      },
+      "64": {
+        "filename": "User.code",
+        "line": 95
+      },
+      "72": {
+        "filename": "User.code",
+        "line": 96
+      },
+      "88": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "96": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "104": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "120": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "128": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "136": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "144": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "152": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "168": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "176": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "192": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 50
+      },
+      "200": {
+        "filename": "User.code",
+        "line": 114
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 117
+      },
+      "224": {
+        "filename": "User.code",
+        "line": 118
+      },
+      "240": {
+        "filename": "User.code",
+        "line": 121
+      }
+    },
+    "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
+      "0": {
+        "filename": "../contracts/BankandUserWithFees/User.tsol",
+        "line": 94
+      }
+    },
+    "cd6dfeef704bb2b67b85a764b4149f3238e0b9ccb4faefabfac458258591ed82": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -2333,886 +1790,320 @@
         "line": 11
       }
     },
-    "c68f8ee16acc8f3ef8a7bdde1bf95d15be98f1935ac921b8c0510fcf6f4ba9be": {
+    "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
       "0": {
         "filename": "User.code",
-        "line": 248
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 249
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 250
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 251
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 252
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 253
-      },
-      "88": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "96": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "104": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "120": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "128": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "136": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "144": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "152": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "168": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "176": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "192": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 87
-      },
-      "200": {
-        "filename": "User.code",
-        "line": 271
-      },
-      "216": {
-        "filename": "User.code",
-        "line": 274
-      },
-      "224": {
-        "filename": "User.code",
-        "line": 275
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 278
-      }
-    },
-    "c72c14ff3ac7328ee256c292529c4bd129917cec4bcca796cf678c4699ba07b0": {
-      "0": {
-        "filename": "User.code",
-        "line": 674
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 675
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 676
-      },
-      "64": {
-        "filename": "User.code",
-        "line": 677
-      },
-      "80": {
-        "filename": "User.code",
-        "line": 703
-      },
-      "88": {
-        "filename": "User.code",
-        "line": 704
-      },
-      "136": {
-        "filename": "User.code",
-        "line": 705
-      },
-      "144": {
-        "filename": "User.code",
-        "line": 706
-      },
-      "160": {
-        "filename": "User.code",
-        "line": 732
-      },
-      "168": {
-        "filename": "User.code",
-        "line": 733
-      },
-      "216": {
-        "filename": "User.code",
-        "line": 734
-      },
-      "224": {
-        "filename": "User.code",
-        "line": 735
-      }
-    },
-    "c8bb6e4b551c2a78fe557a4a73be40aad6a3dd084230803e3f4242a6a717f994": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "128": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "144": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "152": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "160": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "176": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "184": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "192": {
-        "filename": "stdlib.sol",
-        "line": 298
-      },
-      "208": {
-        "filename": "stdlib.sol",
-        "line": 298
-      }
-    },
-    "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
-      "0": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 105
-      }
-    },
-    "cf2f00db899e73254c12ccdc2538420255b2eee4398ef9cef92dce6ae20c135a": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 138
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 138
-      },
-      "16": {
-        "filename": "stdlib.sol",
-        "line": 139
-      },
-      "32": {
-        "filename": "stdlib.sol",
-        "line": 139
-      },
-      "56": {
-        "filename": "stdlib.sol",
-        "line": 139
-      },
-      "64": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 500
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 141
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 141
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 141
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 142
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 142
-      },
-      "128": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 542
+        "line": 435
       }
     },
     "d70dbebac473ef9804b3cbeabce63cf976358ff1ed9ee3424585b74b8fc3be4f": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 98
+        "line": 87
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 98
+        "line": 87
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 98
+        "line": 87
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "80": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "240": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "248": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "256": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "264": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "272": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "280": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       },
       "296": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "304": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "328": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "336": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "376": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
+        "line": 90
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 101
-      }
-    },
-    "ddb12682882b8460b8951474401dacd0060132adc8444dd812f1d2e13bcbdaf3": {
-      "0": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 63
-      },
-      "48": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 63
-      },
-      "56": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 63
-      },
-      "72": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "88": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "96": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "208": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "224": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "232": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "240": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "256": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "272": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "344": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "360": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "376": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
-      },
-      "384": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 64
+        "line": 90
       }
     },
     "e4734f14d8f437f8c17f2d07857710a840fa34c62a6caee3acc8c6f624bbe5a0": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 100
+        "line": 89
       }
     },
     "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
       "0": {
         "filename": "User.code",
-        "line": 511
+        "line": 478
       },
       "16": {
         "filename": "User.code",
-        "line": 512
+        "line": 479
       },
       "24": {
         "filename": "User.code",
-        "line": 513
+        "line": 480
       },
       "40": {
         "filename": "User.code",
-        "line": 514
+        "line": 481
       },
       "56": {
         "filename": "User.code",
-        "line": 515
+        "line": 482
       },
       "64": {
         "filename": "User.code",
-        "line": 516
+        "line": 483
       },
       "80": {
         "filename": "User.code",
-        "line": 517
+        "line": 484
       },
       "88": {
         "filename": "User.code",
-        "line": 518
+        "line": 485
       },
       "96": {
         "filename": "User.code",
-        "line": 519
+        "line": 486
       },
       "112": {
         "filename": "User.code",
-        "line": 520
+        "line": 487
       },
       "128": {
         "filename": "User.code",
-        "line": 521
+        "line": 488
       },
       "136": {
         "filename": "User.code",
-        "line": 522
+        "line": 489
       },
       "144": {
         "filename": "User.code",
-        "line": 523
+        "line": 490
       }
     },
     "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
       "0": {
         "filename": "User.code",
-        "line": 543
+        "line": 510
       },
       "16": {
         "filename": "User.code",
-        "line": 544
+        "line": 511
       }
     },
-    "f717711e50a9690c124b262cedb0ae427ad6e49861935337b272de4daa7e72d0": {
+    "fb70c185c3d5df276bc5605be2234db85eee2cc6aa129366e17117608ec710e3": {
       "0": {
-        "filename": "stdlib.sol",
-        "line": 116
+        "filename": "User.code",
+        "line": 529
       },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 116
+      "16": {
+        "filename": "User.code",
+        "line": 530
       },
       "24": {
-        "filename": "stdlib.sol",
-        "line": 116
+        "filename": "User.code",
+        "line": 531
       },
       "40": {
-        "filename": "stdlib.sol",
-        "line": 117
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 117
-      },
-      "64": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 390
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 122
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 122
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 122
-      },
-      "112": {
-        "filename": "stdlib.sol",
-        "line": 122
-      },
-      "128": {
-        "filename": "stdlib.sol",
-        "line": 123
-      },
-      "136": {
-        "filename": "stdlib.sol",
-        "line": 123
-      },
-      "144": {
-        "filename": "stdlib.sol",
-        "line": 124
-      },
-      "152": {
-        "filename": "stdlib.sol",
-        "line": 124
-      },
-      "176": {
-        "filename": "stdlib.sol",
-        "line": 124
-      },
-      "184": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 405
-      },
-      "192": {
-        "filename": "stdlib.sol",
-        "line": 125
-      },
-      "200": {
-        "filename": "stdlib.sol",
-        "line": 125
-      },
-      "208": {
-        "filename": "stdlib.sol",
-        "line": 125
-      },
-      "216": {
-        "filename": "stdlib.sol",
-        "line": 126
-      },
-      "224": {
-        "filename": "stdlib.sol",
-        "line": 126
-      },
-      "240": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 447
-      },
-      "248": {
-        "filename": "stdlib.sol",
-        "line": 131
-      },
-      "264": {
-        "filename": "stdlib.sol",
-        "line": 131
-      },
-      "272": {
-        "filename": "stdlib.sol",
-        "line": 131
-      },
-      "288": {
-        "filename": "stdlib.sol",
-        "line": 132
-      }
-    },
-    "f822729a9fdedce244d238bcb4046bc349c3313f6dbe0f1027ae29dd46b52326": {
-      "0": {
         "filename": "User.code",
-        "line": 599
-      },
-      "8": {
-        "filename": "User.code",
-        "line": 600
-      },
-      "16": {
-        "filename": "User.code",
-        "line": 601
-      },
-      "32": {
-        "filename": "User.code",
-        "line": 604
-      },
-      "48": {
-        "filename": "User.code",
-        "line": 605
+        "line": 532
       },
       "56": {
         "filename": "User.code",
-        "line": 606
+        "line": 533
       },
       "72": {
         "filename": "User.code",
-        "line": 607
+        "line": 534
+      },
+      "80": {
+        "filename": "User.code",
+        "line": 537
+      },
+      "96": {
+        "filename": "User.code",
+        "line": 538
+      },
+      "104": {
+        "filename": "User.code",
+        "line": 539
+      },
+      "120": {
+        "filename": "User.code",
+        "line": 542
+      },
+      "136": {
+        "filename": "User.code",
+        "line": 543
+      },
+      "144": {
+        "filename": "User.code",
+        "line": 544
+      },
+      "152": {
+        "filename": "User.code",
+        "line": 545
+      },
+      "168": {
+        "filename": "User.code",
+        "line": 546
+      },
+      "184": {
+        "filename": "User.code",
+        "line": 547
+      },
+      "192": {
+        "filename": "User.code",
+        "line": 548
+      },
+      "208": {
+        "filename": "User.code",
+        "line": 549
+      },
+      "216": {
+        "filename": "User.code",
+        "line": 550
       },
       "232": {
         "filename": "User.code",
-        "line": 608
-      },
-      "240": {
-        "filename": "User.code",
-        "line": 609
+        "line": 551
       },
       "248": {
         "filename": "User.code",
-        "line": 610
+        "line": 552
       },
       "264": {
         "filename": "User.code",
-        "line": 611
+        "line": 554
       },
       "272": {
         "filename": "User.code",
-        "line": 612
+        "line": 555
       },
-      "280": {
+      "288": {
         "filename": "User.code",
-        "line": 613
+        "line": 556
       },
       "296": {
-        "filename": "User.code",
-        "line": 615
-      },
-      "304": {
-        "filename": "User.code",
-        "line": 616
-      }
-    },
-    "f8ff99354fa899b84c77ba06b37f7b2b5cff148221e00a8455afe76bffdd60c6": {
-      "0": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 37
-      },
-      "48": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 37
-      },
-      "56": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 37
-      },
-      "72": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "80": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "96": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "256": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "264": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "272": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "280": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "296": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
-      },
-      "304": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
+        "filename": "stdlib.sol",
+        "line": 61
       },
       "312": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 38
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 61
       },
       "328": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 61
       },
       "344": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "352": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "368": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
-      "376": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+      "392": {
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "400": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      },
-      "408": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      },
-      "416": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "440": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "448": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
       },
       "456": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "488": {
+        "filename": "User.code",
+        "line": 558
       },
       "504": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+        "filename": "User.code",
+        "line": 559
       },
-      "520": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
+      "512": {
+        "filename": "User.code",
+        "line": 560
       },
       "528": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      },
-      "536": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      },
-      "544": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      },
-      "560": {
-        "filename": "../contracts/BankandUserWithFees/User.tsol",
-        "line": 40
-      }
-    },
-    "fa5cbdf8f3dfad56232e86200f59284d94f811a72cf2f3fbfa3b473c5f350cb8": {
-      "0": {
         "filename": "User.code",
-        "line": 442
-      },
-      "16": {
-        "filename": "User.code",
-        "line": 443
-      },
-      "24": {
-        "filename": "User.code",
-        "line": 444
-      },
-      "40": {
-        "filename": "User.code",
-        "line": 445
-      },
-      "56": {
-        "filename": "User.code",
-        "line": 446
-      },
-      "72": {
-        "filename": "User.code",
-        "line": 485
-      }
-    },
-    "ff6251682ac8f28ccace16692b91c85a74b63f24b8fbaebbd0a1e5602e9e23b2": {
-      "0": {
-        "filename": "stdlib.sol",
-        "line": 288
-      },
-      "8": {
-        "filename": "stdlib.sol",
-        "line": 288
-      },
-      "24": {
-        "filename": "stdlib.sol",
-        "line": 288
-      },
-      "40": {
-        "filename": "stdlib.sol",
-        "line": 289
-      },
-      "48": {
-        "filename": "stdlib.sol",
-        "line": 289
-      },
-      "64": {
-        "filename": "stdlib.sol",
-        "line": 290
-      },
-      "72": {
-        "filename": "stdlib.sol",
-        "line": 290
-      },
-      "80": {
-        "filename": "stdlib.sol",
-        "line": 291
-      },
-      "88": {
-        "filename": "stdlib.sol",
-        "line": 291
-      },
-      "96": {
-        "filename": "stdlib.sol",
-        "line": 291
-      },
-      "104": {
-        "filename": "stdlib.sol",
-        "line": 291
-      },
-      "120": {
-        "filename": "stdlib.sol",
-        "line": 291
-      },
-      "128": {
-        "filename": "stdlib_sol_0_62_0.tvm",
-        "line": 1366
-      },
-      "136": {
-        "filename": "stdlib.sol",
-        "line": 292
-      },
-      "144": {
-        "filename": "stdlib.sol",
-        "line": 292
-      },
-      "152": {
-        "filename": "stdlib.sol",
-        "line": 292
-      },
-      "160": {
-        "filename": "stdlib.sol",
-        "line": 293
-      },
-      "176": {
-        "filename": "stdlib.sol",
-        "line": 300
-      },
-      "184": {
-        "filename": "stdlib.sol",
-        "line": 300
-      },
-      "200": {
-        "filename": "stdlib.sol",
-        "line": 300
-      },
-      "208": {
-        "filename": "stdlib.sol",
-        "line": 300
+        "line": 563
       }
     }
   }

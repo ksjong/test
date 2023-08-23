@@ -9,8 +9,10 @@ contract User {
 
     bank public Bank;
 
-    string static userName;
-    string static password;
+    address static bank_address;
+
+//    string static userName;
+//    string static password;
 
     uint128 constant MIN_CONTRACT_BALANCE = 10 ever;
 
@@ -21,7 +23,6 @@ contract User {
     event RepayRejected(string message);
 
     constructor(
-        address _bank,
         uint128 _initialBalance
     ) public {
         tvm.accept();
@@ -30,14 +31,14 @@ contract User {
         // 초기 자금을 생성자를 통해서 설정하고 약간의 돈이 있다고 가정.
         money = _initialBalance;
 
-        Bank = bank(_bank);
+        Bank = bank(bank_address);
     }
 
     function borrowMoney(uint _amount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         emit BorrowedMoney(msg.sender, _amount);
 
-        Bank.loan{value:0, flag:128}(_amount, msg.sender);
+        Bank.loan{value:0, flag:128}(_amount, msg.sender, bank_address);
 
         //todo you need to increase money after receiving callback from Bank, so the chain will be looks like this
         //User.borrowMoney -> Bank.loan -> User.loanReceived
@@ -65,7 +66,8 @@ contract User {
 
         Bank.repaying{value:0, flag:128}(
              _repayAmount,
-            msg.sender
+            msg.sender,
+            bank_address
         );
 
     }

@@ -6,7 +6,6 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_bank","type":"address"},
 				{"name":"_initialBalance","type":"uint128"}
 			],
 			"outputs": [
@@ -80,8 +79,7 @@
 		}
 	],
 	"data": [
-		{"key":1,"name":"userName","type":"string"},
-		{"key":2,"name":"password","type":"string"}
+		{"key":1,"name":"bank_address","type":"address"}
 	],
 	"events": [
 		{
@@ -133,7 +131,6 @@
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"money","type":"uint256"},
 		{"name":"Bank","type":"address"},
-		{"name":"userName","type":"string"},
-		{"name":"password","type":"string"}
+		{"name":"bank_address","type":"address"}
 	]
 }
