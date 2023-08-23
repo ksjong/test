@@ -1,0 +1,118 @@
+// SPDX-License-Identifier: UNLICENSED
+import "locklift/src/console.tsol";
+pragma ever-solidity >= 0.62.0;
+
+import "User.tsol";
+
+contract bank {
+    //owner
+    uint256 public owner;
+
+    uint128 constant MIN_CONTRACT_BALANCE = 10 ever;
+
+    TvmCell static userContractCode;
+
+  //  uint256 public pubkey;
+
+    //이자율
+    uint public interestRate;
+
+    //누적되는 bank의 이익
+    uint public bankProfit;
+
+    uint public loanNum;
+
+    //1개의 대출만 허용
+    bool public isLoanAvailable;
+
+    event LoanTaken(address user, uint loanNum);
+    event RepayfromUserSuccess(address user, uint TotalRepay);
+    // 함수 변경자로 owner만이 함수를 사용할 수 있게함.
+    modifier onlyOwner {
+        require(msg.pubkey() == owner, 1001);
+        _;
+    }
+
+    // 최초 이자율 설정
+    constructor(
+        uint _interestRate,
+        uint256 _owner
+    ) public {
+        tvm.accept();
+        owner = _owner;
+        interestRate = _interestRate;
+        isLoanAvailable = true;
+    }
+
+    function configuredInterestRate(uint _interestRate) external onlyOwner {
+        tvm.accept();
+        interestRate = _interestRate;
+    }
+    function getAddress() public returns(address) {
+        tvm.accept();
+        address userAddress = address(tvm.hash(tvm.buildStateInit({
+            contr: User,
+            varInit: {
+            userName: "KIM",
+            password: "1234"
+            },
+            pubkey: owner,
+            code: userContractCode
+
+        })));
+        return userAddress;
+    }
+    function loan(uint _loanNum, address _initSender) external {
+//        tvm.accept();
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+
+        console.log(format("ADDRESS {}", getAddress()));
+        require(isLoanAvailable, 1002);
+        require(msg.sender == getAddress(), 2000);
+
+        loanNum = _loanNum;
+
+        isLoanAvailable = false;
+
+        emit LoanTaken(msg.sender, loanNum);
+
+        User(msg.sender).loanReceived{value:0, flag:128}(loanNum,_initSender);
+    }
+
+    // check comments in User.repayLoan
+    function calculating() public view returns (uint) {
+        uint TotalRepay;
+        TotalRepay = loanNum * (100 + interestRate) / 100;
+
+        return TotalRepay;
+    }
+    function repaying(uint128 _repayAmount, address _initSender) external {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
+
+
+        require(msg.sender == getAddress(), 1003);
+
+        if(_repayAmount != calculating()){
+            console.log(format("repayAmount {} calc {}",_repayAmount,calculating()));
+            User(msg.sender).repayRejected{value:0, flag:128}(_initSender);
+            return;
+        }
+        User(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount, _initSender);
+
+        bankProfit += (_repayAmount - loanNum);
+        console.log(format("profit {}", bankProfit));
+        loanNum = 0;
+
+        isLoanAvailable = true;
+
+
+        emit RepayfromUserSuccess(msg.sender, _repayAmount);
+    }
+    function getInterestRate() external view returns (uint) {
+        return interestRate;
+    }
+
+    function getProfit() external view returns (uint _profit) {
+       _profit = bankProfit;
+    }
+}
