@@ -22,13 +22,13 @@ PUSHCONT {
 IFELSE
 LDU 256
 ENDS
-.loc ../contracts/BankandUserWithFees/bank.tsol, 41
+.loc ../contracts/BankandUserWithFees/bank.tsol, 30
 ACCEPT
-.loc ../contracts/BankandUserWithFees/bank.tsol, 42
+.loc ../contracts/BankandUserWithFees/bank.tsol, 31
 SETGLOB 10
-.loc ../contracts/BankandUserWithFees/bank.tsol, 43
+.loc ../contracts/BankandUserWithFees/bank.tsol, 32
 SETGLOB 12
-.loc ../contracts/BankandUserWithFees/bank.tsol, 44
+.loc ../contracts/BankandUserWithFees/bank.tsol, 33
 TRUE
 SETGLOB 15
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
@@ -46,7 +46,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 47
+.loc ../contracts/BankandUserWithFees/bank.tsol, 36
 LDU 256
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
@@ -60,7 +60,7 @@ CALLREF {
 THROW 0
 
 .macro configuredInterestRate_34bc7de2_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 32
+.loc ../contracts/BankandUserWithFees/bank.tsol, 21
 GETGLOB 5
 DUP
 ISNULL
@@ -72,9 +72,9 @@ IF
 GETGLOB 10
 EQUAL
 THROWIFNOT 1001
-.loc ../contracts/BankandUserWithFees/bank.tsol, 48
+.loc ../contracts/BankandUserWithFees/bank.tsol, 37
 ACCEPT
-.loc ../contracts/BankandUserWithFees/bank.tsol, 49
+.loc ../contracts/BankandUserWithFees/bank.tsol, 38
 SETGLOB 12
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 
@@ -87,7 +87,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 51
+.loc ../contracts/BankandUserWithFees/bank.tsol, 40
 OVER
 PUSHCONT {
 	LDREF
@@ -138,9 +138,9 @@ THROW 0
 CALL $getAddress_ae22c57d_internal_macro$
 
 .macro getAddress_ae22c57d_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 52
+.loc ../contracts/BankandUserWithFees/bank.tsol, 41
 ACCEPT
-.loc ../contracts/BankandUserWithFees/bank.tsol, 53
+.loc ../contracts/BankandUserWithFees/bank.tsol, 42
 GETGLOB 10
 NEWC
 STU 256
@@ -180,7 +180,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 64
+.loc ../contracts/BankandUserWithFees/bank.tsol, 54
 OVER
 PUSHCONT {
 	LDU 256
@@ -193,14 +193,10 @@ PUSHCONT {
 }
 IFELSE
 LDMSGADDR
-LDREF
-ENDS
-CTOS
-LDMSGADDR
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 CALLREF {
-	CALL $loan_26746691_internal_macro$
+	CALL $loan_c92dae4f_internal_macro$
 }
 DROP
 CALLREF {
@@ -208,35 +204,15 @@ CALLREF {
 }
 THROW 0
 
-.macro loan_26746691_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 66
+.macro loan_c92dae4f_internal_macro
+.loc ../contracts/BankandUserWithFees/bank.tsol, 58
 PUSHINT 10000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/bank.tsol, 68
-TUPLE 0
-NEWC
-PUSHSLICE x4144445245535320
-CALLREF {
-	CALL $storeStringInBuilders_macro$
-}
-PUSH S2
-CALLREF {
-	CALL $getAddress_ae22c57d_internal_macro$
-}
-CALLREF {
-	CALL $convertAddressToHexString_macro$
-}
-CALLREF {
-	CALL $assembleList_macro$
-}
-CALLREF {
-	CALL $console_no_obj_log_41304fac_macro$
-}
-.loc ../contracts/BankandUserWithFees/bank.tsol, 69
+.loc ../contracts/BankandUserWithFees/bank.tsol, 63
 GETGLOB 15
 THROWIFNOT 1002
-.loc ../contracts/BankandUserWithFees/bank.tsol, 70
+.loc ../contracts/BankandUserWithFees/bank.tsol, 64
 GETGLOB 9
 SWAP
 CALLREF {
@@ -244,13 +220,12 @@ CALLREF {
 }
 SDEQ
 THROWIFNOT 2000
-.loc ../contracts/BankandUserWithFees/bank.tsol, 72
-DROP
+.loc ../contracts/BankandUserWithFees/bank.tsol, 66
 SETGLOB 14
-.loc ../contracts/BankandUserWithFees/bank.tsol, 74
+.loc ../contracts/BankandUserWithFees/bank.tsol, 68
 FALSE
 SETGLOB 15
-.loc ../contracts/BankandUserWithFees/bank.tsol, 76
+.loc ../contracts/BankandUserWithFees/bank.tsol, 70
 GETGLOB 14
 GETGLOB 9
 PUSHSLICE xc000000000000000000000000039ac893e
@@ -261,7 +236,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/bank.tsol, 78
+.loc ../contracts/BankandUserWithFees/bank.tsol, 72
 GETGLOB 14
 GETGLOB 9
 NEWC
@@ -284,7 +259,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 82
+.loc ../contracts/BankandUserWithFees/bank.tsol, 76
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 CALLREF {
@@ -322,7 +297,7 @@ THROW 0
 CALL $calculating_eec9b605_internal_macro$
 
 .macro calculating_eec9b605_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 84
+.loc ../contracts/BankandUserWithFees/bank.tsol, 78
 GETGLOB 14
 PUSHINT 100
 GETGLOB 12
@@ -341,7 +316,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 88
+.loc ../contracts/BankandUserWithFees/bank.tsol, 82
 OVER
 PUSHCONT {
 	LDU 128
@@ -354,14 +329,10 @@ PUSHCONT {
 }
 IFELSE
 LDMSGADDR
-LDREF
-ENDS
-CTOS
-LDMSGADDR
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 CALLREF {
-	CALL $repaying_244cf358_internal_macro$
+	CALL $repaying_4d99f470_internal_macro$
 }
 DROP
 CALLREF {
@@ -369,12 +340,12 @@ CALLREF {
 }
 THROW 0
 
-.macro repaying_244cf358_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 89
+.macro repaying_4d99f470_internal_macro
+.loc ../contracts/BankandUserWithFees/bank.tsol, 86
 PUSHINT 10000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/bank.tsol, 92
+.loc ../contracts/BankandUserWithFees/bank.tsol, 87
 GETGLOB 9
 SWAP
 CALLREF {
@@ -382,46 +353,14 @@ CALLREF {
 }
 SDEQ
 THROWIFNOT 1003
-.loc ../contracts/BankandUserWithFees/bank.tsol, 94
-DROP
+.loc ../contracts/BankandUserWithFees/bank.tsol, 89
 DUP
 CALLREF {
 	CALL $calculating_eec9b605_internal_macro$
 }
 NEQ
 PUSHCONT {
-	.loc ../contracts/BankandUserWithFees/bank.tsol, 95
-	TUPLE 0
-	NEWC
-	PUSHSLICE x7265706179416d6f756e7420
-	CALLREF {
-		CALL $storeStringInBuilders_macro$
-	}
-	ROT
-	PUSHINT 0
-	BLKPUSH 2, 0
-	CALLREF {
-		CALL $convertIntToDecStr_macro$
-	}
-	PUSHSLICE x2063616c6320
-	CALLREF {
-		CALL $storeStringInBuilders_macro$
-	}
-	CALLREF {
-		CALL $calculating_eec9b605_internal_macro$
-	}
-	PUSHINT 0
-	BLKPUSH 2, 0
-	CALLREF {
-		CALL $convertIntToDecStr_macro$
-	}
-	CALLREF {
-		CALL $assembleList_macro$
-	}
-	CALLREF {
-		CALL $console_no_obj_log_41304fac_macro$
-	}
-	.loc ../contracts/BankandUserWithFees/bank.tsol, 96
+	.loc ../contracts/BankandUserWithFees/bank.tsol, 91
 	GETGLOB 9
 	NEWC
 	STSLICECONST x62_
@@ -431,10 +370,12 @@ PUSHCONT {
 	ENDC
 	PUSHPOW2 7
 	SENDRAWMSG
+	.loc ../contracts/BankandUserWithFees/bank.tsol, 92
+	DROP
 	.loc ../contracts/BankandUserWithFees/bank.tsol, 0
 }
 IFJMP
-.loc ../contracts/BankandUserWithFees/bank.tsol, 99
+.loc ../contracts/BankandUserWithFees/bank.tsol, 94
 DUP
 GETGLOB 9
 NEWC
@@ -446,7 +387,7 @@ STU 256
 ENDC
 PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/bank.tsol, 101
+.loc ../contracts/BankandUserWithFees/bank.tsol, 96
 DUP
 GETGLOB 14
 SUB
@@ -454,32 +395,13 @@ UFITS 256
 GETGLOB 13
 ADD
 SETGLOB 13
-.loc ../contracts/BankandUserWithFees/bank.tsol, 102
-TUPLE 0
-NEWC
-PUSHSLICE x70726f66697420
-CALLREF {
-	CALL $storeStringInBuilders_macro$
-}
-GETGLOB 13
-PUSHINT 0
-BLKPUSH 2, 0
-CALLREF {
-	CALL $convertIntToDecStr_macro$
-}
-CALLREF {
-	CALL $assembleList_macro$
-}
-CALLREF {
-	CALL $console_no_obj_log_41304fac_macro$
-}
-.loc ../contracts/BankandUserWithFees/bank.tsol, 103
+.loc ../contracts/BankandUserWithFees/bank.tsol, 98
 PUSHINT 0
 SETGLOB 14
-.loc ../contracts/BankandUserWithFees/bank.tsol, 105
+.loc ../contracts/BankandUserWithFees/bank.tsol, 100
 TRUE
 SETGLOB 15
-.loc ../contracts/BankandUserWithFees/bank.tsol, 108
+.loc ../contracts/BankandUserWithFees/bank.tsol, 103
 GETGLOB 9
 PUSHSLICE xc00000000000000000000000005bdb982d
 NEWC
@@ -500,7 +422,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 110
+.loc ../contracts/BankandUserWithFees/bank.tsol, 105
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 CALLREF {
@@ -534,7 +456,7 @@ IFREF {
 THROW 0
 
 .macro getInterestRate_5257b566_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 111
+.loc ../contracts/BankandUserWithFees/bank.tsol, 106
 GETGLOB 12
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 
@@ -547,7 +469,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/bank.tsol, 114
+.loc ../contracts/BankandUserWithFees/bank.tsol, 109
 ENDS
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 CALLREF {
@@ -581,7 +503,7 @@ IFREF {
 THROW 0
 
 .macro getProfit_679dffb4_internal_macro
-.loc ../contracts/BankandUserWithFees/bank.tsol, 115
+.loc ../contracts/BankandUserWithFees/bank.tsol, 110
 GETGLOB 13
 .loc ../contracts/BankandUserWithFees/bank.tsol, 0
 
@@ -864,52 +786,11 @@ PUSHCONT {
 IF
 THROW 0
 
-.globl	console_with_obj_log_41304fac
-.type	console_with_obj_log_41304fac, @function
-CALL $console_with_obj_log_41304fac_macro$
-
-.macro console_with_obj_log_41304fac_macro
-.loc ../node_modules/locklift/src/console.tsol, 10
-DUP
-PUSHREFSLICE {
-	.blob xc600fffffffffffffffffffffffffffffffffffffffffffffffffe2468acf13579bc0000000000000000000000000903f4294_
-}
-NEWC
-STSLICE
-STREF
-ENDC
-PUSHINT 0
-SENDRAWMSG
-.loc ../node_modules/locklift/src/console.tsol, 0
-
-.globl	console_no_obj_log_41304fac
-.type	console_no_obj_log_41304fac, @function
-CALL $console_no_obj_log_41304fac_macro$
-
-.macro console_no_obj_log_41304fac_macro
-.loc ../node_modules/locklift/src/console.tsol, 10
-PUSHREFSLICE {
-	.blob xc600fffffffffffffffffffffffffffffffffffffffffffffffffe2468acf13579bc0000000000000000000000000903f4294_
-}
-NEWC
-STSLICE
-STREF
-ENDC
-PUSHINT 0
-SENDRAWMSG
-.loc ../node_modules/locklift/src/console.tsol, 0
-
 .macro public_function_selector
 DUP
-PUSHINT 571497742
+PUSHINT 616522273
 LEQ
 IFJMPREF {
-	DUP
-	PUSHINT 193567223
-	EQUAL
-	IFJMPREF {
-		CALL $repaying$
-	}
 	DUP
 	PUSHINT 293136829
 	EQUAL
@@ -928,22 +809,28 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $getProfit$
 	}
-}
-DUP
-PUSHINT 995555877
-LEQ
-IFJMPREF {
 	DUP
 	PUSHINT 616522273
 	EQUAL
 	IFJMPREF {
 		CALL $interestRate$
 	}
+}
+DUP
+PUSHINT 995555877
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 735588267
 	EQUAL
 	IFJMPREF {
 		CALL $configuredInterestRate$
+	}
+	DUP
+	PUSHINT 811578713
+	EQUAL
+	IFJMPREF {
+		CALL $repaying$
 	}
 	DUP
 	PUSHINT 989214594
@@ -975,7 +862,7 @@ IFJMPREF {
 		CALL $getAddress$
 	}
 	DUP
-	PUSHINT 1649661954
+	PUSHINT 1624986411
 	EQUAL
 	IFJMPREF {
 		CALL $loan$

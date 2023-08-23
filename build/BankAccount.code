@@ -1,0 +1,689 @@
+.version sol 0.62.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+GETGLOB 6
+THROWIF 51
+OVER
+PUSHCONT {
+	LDU 128
+	LDREF
+	ENDS
+	CTOS
+}
+PUSHCONT {
+	LDU 128
+}
+IFELSE
+LDMSGADDR
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 25
+ACCEPT
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 26
+SETGLOB 13
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 27
+SETGLOB 10
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 29
+GETGLOB 12
+SETGLOB 11
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro borrowMoney
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 32
+LDU 256
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $borrowMoney_7bfb9ca5_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro borrowMoney_7bfb9ca5_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 33
+PUSHINT 10000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 35
+DUP
+GETGLOB 9
+PUSHSLICE xc00000000000000000000000007022e8a6
+NEWC
+STSLICE
+STSLICE
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 37
+GETGLOB 12
+SWAP
+GETGLOB 11
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 1
+STUR 111
+ROTREV
+NEWC
+STSLICECONST x60db532b
+STU 256
+STSLICE
+STBREFR
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro loanReceived
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 49
+LDU 256
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $loanReceived_97669c6c_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro loanReceived_97669c6c_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 52
+PUSHINT 10000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 53
+GETGLOB 10
+OVER
+ADD
+SETGLOB 10
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 54
+PUSHSLICE xc00000000000000000000000006c680dfd
+NEWC
+STSLICE
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 56
+GETGLOB 13
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro repayLoan
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 59
+LDU 128
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $repayLoan_84b49a55_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro repayLoan_84b49a55_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 62
+PUSHINT 10000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 64
+GETGLOB 10
+OVER
+GEQ
+THROWIFNOT 1005
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 66
+DUP
+GETGLOB 9
+PUSHSLICE xc0000000000000000000000000793e072a
+NEWC
+STSLICE
+STSLICE
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 68
+GETGLOB 12
+SWAP
+GETGLOB 11
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 1
+STUR 111
+ROTREV
+NEWC
+STSLICECONST x305fb559
+STU 128
+STSLICE
+STBREFR
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro repayAccepted
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 76
+LDU 256
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $repayAccepted_18679522_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro repayAccepted_18679522_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 79
+PUSHINT 10000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 80
+DUP
+GETGLOB 10
+LEQ
+THROWIFNOT 1008
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 81
+GETGLOB 10
+OVER
+SUB
+UFITS 256
+SETGLOB 10
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 83
+PUSHSLICE xc00000000000000000000000002d22417d
+NEWC
+STSLICE
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 85
+GETGLOB 13
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro repayRejected
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 88
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $repayRejected_0b3db69d_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro repayRejected_0b3db69d_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 89
+PUSHINT 10000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 91
+PUSHREF {
+	.blob x52656a65637421
+}
+PUSHSLICE xc000000000000000000000000056819091
+NEWC
+STSLICE
+STREF
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 92
+GETGLOB 13
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro getMoney
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 95
+ENDS
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+CALLREF {
+	CALL $getMoney_98e1b410_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2954215072
+	STUR 130
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $upd_only_time_in_c4$
+}
+THROW 0
+
+.macro getMoney_98e1b410_internal_macro
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 96
+GETGLOB 10
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDU 256
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+ENDS
+SETGLOB 13
+SETGLOB 12
+SETGLOB 11
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHINT 0
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	PUSHINT 1
+	PUSH S3
+	PUSHINT 64
+	DICTUGET
+	PUSHCONT {
+		PUSHREFSLICE {
+			.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+		}
+	}
+	IFNOT
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	CALL $c4_to_c7$
+}
+
+.macro c7_to_c4
+GETGLOB 13
+GETGLOB 12
+GETGLOB 11
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+STU 256
+ROLLREV 3
+NEWC
+STSLICE
+ROTREV
+NEWC
+STSLICE
+SWAP
+NEWC
+STSLICE
+STBREFR
+STBREFR
+STBREFR
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+LDU 4 ; bounced tail
+LDMSGADDR ; bounced src tail
+DROP
+SETGLOB 9
+MODPOW2 1
+IFRET
+OVER
+SEMPTY ; isEmpty
+IFJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+OVER
+LDUQ 32  ; [funcId] body' ok
+THROWIFNOT 60
+OVER
+IFNOTJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+SETGLOB 9
+OVER
+CALLREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX ; signatureSlice msgSlice
+	DUP
+	HASHSU ; signatureSlice msgSlice hashMsgSlice
+	ROT
+	GETGLOB 2
+	CHKSIGNU ; msgSlice isSigned
+	THROWIFNOT 40
+}
+IF
+LDU 64 ; timestamp msgSlice
+SWAP
+CALL $replay_protection_macro$
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.macro money
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000eb2d81bc
+	NEWC
+	STSLICE
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro Bank
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 11
+OVER
+PUSHCONT {
+	PUSHSLICE xc00000000000000000000000008db912f1
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro user_address
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 13
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000848ba375
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro public_function_selector
+DUP
+PUSHINT 544412435
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 76260213
+	EQUAL
+	IFJMPREF {
+		CALL $user_address$
+	}
+	DUP
+	PUSHINT 170291036
+	EQUAL
+	IFJMPREF {
+		CALL $borrowMoney$
+	}
+	DUP
+	PUSHINT 230232817
+	EQUAL
+	IFJMPREF {
+		CALL $Bank$
+	}
+	DUP
+	PUSHINT 544412435
+	EQUAL
+	IFJMPREF {
+		CALL $constructor$
+	}
+}
+DUP
+PUSHINT 876484813
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 667439722
+	EQUAL
+	IFJMPREF {
+		CALL $repayRejected$
+	}
+	DUP
+	PUSHINT 806731424
+	EQUAL
+	IFJMPREF {
+		CALL $getMoney$
+	}
+	DUP
+	PUSHINT 828616943
+	EQUAL
+	IFJMPREF {
+		CALL $repayLoan$
+	}
+	DUP
+	PUSHINT 876484813
+	EQUAL
+	IFJMPREF {
+		CALL $repayAccepted$
+	}
+}
+DUP
+PUSHINT 1798144444
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1700628966
+	EQUAL
+	IFJMPREF {
+		CALL $loanReceived$
+	}
+	DUP
+	PUSHINT 1798144444
+	EQUAL
+	IFJMPREF {
+		CALL $money$
+	}
+}
+

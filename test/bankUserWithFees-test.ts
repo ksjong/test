@@ -3,8 +3,8 @@ import {FactorySource} from "../build/factorySource";
 import {Account} from "everscale-standalone-client";
 
 let bank: Contract<FactorySource["bank"]>;
-let user: Contract<FactorySource["user"]>;
-let bankAccount: Account;
+let bankAccount : Contract<FactorySource["BankAccount"]>;
+
 let userAccount: Account;
 let signer1: Signer;
 
@@ -22,14 +22,8 @@ describe("BankUserTest", async function () {
 
         })
         .then(res => (userAccount = res.account));
-      await locklift.factory.accounts
-          .addNewAccount({
-              type: WalletTypes.EverWallet,
-              value: toNano(10),
-              publicKey: signer1.publicKey,
-          })
-          .then(res=>(bankAccount=res.account));
-      const { code: userCode } = locklift.factory.getContractArtifacts("user");
+
+        const { code: userCode } = locklift.factory.getContractArtifacts("BankAccount");
       bank = await locklift.factory
         .deployContract({
           contract: "bank",
@@ -45,9 +39,9 @@ describe("BankUserTest", async function () {
         })
         .then(res => res.contract);
 
-      user = await locklift.factory
+      bankAccount = await locklift.factory
         .deployContract({
-          contract: "user",
+          contract: "BankAccount",
           initParams: {
                 bank_address: bank.address
           },
@@ -63,7 +57,7 @@ describe("BankUserTest", async function () {
 
     it("Interact with contract", async function () {
       const { traceTree } = await locklift.tracing.trace(
-        user.methods
+        bankAccount.methods
           .borrowMoney({
             _amount: 1000,
           })
@@ -77,7 +71,10 @@ describe("BankUserTest", async function () {
       // \
 
       const { traceTree: repaid } = await locklift.tracing.trace(
-        user.methods.repayLoan({ _repayAmount: Number(totalrepayAmount.value0) }).send({
+        bankAccount.methods.
+        repayLoan({
+            _repayAmount: Number(totalrepayAmount.value0)
+        }).send({
           from: userAccount.address,
           amount: toNano(1),
         }),
@@ -86,7 +83,7 @@ describe("BankUserTest", async function () {
 
       const response = await bank.methods.getProfit({}).call();
       console.log(response);
-      const response2 = await user.methods.getMoney().call();
+      const response2 = await bankAccount.methods.getMoney().call();
       console.log(response2);
       // const { traceTree: SecondLoan } = await locklift.tracing.trace(
       //   user.methods
