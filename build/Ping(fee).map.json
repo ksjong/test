@@ -1,0 +1,942 @@
+{
+  "map": {
+    "18b84fb1203b1414837da407e8e63b4f7304d46a0a6a78b6cd266d2e196c668d": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 286
+      },
+      "8": {
+        "filename": "Ping(fee).code",
+        "line": 287
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 288
+      },
+      "64": {
+        "filename": "Ping(fee).code",
+        "line": 289
+      },
+      "80": {
+        "filename": "Ping(fee).code",
+        "line": 292
+      },
+      "88": {
+        "filename": "Ping(fee).code",
+        "line": 293
+      },
+      "136": {
+        "filename": "Ping(fee).code",
+        "line": 294
+      },
+      "144": {
+        "filename": "Ping(fee).code",
+        "line": 295
+      },
+      "160": {
+        "filename": "Ping(fee).code",
+        "line": 298
+      },
+      "168": {
+        "filename": "Ping(fee).code",
+        "line": 299
+      },
+      "216": {
+        "filename": "Ping(fee).code",
+        "line": 300
+      },
+      "224": {
+        "filename": "Ping(fee).code",
+        "line": 301
+      }
+    },
+    "1a8157742234ba956f6337b379f94c51789bdb461ac909b66e5d2d2320b0bcb4": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 22
+      },
+      "8": {
+        "filename": "Ping(fee).code",
+        "line": 23
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 24
+      },
+      "48": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "56": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "64": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "72": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "80": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "96": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "112": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "120": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 16
+      },
+      "128": {
+        "filename": "Ping(fee).code",
+        "line": 37
+      },
+      "144": {
+        "filename": "Ping(fee).code",
+        "line": 40
+      },
+      "160": {
+        "filename": "Ping(fee).code",
+        "line": 43
+      }
+    },
+    "42aa676d16d19f95a85a3a8f6b8578c96167a12005f5a454dcdc62d5181d3cf4": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Ping(fee).code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Ping(fee).code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Ping(fee).code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Ping(fee).code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Ping(fee).code",
+        "line": 12
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 13
+      },
+      "104": {
+        "filename": "Ping(fee).code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Ping(fee).code",
+        "line": 19
+      }
+    },
+    "5b151536851e976325ac8f3f571ac4388d0a06776361714ab6e3c0973cb57492": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 74
+      },
+      "8": {
+        "filename": "Ping(fee).code",
+        "line": 75
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 76
+      },
+      "48": {
+        "filename": "Ping(fee).code",
+        "line": 77
+      },
+      "64": {
+        "filename": "Ping(fee).code",
+        "line": 78
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 79
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "96": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "104": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "112": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "120": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "128": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "136": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "144": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "152": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "160": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "176": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 21
+      },
+      "184": {
+        "filename": "Ping(fee).code",
+        "line": 97
+      },
+      "200": {
+        "filename": "Ping(fee).code",
+        "line": 100
+      },
+      "208": {
+        "filename": "Ping(fee).code",
+        "line": 101
+      },
+      "224": {
+        "filename": "Ping(fee).code",
+        "line": 104
+      }
+    },
+    "60488e96384d55db5809d3be340ce676908c99e02e0f6a89a307f1376c1ceb17": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 169
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 170
+      },
+      "32": {
+        "filename": "Ping(fee).code",
+        "line": 171
+      },
+      "40": {
+        "filename": "Ping(fee).code",
+        "line": 172
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 173
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 174
+      },
+      "88": {
+        "filename": "Ping(fee).code",
+        "line": 175
+      },
+      "96": {
+        "filename": "Ping(fee).code",
+        "line": 176
+      }
+    },
+    "6daa35295194ad4e04c02f2bd0cc197c87e51e50b9d9c28de8727c1939c8995e": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "75c6caae3aa5fabd468509ca82005fcd811a80cbba1f244e22c6d3975441dc97": {
+      "0": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 17
+      },
+      "48": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 17
+      },
+      "56": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 17
+      },
+      "72": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "96": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "104": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "128": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "136": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "144": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "168": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "176": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "184": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "232": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "240": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "248": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "256": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "264": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      },
+      "280": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 18
+      }
+    },
+    "afdb931dcc76c77aff1f6bc17956404411d823d87ee87ffcf941e884f9cab6a8": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 283
+      }
+    },
+    "b6f27d187f26bd046272f9f471e9ae01f051b960e654874ac3fb0749c691c4c6": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 147
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 148
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 149
+      },
+      "40": {
+        "filename": "Ping(fee).code",
+        "line": 150
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 151
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 152
+      },
+      "80": {
+        "filename": "Ping(fee).code",
+        "line": 153
+      },
+      "96": {
+        "filename": "Ping(fee).code",
+        "line": 154
+      },
+      "104": {
+        "filename": "Ping(fee).code",
+        "line": 155
+      },
+      "120": {
+        "filename": "Ping(fee).code",
+        "line": 156
+      },
+      "136": {
+        "filename": "Ping(fee).code",
+        "line": 157
+      },
+      "152": {
+        "filename": "Ping(fee).code",
+        "line": 158
+      },
+      "168": {
+        "filename": "Ping(fee).code",
+        "line": 159
+      },
+      "192": {
+        "filename": "Ping(fee).code",
+        "line": 160
+      },
+      "208": {
+        "filename": "Ping(fee).code",
+        "line": 161
+      },
+      "216": {
+        "filename": "Ping(fee).code",
+        "line": 162
+      },
+      "232": {
+        "filename": "Ping(fee).code",
+        "line": 164
+      }
+    },
+    "d89225493e097d3e91a1ec8e18c3efcaa1fa4172562e05080a7c743a75fa8e5d": {
+      "0": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 22
+      },
+      "48": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 22
+      },
+      "56": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 22
+      },
+      "72": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "80": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "240": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "248": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "256": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "264": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "272": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "280": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 24
+      },
+      "296": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "304": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "328": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "336": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "352": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "368": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "376": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      },
+      "392": {
+        "filename": "../contracts/cross_contractsWithFee/Ping(fee).tsol",
+        "line": 26
+      }
+    },
+    "dd12178d3b08a0f607ce3511c49b453f98d1fe41be5ae819a810c2c05689160b": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 195
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 196
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 197
+      },
+      "40": {
+        "filename": "Ping(fee).code",
+        "line": 198
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 199
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 200
+      },
+      "80": {
+        "filename": "Ping(fee).code",
+        "line": 201
+      },
+      "88": {
+        "filename": "Ping(fee).code",
+        "line": 202
+      },
+      "104": {
+        "filename": "Ping(fee).code",
+        "line": 203
+      },
+      "120": {
+        "filename": "Ping(fee).code",
+        "line": 204
+      },
+      "128": {
+        "filename": "Ping(fee).code",
+        "line": 205
+      },
+      "144": {
+        "filename": "Ping(fee).code",
+        "line": 206
+      },
+      "168": {
+        "filename": "Ping(fee).code",
+        "line": 207
+      },
+      "176": {
+        "filename": "Ping(fee).code",
+        "line": 208
+      },
+      "184": {
+        "filename": "Ping(fee).code",
+        "line": 209
+      },
+      "200": {
+        "filename": "Ping(fee).code",
+        "line": 210
+      },
+      "216": {
+        "filename": "Ping(fee).code",
+        "line": 214
+      },
+      "224": {
+        "filename": "Ping(fee).code",
+        "line": 215
+      },
+      "248": {
+        "filename": "Ping(fee).code",
+        "line": 216
+      },
+      "264": {
+        "filename": "Ping(fee).code",
+        "line": 217
+      },
+      "272": {
+        "filename": "Ping(fee).code",
+        "line": 218
+      },
+      "288": {
+        "filename": "Ping(fee).code",
+        "line": 222
+      },
+      "296": {
+        "filename": "Ping(fee).code",
+        "line": 223
+      },
+      "312": {
+        "filename": "Ping(fee).code",
+        "line": 226
+      }
+    },
+    "e62a0953a702597fca8e479487df95019c503d3fc139747b9184cdb24a7bc295": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 230
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 231
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 232
+      },
+      "40": {
+        "filename": "Ping(fee).code",
+        "line": 233
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 234
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 235
+      },
+      "360": {
+        "filename": "Ping(fee).code",
+        "line": 236
+      },
+      "376": {
+        "filename": "Ping(fee).code",
+        "line": 237
+      },
+      "384": {
+        "filename": "Ping(fee).code",
+        "line": 238
+      },
+      "400": {
+        "filename": "Ping(fee).code",
+        "line": 241
+      },
+      "416": {
+        "filename": "Ping(fee).code",
+        "line": 242
+      },
+      "424": {
+        "filename": "Ping(fee).code",
+        "line": 243
+      },
+      "440": {
+        "filename": "Ping(fee).code",
+        "line": 244
+      },
+      "456": {
+        "filename": "Ping(fee).code",
+        "line": 245
+      },
+      "472": {
+        "filename": "Ping(fee).code",
+        "line": 246
+      },
+      "480": {
+        "filename": "Ping(fee).code",
+        "line": 247
+      },
+      "496": {
+        "filename": "Ping(fee).code",
+        "line": 248
+      },
+      "504": {
+        "filename": "Ping(fee).code",
+        "line": 249
+      },
+      "520": {
+        "filename": "Ping(fee).code",
+        "line": 250
+      },
+      "528": {
+        "filename": "Ping(fee).code",
+        "line": 251
+      },
+      "536": {
+        "filename": "Ping(fee).code",
+        "line": 252
+      },
+      "552": {
+        "filename": "Ping(fee).code",
+        "line": 253
+      },
+      "560": {
+        "filename": "Ping(fee).code",
+        "line": 254
+      },
+      "568": {
+        "filename": "Ping(fee).code",
+        "line": 256
+      },
+      "576": {
+        "filename": "Ping(fee).code",
+        "line": 257
+      },
+      "584": {
+        "filename": "Ping(fee).code",
+        "line": 258
+      },
+      "600": {
+        "filename": "Ping(fee).code",
+        "line": 260
+      },
+      "608": {
+        "filename": "Ping(fee).code",
+        "line": 261
+      },
+      "624": {
+        "filename": "Ping(fee).code",
+        "line": 262
+      },
+      "640": {
+        "filename": "Ping(fee).code",
+        "line": 264
+      },
+      "648": {
+        "filename": "Ping(fee).code",
+        "line": 265
+      },
+      "664": {
+        "filename": "Ping(fee).code",
+        "line": 266
+      },
+      "672": {
+        "filename": "Ping(fee).code",
+        "line": 267
+      },
+      "688": {
+        "filename": "Ping(fee).code",
+        "line": 269
+      },
+      "696": {
+        "filename": "Ping(fee).code",
+        "line": 270
+      },
+      "712": {
+        "filename": "Ping(fee).code",
+        "line": 271
+      },
+      "720": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "736": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "744": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "752": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "768": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "776": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "792": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "816": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "824": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "864": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "872": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "880": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "896": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "912": {
+        "filename": "Ping(fee).code",
+        "line": 273
+      },
+      "928": {
+        "filename": "Ping(fee).code",
+        "line": 274
+      },
+      "936": {
+        "filename": "Ping(fee).code",
+        "line": 275
+      },
+      "952": {
+        "filename": "Ping(fee).code",
+        "line": 276
+      },
+      "960": {
+        "filename": "Ping(fee).code",
+        "line": 277
+      },
+      "976": {
+        "filename": "Ping(fee).code",
+        "line": 278
+      },
+      "992": {
+        "filename": "Ping(fee).code",
+        "line": 279
+      },
+      "1000": {
+        "filename": "Ping(fee).code",
+        "line": 280
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 211
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 212
+      }
+    },
+    "f2b6fee906959c240bebf2ae6014f1d4be66e2dc6e03df25aa5ea29205d3e249": {
+      "0": {
+        "filename": "Ping(fee).code",
+        "line": 136
+      },
+      "16": {
+        "filename": "Ping(fee).code",
+        "line": 137
+      },
+      "24": {
+        "filename": "Ping(fee).code",
+        "line": 138
+      },
+      "40": {
+        "filename": "Ping(fee).code",
+        "line": 139
+      },
+      "56": {
+        "filename": "Ping(fee).code",
+        "line": 140
+      },
+      "72": {
+        "filename": "Ping(fee).code",
+        "line": 141
+      },
+      "80": {
+        "filename": "Ping(fee).code",
+        "line": 142
+      },
+      "88": {
+        "filename": "Ping(fee).code",
+        "line": 143
+      },
+      "104": {
+        "filename": "Ping(fee).code",
+        "line": 144
+      }
+    }
+  }
+}

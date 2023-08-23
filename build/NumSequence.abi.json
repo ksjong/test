@@ -1,0 +1,57 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"length","type":"uint8"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "sum",
+			"inputs": [
+				{"name":"inputNum","type":"uint8"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getSum",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"sum","type":"uint256"}
+			]
+		},
+		{
+			"name": "arrayInt",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"arrayInt","type":"uint8[]"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "ShowArray",
+			"inputs": [
+				{"name":"arrayInt","type":"uint8[]"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"arrayInt","type":"uint8[]"}
+	]
+}

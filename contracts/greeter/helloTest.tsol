@@ -1,0 +1,31 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+contract helloTest {
+    string Name;
+    string Hello;
+
+    event NameChange(string Name);
+
+    constructor() public {
+        tvm.accept();
+
+        Hello = "hello";
+    }
+
+    function setName(string p_Name) public {
+        tvm.accept();
+
+        Name = p_Name;
+        emit NameChange(Name);
+    }
+
+    function getDetails() external view returns (string p_Name) {
+        p_Name = Name;
+        return (Hello + p_Name);
+    }
+
+
+}

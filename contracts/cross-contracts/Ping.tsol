@@ -1,0 +1,24 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+import "./Pong.tsol";
+
+contract Ping {
+
+    event PingCallback(string message);
+
+    constructor() public {
+        tvm.accept();
+    }
+
+    function ping(address _pong, string _message) public pure {
+        tvm.accept();
+        Pong(_pong).pong(_message);
+    }
+
+    function pingCallback(string message) public pure {
+        emit PingCallback(message);
+    }
+}

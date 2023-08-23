@@ -1,0 +1,127 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "registerdAccept",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "working",
+			"inputs": [
+				{"name":"_comp_name","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "badWork",
+			"inputs": [
+				{"name":"company","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "receivedSalary",
+			"inputs": [
+				{"name":"_salary","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "TotalSalary",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"TotalSalary","type":"uint256"}
+			]
+		},
+		{
+			"name": "comp",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"comp","type":"address"}
+			]
+		},
+		{
+			"name": "worker_pubkey",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"worker_pubkey","type":"uint256"}
+			]
+		},
+		{
+			"name": "company_address",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"company_address","type":"address"}
+			]
+		},
+		{
+			"name": "workerAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"workerAddress","type":"address"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"worker_pubkey","type":"uint256"},
+		{"key":2,"name":"company_address","type":"address"}
+	],
+	"events": [
+		{
+			"name": "ReceivedSalary",
+			"inputs": [
+				{"name":"user","type":"address"},
+				{"name":"_salary","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "RegisteredAccept",
+			"inputs": [
+				{"name":"sender","type":"address"},
+				{"name":"message","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "Working",
+			"inputs": [
+				{"name":"message","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"TotalSalary","type":"uint256"},
+		{"name":"comp","type":"address"},
+		{"name":"worker_pubkey","type":"uint256"},
+		{"name":"company_address","type":"address"},
+		{"name":"workerAddress","type":"address"}
+	]
+}

@@ -1,0 +1,904 @@
+{
+  "map": {
+    "222ffdf3ce642ab49b57917dcb3e83d097262cd7af792bb13505b6e1229dde0c": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 88
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 89
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 90
+      },
+      "40": {
+        "filename": "Pong(fee).code",
+        "line": 91
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 92
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 93
+      },
+      "80": {
+        "filename": "Pong(fee).code",
+        "line": 94
+      },
+      "96": {
+        "filename": "Pong(fee).code",
+        "line": 95
+      },
+      "104": {
+        "filename": "Pong(fee).code",
+        "line": 96
+      },
+      "120": {
+        "filename": "Pong(fee).code",
+        "line": 97
+      },
+      "136": {
+        "filename": "Pong(fee).code",
+        "line": 98
+      }
+    },
+    "26d7c63006b9601cdd17eca178e5089fad672fd1cbaffd00065c02830eda38c0": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 188
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 189
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 190
+      },
+      "40": {
+        "filename": "Pong(fee).code",
+        "line": 191
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 192
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 193
+      },
+      "360": {
+        "filename": "Pong(fee).code",
+        "line": 194
+      },
+      "376": {
+        "filename": "Pong(fee).code",
+        "line": 195
+      },
+      "384": {
+        "filename": "Pong(fee).code",
+        "line": 196
+      },
+      "400": {
+        "filename": "Pong(fee).code",
+        "line": 199
+      },
+      "416": {
+        "filename": "Pong(fee).code",
+        "line": 200
+      },
+      "424": {
+        "filename": "Pong(fee).code",
+        "line": 201
+      },
+      "440": {
+        "filename": "Pong(fee).code",
+        "line": 202
+      },
+      "456": {
+        "filename": "Pong(fee).code",
+        "line": 203
+      },
+      "472": {
+        "filename": "Pong(fee).code",
+        "line": 204
+      },
+      "480": {
+        "filename": "Pong(fee).code",
+        "line": 205
+      },
+      "496": {
+        "filename": "Pong(fee).code",
+        "line": 206
+      },
+      "504": {
+        "filename": "Pong(fee).code",
+        "line": 207
+      },
+      "520": {
+        "filename": "Pong(fee).code",
+        "line": 208
+      },
+      "528": {
+        "filename": "Pong(fee).code",
+        "line": 209
+      },
+      "536": {
+        "filename": "Pong(fee).code",
+        "line": 210
+      },
+      "552": {
+        "filename": "Pong(fee).code",
+        "line": 211
+      },
+      "560": {
+        "filename": "Pong(fee).code",
+        "line": 212
+      },
+      "568": {
+        "filename": "Pong(fee).code",
+        "line": 214
+      },
+      "576": {
+        "filename": "Pong(fee).code",
+        "line": 215
+      },
+      "584": {
+        "filename": "Pong(fee).code",
+        "line": 216
+      },
+      "600": {
+        "filename": "Pong(fee).code",
+        "line": 218
+      },
+      "608": {
+        "filename": "Pong(fee).code",
+        "line": 219
+      },
+      "624": {
+        "filename": "Pong(fee).code",
+        "line": 220
+      },
+      "640": {
+        "filename": "Pong(fee).code",
+        "line": 222
+      },
+      "648": {
+        "filename": "Pong(fee).code",
+        "line": 223
+      },
+      "664": {
+        "filename": "Pong(fee).code",
+        "line": 224
+      },
+      "672": {
+        "filename": "Pong(fee).code",
+        "line": 225
+      },
+      "688": {
+        "filename": "Pong(fee).code",
+        "line": 227
+      },
+      "696": {
+        "filename": "Pong(fee).code",
+        "line": 228
+      },
+      "712": {
+        "filename": "Pong(fee).code",
+        "line": 229
+      },
+      "720": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "736": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "744": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "752": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "768": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "776": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "792": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "816": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "824": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "864": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "872": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "880": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "896": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "912": {
+        "filename": "Pong(fee).code",
+        "line": 231
+      },
+      "928": {
+        "filename": "Pong(fee).code",
+        "line": 232
+      },
+      "936": {
+        "filename": "Pong(fee).code",
+        "line": 233
+      },
+      "952": {
+        "filename": "Pong(fee).code",
+        "line": 234
+      },
+      "960": {
+        "filename": "Pong(fee).code",
+        "line": 235
+      },
+      "976": {
+        "filename": "Pong(fee).code",
+        "line": 236
+      },
+      "992": {
+        "filename": "Pong(fee).code",
+        "line": 237
+      },
+      "1000": {
+        "filename": "Pong(fee).code",
+        "line": 238
+      }
+    },
+    "27361e39c4c7e2d1a47bbf898635ad7d437cd7109df8dc3921b398d6f8ea9ef4": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "2b590512c0c00dbfd070510a4dfea8c6f1956e2ff7891f1a18b3a6c412bb3111": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 101
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 102
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 103
+      },
+      "40": {
+        "filename": "Pong(fee).code",
+        "line": 104
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 105
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 106
+      },
+      "80": {
+        "filename": "Pong(fee).code",
+        "line": 107
+      },
+      "96": {
+        "filename": "Pong(fee).code",
+        "line": 108
+      },
+      "104": {
+        "filename": "Pong(fee).code",
+        "line": 109
+      },
+      "120": {
+        "filename": "Pong(fee).code",
+        "line": 110
+      },
+      "128": {
+        "filename": "Pong(fee).code",
+        "line": 111
+      },
+      "144": {
+        "filename": "Pong(fee).code",
+        "line": 112
+      },
+      "160": {
+        "filename": "Pong(fee).code",
+        "line": 113
+      },
+      "176": {
+        "filename": "Pong(fee).code",
+        "line": 114
+      },
+      "192": {
+        "filename": "Pong(fee).code",
+        "line": 115
+      },
+      "216": {
+        "filename": "Pong(fee).code",
+        "line": 116
+      },
+      "232": {
+        "filename": "Pong(fee).code",
+        "line": 117
+      },
+      "240": {
+        "filename": "Pong(fee).code",
+        "line": 118
+      },
+      "256": {
+        "filename": "Pong(fee).code",
+        "line": 120
+      }
+    },
+    "6f2b4634050d5d9a1a016dd4709e624cfd882f141729d193221f23f6aa0f2a26": {
+      "0": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 15
+      },
+      "48": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 15
+      },
+      "56": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 15
+      },
+      "72": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 16
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 16
+      },
+      "96": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 16
+      },
+      "112": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 16
+      },
+      "128": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "136": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "152": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "160": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "184": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "192": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "200": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "224": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "232": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "240": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "288": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "296": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "304": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "312": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "320": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      },
+      "336": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 17
+      }
+    },
+    "7377b407598baf3a68804a5d1d91a5f11664d78b39ef2451120adc4329157549": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 264
+      },
+      "8": {
+        "filename": "Pong(fee).code",
+        "line": 265
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 266
+      },
+      "64": {
+        "filename": "Pong(fee).code",
+        "line": 267
+      },
+      "80": {
+        "filename": "Pong(fee).code",
+        "line": 270
+      },
+      "88": {
+        "filename": "Pong(fee).code",
+        "line": 271
+      },
+      "136": {
+        "filename": "Pong(fee).code",
+        "line": 272
+      },
+      "144": {
+        "filename": "Pong(fee).code",
+        "line": 273
+      },
+      "160": {
+        "filename": "Pong(fee).code",
+        "line": 276
+      },
+      "168": {
+        "filename": "Pong(fee).code",
+        "line": 277
+      },
+      "216": {
+        "filename": "Pong(fee).code",
+        "line": 278
+      },
+      "224": {
+        "filename": "Pong(fee).code",
+        "line": 279
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "afdb931dcc76c77aff1f6bc17956404411d823d87ee87ffcf941e884f9cab6a8": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 241
+      }
+    },
+    "b0966876ea7bde9bb290bdde27ee5efdd1ca0835afc5512ee2b02b606dcdca25": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 125
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 126
+      },
+      "32": {
+        "filename": "Pong(fee).code",
+        "line": 127
+      },
+      "48": {
+        "filename": "Pong(fee).code",
+        "line": 128
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 129
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 130
+      },
+      "88": {
+        "filename": "Pong(fee).code",
+        "line": 131
+      },
+      "104": {
+        "filename": "Pong(fee).code",
+        "line": 132
+      },
+      "120": {
+        "filename": "Pong(fee).code",
+        "line": 133
+      },
+      "128": {
+        "filename": "Pong(fee).code",
+        "line": 134
+      }
+    },
+    "cf4d92ed5515e1ebafe203a66575e08c5dbda90650246b047743dc4e01394114": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Pong(fee).code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Pong(fee).code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Pong(fee).code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Pong(fee).code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Pong(fee).code",
+        "line": 12
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 11
+      },
+      "104": {
+        "filename": "Pong(fee).code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Pong(fee).code",
+        "line": 19
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 169
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 170
+      }
+    },
+    "f82b5f3b2c328b921319395a44c33161169d6c143ab8c8aa95ad37cc10be3384": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 244
+      },
+      "8": {
+        "filename": "Pong(fee).code",
+        "line": 245
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 246
+      },
+      "32": {
+        "filename": "Pong(fee).code",
+        "line": 249
+      },
+      "48": {
+        "filename": "Pong(fee).code",
+        "line": 250
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 251
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 252
+      },
+      "232": {
+        "filename": "Pong(fee).code",
+        "line": 253
+      },
+      "240": {
+        "filename": "Pong(fee).code",
+        "line": 254
+      },
+      "248": {
+        "filename": "Pong(fee).code",
+        "line": 255
+      },
+      "264": {
+        "filename": "Pong(fee).code",
+        "line": 256
+      },
+      "272": {
+        "filename": "Pong(fee).code",
+        "line": 257
+      },
+      "280": {
+        "filename": "Pong(fee).code",
+        "line": 258
+      },
+      "296": {
+        "filename": "Pong(fee).code",
+        "line": 260
+      },
+      "304": {
+        "filename": "Pong(fee).code",
+        "line": 261
+      }
+    },
+    "f83321accdfb1829e5335fb84260e7c26a0dd470100cfc3f655fa1c2126b969e": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 22
+      },
+      "8": {
+        "filename": "Pong(fee).code",
+        "line": 23
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 24
+      },
+      "48": {
+        "filename": "Pong(fee).code",
+        "line": 25
+      },
+      "64": {
+        "filename": "Pong(fee).code",
+        "line": 26
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 27
+      },
+      "88": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "96": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "104": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "112": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "120": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "128": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "136": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "144": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "152": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "160": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "176": {
+        "filename": "../contracts/cross_contractsWithFee/Pong(fee).tsol",
+        "line": 14
+      },
+      "184": {
+        "filename": "Pong(fee).code",
+        "line": 45
+      },
+      "200": {
+        "filename": "Pong(fee).code",
+        "line": 48
+      },
+      "208": {
+        "filename": "Pong(fee).code",
+        "line": 49
+      },
+      "224": {
+        "filename": "Pong(fee).code",
+        "line": 52
+      }
+    },
+    "fecc2809466c1468a2d27460f8d731234eab239f606e82413a264f6457629e61": {
+      "0": {
+        "filename": "Pong(fee).code",
+        "line": 153
+      },
+      "16": {
+        "filename": "Pong(fee).code",
+        "line": 154
+      },
+      "24": {
+        "filename": "Pong(fee).code",
+        "line": 155
+      },
+      "40": {
+        "filename": "Pong(fee).code",
+        "line": 156
+      },
+      "56": {
+        "filename": "Pong(fee).code",
+        "line": 157
+      },
+      "72": {
+        "filename": "Pong(fee).code",
+        "line": 158
+      },
+      "80": {
+        "filename": "Pong(fee).code",
+        "line": 159
+      },
+      "88": {
+        "filename": "Pong(fee).code",
+        "line": 160
+      },
+      "104": {
+        "filename": "Pong(fee).code",
+        "line": 161
+      },
+      "120": {
+        "filename": "Pong(fee).code",
+        "line": 162
+      },
+      "128": {
+        "filename": "Pong(fee).code",
+        "line": 163
+      },
+      "144": {
+        "filename": "Pong(fee).code",
+        "line": 164
+      },
+      "168": {
+        "filename": "Pong(fee).code",
+        "line": 165
+      },
+      "176": {
+        "filename": "Pong(fee).code",
+        "line": 166
+      },
+      "184": {
+        "filename": "Pong(fee).code",
+        "line": 167
+      },
+      "200": {
+        "filename": "Pong(fee).code",
+        "line": 168
+      },
+      "216": {
+        "filename": "Pong(fee).code",
+        "line": 172
+      },
+      "224": {
+        "filename": "Pong(fee).code",
+        "line": 173
+      },
+      "248": {
+        "filename": "Pong(fee).code",
+        "line": 174
+      },
+      "264": {
+        "filename": "Pong(fee).code",
+        "line": 175
+      },
+      "272": {
+        "filename": "Pong(fee).code",
+        "line": 176
+      },
+      "288": {
+        "filename": "Pong(fee).code",
+        "line": 180
+      },
+      "296": {
+        "filename": "Pong(fee).code",
+        "line": 181
+      },
+      "312": {
+        "filename": "Pong(fee).code",
+        "line": 184
+      }
+    }
+  }
+}

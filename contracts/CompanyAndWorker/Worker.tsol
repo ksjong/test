@@ -1,0 +1,48 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "Company.tsol";
+
+contract Worker {
+    uint256 public TotalSalary;
+    Company public comp;
+
+    uint256 public static worker_pubkey;
+    address public static company_address;
+//    string public static comp_name;
+
+    address public workerAddress;
+
+    event ReceivedSalary(address user, uint256 _salary);
+    event RegisteredAccept(address sender, string message);
+    event Working( string message);
+
+    constructor() public {
+        tvm.accept();
+//        comp = Company(_company);
+        comp = Company(company_address);
+
+    }
+    function registerdAccept() external {
+//        tvm.accept();
+       require(msg.sender == company_address,1234);
+        emit RegisteredAccept(msg.sender, "Accept!");
+        comp.comRegisteredAccept();
+    }
+
+    function working(string _comp_name) external {
+        tvm.accept();
+
+        emit Working( "I'm working");
+        comp.doWork(worker_pubkey, _comp_name);
+    }
+
+    function badWork(address company) external {
+        tvm.accept();
+        Company(company).doWork(worker_pubkey,  "Apple");
+    }
+
+    function receivedSalary(uint _salary) external {
+        TotalSalary += _salary;
+        emit ReceivedSalary(msg.sender, _salary);
+    }
+}

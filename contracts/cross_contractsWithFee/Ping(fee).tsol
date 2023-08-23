@@ -1,0 +1,28 @@
+pragma ever-solidity >= 0.61.2;
+pragma AbiHeader expire;
+pragma AbiHeader pubkey;
+
+
+import "./Pong(fee).tsol";
+
+contract Ping {
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+    event PingCallback(string message);
+
+    constructor() public {
+        tvm.accept();
+    }
+
+    function ping(address _pong, string _message) public pure {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+        Pong(_pong).pong{value: 0, flag: 128}(_message, msg.sender);
+    }
+
+    function pingCallback(string message, address _initialSender) public {
+        tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
+
+        emit PingCallback(message);
+
+        _initialSender.transfer({value: 0, flag: 128});
+    }
+}

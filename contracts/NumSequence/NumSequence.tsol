@@ -1,0 +1,46 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+
+
+
+
+contract NumSequence {
+    uint8[] public arrayInt;
+
+    event ShowArray(uint8[] arrayInt);
+
+    constructor(uint8 length) public {
+        tvm.accept();
+        arrayInt = new uint8[](length);
+        func();
+
+    }
+
+    function func() internal {
+        for(uint8 i = 0; i<arrayInt.length; i++) {
+            arrayInt[i] = rnd.next(255);
+            //arrayInt[i] = i;
+        }
+    }
+
+    function sum(uint8 inputNum) public {
+        tvm.accept();
+
+        uint sum_Arr;
+
+        for(uint8 i=0; i<arrayInt.length;i++){
+            sum_Arr+= arrayInt[i];
+        }
+        require(sum_Arr != inputNum, 1001);
+        func();
+
+        emit ShowArray( arrayInt);
+
+    }
+    function getSum() external view returns (uint sum) {
+        for(uint8 i=0; i<arrayInt.length;i++){
+            sum+= arrayInt[i];
+        }
+        return sum;
+    }
+}

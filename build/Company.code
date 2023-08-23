@@ -1,0 +1,606 @@
+.version sol 0.62.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+GETGLOB 6
+THROWIF 51
+OVER
+PUSHCONT {
+	LDU 256
+	LDREF
+	ENDS
+	CTOS
+}
+PUSHCONT {
+	LDU 256
+}
+IFELSE
+LDU 256
+ENDS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 28
+ACCEPT
+.loc ../contracts/CompanyAndWorker/Company.tsol, 29
+SWAP
+SETGLOB 10
+.loc ../contracts/CompanyAndWorker/Company.tsol, 30
+SETGLOB 11
+.loc ../contracts/CompanyAndWorker/Company.tsol, 31
+MYADDR
+SETGLOB 12
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro getAddress
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CompanyAndWorker/Company.tsol, 40
+LDU 256
+LDREF
+ENDS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+CALLREF {
+	CALL $getAddress_841ab898_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 1
+	STUR 98
+	SWAP
+	NEWC
+	STSLICECONST xfa4c09f6
+	STSLICE
+	STBREFR
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $upd_only_time_in_c4$
+}
+THROW 0
+
+.globl	getAddress_841ab898_internal
+.type	getAddress_841ab898_internal, @function
+CALL $getAddress_841ab898_internal_macro$
+
+.macro getAddress_841ab898_internal_macro
+.loc ../contracts/CompanyAndWorker/Company.tsol, 41
+DROP
+ACCEPT
+.loc ../contracts/CompanyAndWorker/Company.tsol, 42
+DUP
+NEWC
+STU 256
+PUSHINT 0
+NEWDICT
+PUSHINT 64
+DICTUSETB
+SWAP
+NEWC
+STU 256
+PUSHINT 1
+ROT
+PUSHINT 64
+DICTUSETB
+GETGLOB 12
+PUSHINT 2
+ROT
+PUSHINT 64
+DICTUSET
+NEWC
+STDICT
+ENDC
+GETGLOB 14
+NEWC
+STSLICECONST x2_
+STOPTREF
+STOPTREF
+STZERO
+ENDC
+HASHCU
+NEWC
+STSLICECONST x801_
+STU 256
+ENDC
+CTOS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+
+.macro registerWorker
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CompanyAndWorker/Company.tsol, 55
+OVER
+PUSHCONT {
+	LDREF
+	ENDS
+	CTOS
+}
+IF
+LDMSGADDR
+ENDS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+CALLREF {
+	CALL $registerWorker_adba6ced_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro registerWorker_adba6ced_internal_macro
+.loc ../contracts/CompanyAndWorker/Company.tsol, 36
+GETGLOB 5
+DUP
+ISNULL
+PUSHCONT {
+	DROP
+	PUSHINT 0
+}
+IF
+GETGLOB 10
+EQUAL
+THROWIFNOT 1001
+.loc ../contracts/CompanyAndWorker/Company.tsol, 58
+ACCEPT
+.loc ../contracts/CompanyAndWorker/Company.tsol, 59
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 42045022170482489768618347945393405442362882238236
+STUR 167
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+
+.macro comRegisteredAccept
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CompanyAndWorker/Company.tsol, 63
+ENDS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+CALLREF {
+	CALL $comRegisteredAccept_0bc96c5d_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro comRegisteredAccept_0bc96c5d_internal_macro
+.loc ../contracts/CompanyAndWorker/Company.tsol, 64
+GETGLOB 9
+GETGLOB 13
+NEWC
+STONE
+ROTREV
+PUSHINT 267
+DICTSETB
+SETGLOB 13
+.loc ../contracts/CompanyAndWorker/Company.tsol, 66
+PUSHREF {
+	.blob x416363657074
+}
+GETGLOB 9
+PUSHSLICE xc000000000000000000000000064ad5a3f
+NEWC
+STSLICE
+STSLICE
+STREF
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+
+.macro doWork
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/CompanyAndWorker/Company.tsol, 69
+LDU 256
+LDREF
+ENDS
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+CALLREF {
+	CALL $doWork_e8a8d7d9_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro doWork_e8a8d7d9_internal_macro
+.loc ../contracts/CompanyAndWorker/Company.tsol, 77
+CALLREF {
+	CALL $getAddress_841ab898_internal_macro$
+}
+.loc ../contracts/CompanyAndWorker/Company.tsol, 78
+GETGLOB 9
+SDEQ
+THROWIFNOT 1003
+.loc ../contracts/CompanyAndWorker/Company.tsol, 81
+GETGLOB 11
+GETGLOB 9
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 42045022170482489768618347945393405442363302781494
+STUR 167
+STU 256
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/CompanyAndWorker/Company.tsol, 0
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDU 256
+LDU 256
+LDREF
+ENDS
+CTOS
+LDMSGADDR
+LDDICT
+LDREF
+ENDS
+SETGLOB 14
+SETGLOB 13
+SETGLOB 12
+SETGLOB 11
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHINT 0
+	DUP
+	PUSHREFSLICE {
+		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+	}
+	NEWDICT
+	PUSHINT 1
+	PUSH S5
+	PUSHINT 64
+	DICTUGETREF
+	PUSHCONT {
+		PUSHREF {
+		}
+	}
+	IFNOT
+	SETGLOB 14
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	CALL $c4_to_c7$
+}
+
+.macro c7_to_c4
+GETGLOB 14
+GETGLOB 13
+GETGLOB 12
+GETGLOB 11
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+STU 256
+STU 256
+ROLLREV 3
+NEWC
+STSLICE
+STDICT
+STREF
+STBREFR
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+LDU 4 ; bounced tail
+LDMSGADDR ; bounced src tail
+DROP
+SETGLOB 9
+MODPOW2 1
+IFRET
+OVER
+SEMPTY ; isEmpty
+IFJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+OVER
+LDUQ 32  ; [funcId] body' ok
+THROWIFNOT 60
+OVER
+IFNOTJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSHREFSLICE {
+	.blob x8000000000000000000000000000000000000000000000000000000000000000001_
+}
+SETGLOB 9
+OVER
+CALLREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX ; signatureSlice msgSlice
+	DUP
+	HASHSU ; signatureSlice msgSlice hashMsgSlice
+	ROT
+	GETGLOB 2
+	DUP
+	SETGLOB 5
+	CHKSIGNU ; msgSlice isSigned
+	THROWIFNOT 40
+}
+IF
+LDU 64 ; timestamp msgSlice
+SWAP
+CALL $replay_protection_macro$
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.macro owner
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc00000000000000000000000009178e9bd
+	NEWC
+	STSLICE
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro salary
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 11
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000c89ab5b7
+	NEWC
+	STSLICE
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro comp_address
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 12
+OVER
+PUSHCONT {
+	PUSHSLICE xc0000000000000000000000000afc115b5
+	NEWC
+	STSLICE
+	STSLICE
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro worker
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 13
+OVER
+PUSHCONT {
+	PUSHSLICE xc000000000000000000000000092d507e3
+	NEWC
+	STSLICE
+	STDICT
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro public_function_selector
+DUP
+PUSHINT 1082282070
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 293136829
+	EQUAL
+	IFJMPREF {
+		CALL $owner$
+	}
+	DUP
+	PUSHINT 315951075
+	EQUAL
+	IFJMPREF {
+		CALL $worker$
+	}
+	DUP
+	PUSHINT 801183157
+	EQUAL
+	IFJMPREF {
+		CALL $comp_address$
+	}
+	DUP
+	PUSHINT 1082282070
+	EQUAL
+	IFJMPREF {
+		CALL $comRegisteredAccept$
+	}
+}
+DUP
+PUSHINT 1975173023
+LEQ
+IFJMPREF {
+	DUP
+	PUSHINT 1215270409
+	EQUAL
+	IFJMPREF {
+		CALL $constructor$
+	}
+	DUP
+	PUSHINT 1218098615
+	EQUAL
+	IFJMPREF {
+		CALL $salary$
+	}
+	DUP
+	PUSHINT 1690382473
+	EQUAL
+	IFJMPREF {
+		CALL $registerWorker$
+	}
+	DUP
+	PUSHINT 1975173023
+	EQUAL
+	IFJMPREF {
+		CALL $doWork$
+	}
+}
+DUP
+PUSHINT 2051803638
+EQUAL
+IFJMPREF {
+	CALL $getAddress$
+}
+

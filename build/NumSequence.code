@@ -1,0 +1,427 @@
+.version sol 0.62.0
+
+.macro constructor
+DROP
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+GETGLOB 6
+THROWIF 51
+LDU 8
+ENDS
+.loc ../contracts/NumSequence/NumSequence.tsol, 13
+ACCEPT
+.loc ../contracts/NumSequence/NumSequence.tsol, 14
+NEWC
+STSLICECONST x00
+PUSHINT 0
+NEWDICT
+PUSH S3
+PUSHCONT {
+	BLKPUSH 2, 2
+	INC
+	XCHG S3
+	ROT
+	PUSHINT 32
+	DICTUSETB
+}
+REPEAT
+BLKDROP2 2, 1
+PAIR
+SETGLOB 10
+.loc ../contracts/NumSequence/NumSequence.tsol, 15
+CALLREF {
+	CALL $func_bfa814b5_internal_macro$
+}
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	func_bfa814b5_internal
+.type	func_bfa814b5_internal, @function
+CALL $func_bfa814b5_internal_macro$
+
+.macro func_bfa814b5_internal_macro
+.loc ../contracts/NumSequence/NumSequence.tsol, 20
+PUSHINT 0
+PUSHCONT {
+	DUP
+	GETGLOB 10
+	FIRST
+	LESS
+}
+PUSHCONT {
+	.loc ../contracts/NumSequence/NumSequence.tsol, 21
+	PUSHPOW2DEC 8
+	RAND
+	GETGLOB 10
+	UNPAIR
+	PUXC S3, S-1
+	PUSH2 S1, S2
+	LESS
+	THROWIFNOT 50
+	ROLL 3
+	NEWC
+	STU 8
+	ROTREV
+	PUSHINT 32
+	DICTUSETB
+	PAIR
+	SETGLOB 10
+	.loc ../contracts/NumSequence/NumSequence.tsol, 20
+	INC
+	UFITS 8
+	.loc ../contracts/NumSequence/NumSequence.tsol, 0
+}
+WHILE
+DROP
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+
+.macro sum
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/NumSequence/NumSequence.tsol, 26
+LDU 8
+ENDS
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+CALLREF {
+	CALL $sum_9d4dcb83_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	sum_9d4dcb83_internal
+.type	sum_9d4dcb83_internal, @function
+CALL $sum_9d4dcb83_internal_macro$
+
+.macro sum_9d4dcb83_internal_macro
+.loc ../contracts/NumSequence/NumSequence.tsol, 27
+ACCEPT
+.loc ../contracts/NumSequence/NumSequence.tsol, 29
+PUSHINT 0
+DUP
+.loc ../contracts/NumSequence/NumSequence.tsol, 31
+PUSHCONT {
+	DUP
+	GETGLOB 10
+	FIRST
+	LESS
+}
+PUSHCONT {
+	.loc ../contracts/NumSequence/NumSequence.tsol, 32
+	DUP
+	GETGLOB 10
+	SECOND
+	PUSHINT 32
+	DICTUGET
+	THROWIFNOT 50
+	PLDU 8
+	PUSH S2
+	ADD
+	POP S2
+	.loc ../contracts/NumSequence/NumSequence.tsol, 31
+	INC
+	UFITS 8
+	.loc ../contracts/NumSequence/NumSequence.tsol, 0
+}
+WHILE
+DROP
+.loc ../contracts/NumSequence/NumSequence.tsol, 34
+NEQ
+THROWIFNOT 1001
+.loc ../contracts/NumSequence/NumSequence.tsol, 35
+CALLREF {
+	CALL $func_bfa814b5_internal_macro$
+}
+.loc ../contracts/NumSequence/NumSequence.tsol, 37
+GETGLOB 10
+PUSHSLICE xc00000000000000000000000005ef4be11
+NEWC
+STSLICE
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+ENDC
+PUSHINT 0
+SENDRAWMSG
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+
+.macro getSum
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/NumSequence/NumSequence.tsol, 40
+ENDS
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+CALLREF {
+	CALL $getSum_569c5f6d_internal_macro$
+}
+OVER
+PUSHCONT {
+	PUSH S3
+	CTOS
+	LDU 2
+	LDMSGADDR
+	DROP
+	NIP
+	NEWC
+	STSLICECONST xc
+	STSLICE
+	PUSHINT 2373494970
+	STUR 130
+	STU 256
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+PUSHCONT {
+	DROP
+}
+IFELSE
+IFREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.macro getSum_569c5f6d_internal_macro
+.loc ../contracts/NumSequence/NumSequence.tsol, 40
+PUSHINT 0
+DUP
+.loc ../contracts/NumSequence/NumSequence.tsol, 41
+PUSHCONT {
+	DUP
+	GETGLOB 10
+	FIRST
+	LESS
+}
+PUSHCONT {
+	.loc ../contracts/NumSequence/NumSequence.tsol, 42
+	DUP
+	GETGLOB 10
+	SECOND
+	PUSHINT 32
+	DICTUGET
+	THROWIFNOT 50
+	PLDU 8
+	PUSH S2
+	ADD
+	POP S2
+	.loc ../contracts/NumSequence/NumSequence.tsol, 41
+	INC
+	UFITS 8
+	.loc ../contracts/NumSequence/NumSequence.tsol, 0
+}
+WHILE
+DROP
+.loc ../contracts/NumSequence/NumSequence.tsol, 0
+
+.macro c4_to_c7
+PUSHROOT
+CTOS
+LDU 256 ; pubkey c4
+LDU 64 ; pubkey timestamp c4
+LDU 1 ; ctor flag
+NIP
+LDU 32
+LDDICT
+ROTREV
+PAIR
+SWAP
+ENDS
+SETGLOB 10
+SETGLOB 3
+SETGLOB 2
+
+.macro c4_to_c7_with_init_storage
+PUSHROOT
+CTOS
+SBITS
+GTINT 1
+PUSHCONT {
+	PUSHINT 0
+	PUSHROOT
+	CTOS
+	PLDDICT ; D
+	PUSHINT 0
+	NEWDICT
+	PAIR
+	SETGLOB 10
+	PUSHINT 64
+	DICTUGET
+	THROWIFNOT 61
+	PLDU 256
+	SETGLOB 2
+	PUSHINT 0 ; timestamp
+	SETGLOB 3
+}
+IFREFELSE {
+	CALL $c4_to_c7$
+}
+
+.macro c7_to_c4
+GETGLOB 10
+GETGLOB 3
+GETGLOB 2
+NEWC
+STU 256
+STU 64
+STONE
+SWAP
+UNPAIR
+XCHG S2
+STU 32
+STDICT
+ENDC
+POPROOT
+
+.macro upd_only_time_in_c4
+PUSHROOT
+CTOS
+LDU 256
+LDU 64
+NIP
+GETGLOB 3
+ROT
+NEWC
+STU 256
+STU 64
+STSLICE
+ENDC
+POPROOT
+
+.internal-alias :main_internal, 0
+.internal :main_internal
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+PUSH S2
+CTOS
+PLDU 4
+MODPOW2 1
+IFRET
+OVER
+SEMPTY ; isEmpty
+IFJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+OVER
+LDUQ 32  ; [funcId] body' ok
+THROWIFNOT 60
+OVER
+IFNOTJMPREF {
+	GETGLOB 6
+	THROWIFNOT 76
+}
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.internal-alias :main_external, -1
+.internal :main_external
+PUSHROOT
+CTOS
+SBITS
+NEQINT 1
+SETGLOB 6
+OVER
+CALLREF {
+	CALL $c4_to_c7_with_init_storage$
+}
+LDU 1 ; haveSign msgSlice
+SWAP
+PUSHCONT {
+	PUSHPOW2 9
+	LDSLICEX ; signatureSlice msgSlice
+	DUP
+	HASHSU ; signatureSlice msgSlice hashMsgSlice
+	ROT
+	GETGLOB 2
+	CHKSIGNU ; msgSlice isSigned
+	THROWIFNOT 40
+}
+IF
+LDU 64 ; timestamp msgSlice
+SWAP
+CALL $replay_protection_macro$
+LDU 32 ; funcId body
+SWAP
+CALLREF {
+	CALL $public_function_selector$
+}
+THROW 60
+
+.macro arrayInt
+DROP
+ENDS
+CALLREF {
+	CALL $c4_to_c7$
+}
+GETGLOB 10
+OVER
+PUSHCONT {
+	PUSHSLICE xc00000000000000000000000008455d394
+	NEWC
+	STSLICE
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	ENDC
+	PUSHINT 0
+	SENDRAWMSG
+}
+IF
+THROW 0
+
+.macro public_function_selector
+DUP
+PUSHINT 72733588
+EQUAL
+IFJMPREF {
+	CALL $arrayInt$
+}
+DUP
+PUSHINT 226011322
+EQUAL
+IFJMPREF {
+	CALL $getSum$
+}
+DUP
+PUSHINT 1461399905
+EQUAL
+IFJMPREF {
+	CALL $sum$
+}
+DUP
+PUSHINT 1851494252
+EQUAL
+IFJMPREF {
+	CALL $constructor$
+}
+

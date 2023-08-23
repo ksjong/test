@@ -1,0 +1,114 @@
+{
+	"ABI version": 2,
+	"version": "2.2",
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_owner","type":"uint256"},
+				{"name":"_salary","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getAddress",
+			"inputs": [
+				{"name":"_worker_pubkey","type":"uint256"},
+				{"name":"_comp_name","type":"string"}
+			],
+			"outputs": [
+				{"name":"value0","type":"address"}
+			]
+		},
+		{
+			"name": "registerWorker",
+			"inputs": [
+				{"name":"_worker","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "comRegisteredAccept",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "doWork",
+			"inputs": [
+				{"name":"_workpubKey","type":"uint256"},
+				{"name":"_comp_name","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "owner",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"owner","type":"uint256"}
+			]
+		},
+		{
+			"name": "salary",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"salary","type":"uint256"}
+			]
+		},
+		{
+			"name": "comp_address",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"comp_address","type":"address"}
+			]
+		},
+		{
+			"name": "worker",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"worker","type":"map(address,bool)"}
+			]
+		}
+	],
+	"data": [
+		{"key":1,"name":"workerContractCode","type":"cell"}
+	],
+	"events": [
+		{
+			"name": "WorkRegistered",
+			"inputs": [
+				{"name":"_worker","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "CompanyRegisterAccept",
+			"inputs": [
+				{"name":"sender","type":"address"},
+				{"name":"message","type":"string"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"owner","type":"uint256"},
+		{"name":"salary","type":"uint256"},
+		{"name":"comp_address","type":"address"},
+		{"name":"worker","type":"map(address,bool)"},
+		{"name":"workerContractCode","type":"cell"}
+	]
+}

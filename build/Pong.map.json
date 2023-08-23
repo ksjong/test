@@ -1,0 +1,832 @@
+{
+  "map": {
+    "1690ff4f94eeab027c6709894a4bb6d3e0e6b8b092d9419912a9da5cf6608648": {
+      "0": {
+        "filename": "<entry-selector>",
+        "line": 1
+      },
+      "8": {
+        "filename": "<entry-selector>",
+        "line": 2
+      },
+      "24": {
+        "filename": "<entry-selector>",
+        "line": 3
+      },
+      "32": {
+        "filename": "<entry-selector>",
+        "line": 4
+      },
+      "48": {
+        "filename": "<entry-selector>",
+        "line": 5
+      },
+      "56": {
+        "filename": "<entry-selector>",
+        "line": 6
+      },
+      "72": {
+        "filename": "<entry-selector>",
+        "line": 7
+      },
+      "88": {
+        "filename": "<entry-selector>",
+        "line": 8
+      },
+      "96": {
+        "filename": "<entry-selector>",
+        "line": 9
+      },
+      "112": {
+        "filename": "<entry-selector>",
+        "line": 10
+      },
+      "128": {
+        "filename": "<entry-selector>",
+        "line": 11
+      }
+    },
+    "222ffdf3ce642ab49b57917dcb3e83d097262cd7af792bb13505b6e1229dde0c": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 67
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 68
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 69
+      },
+      "40": {
+        "filename": "Pong.code",
+        "line": 70
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 71
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 72
+      },
+      "80": {
+        "filename": "Pong.code",
+        "line": 73
+      },
+      "96": {
+        "filename": "Pong.code",
+        "line": 74
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 75
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 76
+      },
+      "136": {
+        "filename": "Pong.code",
+        "line": 77
+      }
+    },
+    "2b590512c0c00dbfd070510a4dfea8c6f1956e2ff7891f1a18b3a6c412bb3111": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 80
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 81
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 82
+      },
+      "40": {
+        "filename": "Pong.code",
+        "line": 83
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 84
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 85
+      },
+      "80": {
+        "filename": "Pong.code",
+        "line": 86
+      },
+      "96": {
+        "filename": "Pong.code",
+        "line": 87
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 88
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 89
+      },
+      "128": {
+        "filename": "Pong.code",
+        "line": 90
+      },
+      "144": {
+        "filename": "Pong.code",
+        "line": 91
+      },
+      "160": {
+        "filename": "Pong.code",
+        "line": 92
+      },
+      "176": {
+        "filename": "Pong.code",
+        "line": 93
+      },
+      "192": {
+        "filename": "Pong.code",
+        "line": 94
+      },
+      "216": {
+        "filename": "Pong.code",
+        "line": 95
+      },
+      "232": {
+        "filename": "Pong.code",
+        "line": 96
+      },
+      "240": {
+        "filename": "Pong.code",
+        "line": 97
+      },
+      "256": {
+        "filename": "Pong.code",
+        "line": 99
+      }
+    },
+    "36788e8e2063d5972d0cf0e9dfd46cb72e81809b6a1d48e86a0b17c27fc2c971": {
+      "0": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 13
+      },
+      "16": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 13
+      },
+      "24": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 13
+      },
+      "40": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 13
+      },
+      "56": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "72": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "80": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "104": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "112": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "296": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "320": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "328": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "336": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      },
+      "344": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 14
+      }
+    },
+    "4c585cdee88fdb59e9ef3772ea2fdd52bb649e2e61fabdc86811ef98ced216f1": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 22
+      },
+      "8": {
+        "filename": "Pong.code",
+        "line": 23
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 24
+      },
+      "48": {
+        "filename": "Pong.code",
+        "line": 25
+      },
+      "64": {
+        "filename": "Pong.code",
+        "line": 26
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 27
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 12
+      },
+      "96": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 12
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 34
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 37
+      },
+      "128": {
+        "filename": "Pong.code",
+        "line": 38
+      },
+      "144": {
+        "filename": "Pong.code",
+        "line": 41
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "788468b22b305eadfc2648c54003e3b0061e191c74803cee7406d0ca8717498f": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 167
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 168
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 169
+      },
+      "40": {
+        "filename": "Pong.code",
+        "line": 170
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 171
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 172
+      },
+      "360": {
+        "filename": "Pong.code",
+        "line": 173
+      },
+      "376": {
+        "filename": "Pong.code",
+        "line": 174
+      },
+      "384": {
+        "filename": "Pong.code",
+        "line": 175
+      },
+      "400": {
+        "filename": "Pong.code",
+        "line": 178
+      },
+      "416": {
+        "filename": "Pong.code",
+        "line": 179
+      },
+      "424": {
+        "filename": "Pong.code",
+        "line": 180
+      },
+      "440": {
+        "filename": "Pong.code",
+        "line": 181
+      },
+      "456": {
+        "filename": "Pong.code",
+        "line": 182
+      },
+      "472": {
+        "filename": "Pong.code",
+        "line": 183
+      },
+      "480": {
+        "filename": "Pong.code",
+        "line": 184
+      },
+      "496": {
+        "filename": "Pong.code",
+        "line": 185
+      },
+      "504": {
+        "filename": "Pong.code",
+        "line": 186
+      },
+      "520": {
+        "filename": "Pong.code",
+        "line": 187
+      },
+      "528": {
+        "filename": "Pong.code",
+        "line": 188
+      },
+      "536": {
+        "filename": "Pong.code",
+        "line": 189
+      },
+      "552": {
+        "filename": "Pong.code",
+        "line": 190
+      },
+      "560": {
+        "filename": "Pong.code",
+        "line": 191
+      },
+      "568": {
+        "filename": "Pong.code",
+        "line": 193
+      },
+      "576": {
+        "filename": "Pong.code",
+        "line": 194
+      },
+      "584": {
+        "filename": "Pong.code",
+        "line": 195
+      },
+      "600": {
+        "filename": "Pong.code",
+        "line": 197
+      },
+      "608": {
+        "filename": "Pong.code",
+        "line": 198
+      },
+      "624": {
+        "filename": "Pong.code",
+        "line": 199
+      },
+      "640": {
+        "filename": "Pong.code",
+        "line": 201
+      },
+      "648": {
+        "filename": "Pong.code",
+        "line": 202
+      },
+      "664": {
+        "filename": "Pong.code",
+        "line": 203
+      },
+      "672": {
+        "filename": "Pong.code",
+        "line": 204
+      },
+      "688": {
+        "filename": "Pong.code",
+        "line": 206
+      },
+      "696": {
+        "filename": "Pong.code",
+        "line": 207
+      },
+      "712": {
+        "filename": "Pong.code",
+        "line": 208
+      },
+      "720": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "736": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "744": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "752": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "768": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "776": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "792": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "816": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "824": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "864": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "872": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "880": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "896": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "912": {
+        "filename": "Pong.code",
+        "line": 210
+      },
+      "928": {
+        "filename": "Pong.code",
+        "line": 211
+      },
+      "936": {
+        "filename": "Pong.code",
+        "line": 212
+      },
+      "952": {
+        "filename": "Pong.code",
+        "line": 213
+      },
+      "960": {
+        "filename": "Pong.code",
+        "line": 214
+      },
+      "976": {
+        "filename": "Pong.code",
+        "line": 215
+      },
+      "992": {
+        "filename": "Pong.code",
+        "line": 216
+      },
+      "1000": {
+        "filename": "Pong.code",
+        "line": 217
+      }
+    },
+    "829ec80f4be55f5b27abdd8a86f439f8de7ed867167d895ce3f6ac561f78dbbf": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 243
+      },
+      "8": {
+        "filename": "Pong.code",
+        "line": 244
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 245
+      },
+      "64": {
+        "filename": "Pong.code",
+        "line": 246
+      },
+      "80": {
+        "filename": "Pong.code",
+        "line": 249
+      },
+      "88": {
+        "filename": "Pong.code",
+        "line": 250
+      },
+      "136": {
+        "filename": "Pong.code",
+        "line": 251
+      },
+      "144": {
+        "filename": "Pong.code",
+        "line": 252
+      },
+      "160": {
+        "filename": "Pong.code",
+        "line": 255
+      },
+      "168": {
+        "filename": "Pong.code",
+        "line": 256
+      },
+      "216": {
+        "filename": "Pong.code",
+        "line": 257
+      },
+      "224": {
+        "filename": "Pong.code",
+        "line": 258
+      }
+    },
+    "aa20df15ab696d3e51d42fe355f9542b43dbcd5f474fc4fd33a31c5896dbf1d8": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 132
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 133
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 134
+      },
+      "40": {
+        "filename": "Pong.code",
+        "line": 135
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 136
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 137
+      },
+      "80": {
+        "filename": "Pong.code",
+        "line": 138
+      },
+      "88": {
+        "filename": "Pong.code",
+        "line": 139
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 140
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 141
+      },
+      "128": {
+        "filename": "Pong.code",
+        "line": 142
+      },
+      "144": {
+        "filename": "Pong.code",
+        "line": 143
+      },
+      "168": {
+        "filename": "Pong.code",
+        "line": 144
+      },
+      "176": {
+        "filename": "Pong.code",
+        "line": 145
+      },
+      "184": {
+        "filename": "Pong.code",
+        "line": 146
+      },
+      "200": {
+        "filename": "Pong.code",
+        "line": 147
+      },
+      "216": {
+        "filename": "Pong.code",
+        "line": 151
+      },
+      "224": {
+        "filename": "Pong.code",
+        "line": 152
+      },
+      "248": {
+        "filename": "Pong.code",
+        "line": 153
+      },
+      "264": {
+        "filename": "Pong.code",
+        "line": 154
+      },
+      "272": {
+        "filename": "Pong.code",
+        "line": 155
+      },
+      "288": {
+        "filename": "Pong.code",
+        "line": 159
+      },
+      "296": {
+        "filename": "Pong.code",
+        "line": 160
+      },
+      "312": {
+        "filename": "Pong.code",
+        "line": 163
+      }
+    },
+    "afdb931dcc76c77aff1f6bc17956404411d823d87ee87ffcf941e884f9cab6a8": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 220
+      }
+    },
+    "b0966876ea7bde9bb290bdde27ee5efdd1ca0835afc5512ee2b02b606dcdca25": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 104
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 105
+      },
+      "32": {
+        "filename": "Pong.code",
+        "line": 106
+      },
+      "48": {
+        "filename": "Pong.code",
+        "line": 107
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 108
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 109
+      },
+      "88": {
+        "filename": "Pong.code",
+        "line": 110
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 111
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 112
+      },
+      "128": {
+        "filename": "Pong.code",
+        "line": 113
+      }
+    },
+    "cf4d92ed5515e1ebafe203a66575e08c5dbda90650246b047743dc4e01394114": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Pong.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Pong.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Pong.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Pong.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Pong.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Pong.code",
+        "line": 12
+      },
+      "88": {
+        "filename": "../contracts/cross-contracts/Pong.tsol",
+        "line": 9
+      },
+      "104": {
+        "filename": "Pong.code",
+        "line": 16
+      },
+      "120": {
+        "filename": "Pong.code",
+        "line": 19
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 148
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 149
+      }
+    },
+    "f82b5f3b2c328b921319395a44c33161169d6c143ab8c8aa95ad37cc10be3384": {
+      "0": {
+        "filename": "Pong.code",
+        "line": 223
+      },
+      "8": {
+        "filename": "Pong.code",
+        "line": 224
+      },
+      "16": {
+        "filename": "Pong.code",
+        "line": 225
+      },
+      "32": {
+        "filename": "Pong.code",
+        "line": 228
+      },
+      "48": {
+        "filename": "Pong.code",
+        "line": 229
+      },
+      "56": {
+        "filename": "Pong.code",
+        "line": 230
+      },
+      "72": {
+        "filename": "Pong.code",
+        "line": 231
+      },
+      "232": {
+        "filename": "Pong.code",
+        "line": 232
+      },
+      "240": {
+        "filename": "Pong.code",
+        "line": 233
+      },
+      "248": {
+        "filename": "Pong.code",
+        "line": 234
+      },
+      "264": {
+        "filename": "Pong.code",
+        "line": 235
+      },
+      "272": {
+        "filename": "Pong.code",
+        "line": 236
+      },
+      "280": {
+        "filename": "Pong.code",
+        "line": 237
+      },
+      "296": {
+        "filename": "Pong.code",
+        "line": 239
+      },
+      "304": {
+        "filename": "Pong.code",
+        "line": 240
+      }
+    }
+  }
+}
