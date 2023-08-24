@@ -6,6 +6,7 @@ let bank: Contract<FactorySource["Bank"]>;
 let bankAccount : Contract<FactorySource["BankAccount"]>;
 
 let userAccount: Account;
+
 let signer1: Signer;
 
 describe("BankUserTest", async function () {

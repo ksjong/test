@@ -36,9 +36,7 @@ contract BankAccount {
 
     function borrowMoney(uint _amount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-
         emit BorrowedMoney(msg.sender, _amount);
-
         Bank(bankAddress).loan{value:0, flag:128}(_amount);
     }
 
@@ -46,7 +44,6 @@ contract BankAccount {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         money += _loanNum;
         emit receivedSuccess( _loanNum);
-
         userAddress.transfer({value:0, flag:128});
     }
 
@@ -54,11 +51,8 @@ contract BankAccount {
         uint128 _repayAmount
     ) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
-
         require(money >= _repayAmount, 1005);
-
         emit LoanRepay(msg.sender, _repayAmount);
-
         Bank(bankAddress).repaying{value:0, flag:128}(_repayAmount);
 
     }
@@ -69,15 +63,12 @@ contract BankAccount {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
         require(_totalRepayAmount <= money, 1008);
         money -= _totalRepayAmount;
-
         emit repaySuccess(_totalRepayAmount);
-
         userAddress.transfer({value:0, flag:128});
     }
 
     function repayRejected() external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-
         emit RepayRejected("Reject!");
         userAddress.transfer({value:0, flag:128});
     }

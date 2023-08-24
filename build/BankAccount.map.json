@@ -3,83 +3,83 @@
     "1b3dd4164a54069fc6a7c1515fc0186a58f33caf1916a88ecfa23613a8592b52": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 79
+        "line": 71
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 79
+        "line": 71
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 79
+        "line": 71
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "80": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "240": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "248": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "256": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "264": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "272": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "280": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       },
       "296": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "312": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "320": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "344": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "384": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       },
       "408": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 82
+        "line": 73
       }
     },
     "3610447bdbd6d6311ab61ce2a81a1c703eb7afe0cb8510fc25e87a20ac130034": {
@@ -199,7 +199,7 @@
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 85
+        "line": 76
       },
       "96": {
         "filename": "BankAccount.code",
@@ -359,7 +359,7 @@
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "BankAccount.code",
-        "line": 492
+        "line": 385
       }
     },
     "6b9bd8d79c47f387f59a0737a0eb1ea06ee8ee901d567bb343525cdc729ef4b4": {
@@ -389,11 +389,11 @@
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 45
+        "line": 43
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 45
+        "line": 43
       },
       "112": {
         "filename": "BankAccount.code",
@@ -599,115 +599,115 @@
     "73d4fe65a72ed6fe06cdeea6225a315ada2fad6dd9bef31ec2b368bc362c50ab": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 69
+        "line": 63
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 69
+        "line": 63
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 69
+        "line": 63
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 70
+        "line": 64
       },
       "80": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 70
+        "line": 64
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 70
+        "line": 64
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 70
+        "line": 64
       },
       "128": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 71
+        "line": 65
       },
       "144": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 71
+        "line": 65
       },
       "152": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 71
+        "line": 65
       },
       "160": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 71
+        "line": 65
       },
       "176": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 71
+        "line": 65
       },
       "192": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "360": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "384": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "400": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 73
+        "line": 66
       },
       "416": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "440": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "464": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "472": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "488": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "504": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "512": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       },
       "528": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 75
+        "line": 67
       }
     },
     "754ecd14067267c30e6e305313b08d38004ae139c9a0d8c310e7ab5485de325a": {
@@ -737,11 +737,11 @@
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 66
+        "line": 60
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 66
+        "line": 60
       },
       "112": {
         "filename": "BankAccount.code",
@@ -879,205 +879,205 @@
     "8206ba8ff0730fd10794109349c98eb692cad1605a94191e1845f9e87f7d36bc": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 46
+        "line": 44
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 46
+        "line": 44
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 46
+        "line": 44
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 47
+        "line": 45
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 47
+        "line": 45
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 47
+        "line": 45
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 47
+        "line": 45
       },
       "120": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "280": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "288": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "296": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "312": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "320": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "328": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 48
+        "line": 46
       },
       "344": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "360": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "392": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "400": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "416": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "440": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       },
       "456": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 50
+        "line": 47
       }
     },
     "886e62946e333fc22c3d1a3b4d08103afe7cdd1b9c3ea8c64c65e98ff0a4c49f": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 56
+        "line": 53
       },
       "48": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 56
+        "line": 53
       },
       "56": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 56
+        "line": 53
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 58
+        "line": 54
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 58
+        "line": 54
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 58
+        "line": 54
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 58
+        "line": 54
       },
       "128": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "136": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "152": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "312": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "320": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "328": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "336": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "360": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "368": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 60
+        "line": 55
       },
       "384": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "400": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "408": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "440": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "488": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "512": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "528": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "536": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       },
       "552": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 62
+        "line": 56
       }
     },
     "8cafa410a42a5506f9f626966bc60efa3d9f9d1c6167f028af08d26a5e6cf6df": {
@@ -1169,11 +1169,11 @@
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 53
+        "line": 50
       },
       "104": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 53
+        "line": 50
       },
       "112": {
         "filename": "BankAccount.code",
@@ -1517,83 +1517,83 @@
       },
       "72": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "80": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "96": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "256": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "264": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "272": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "280": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "296": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "304": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "312": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 40
+        "line": 39
       },
       "328": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "344": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "352": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "376": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "384": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "432": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "456": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "472": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "480": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       },
       "496": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 42
+        "line": 40
       }
     },
     "aebeffe5e72e9e1a8c733b54758af247618266eecd8bf9e2a8d3821b67a896f5": {
@@ -1713,7 +1713,7 @@
       },
       "88": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 78
+        "line": 70
       },
       "96": {
         "filename": "BankAccount.code",
@@ -1821,7 +1821,7 @@
     "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 86
+        "line": 77
       }
     },
     "d558e53bf690afc8a76b8887a99a49a52db1bd24bec5da84780ea0e7bc0aad3f": {
@@ -1833,7 +1833,7 @@
     "e4734f14d8f437f8c17f2d07857710a840fa34c62a6caee3acc8c6f624bbe5a0": {
       "0": {
         "filename": "../contracts/BankandUserWithFees/BankAccount.tsol",
-        "line": 81
+        "line": 72
       }
     },
     "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {

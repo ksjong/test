@@ -61,7 +61,7 @@ THROW 0
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 40
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 39
 DUP
 GETGLOB 9
 PUSHSLICE xc00000000000000000000000007022e8a6
@@ -72,7 +72,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 42
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 40
 GETGLOB 12
 NEWC
 STSLICECONST x62_
@@ -94,7 +94,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 45
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 43
 LDU 256
 ENDS
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
@@ -108,16 +108,16 @@ CALLREF {
 THROW 0
 
 .macro loanReceived_97669c6c_internal_macro
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 46
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 44
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 47
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 45
 GETGLOB 10
 OVER
 ADD
 SETGLOB 10
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 48
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 46
 PUSHSLICE xc00000000000000000000000006c680dfd
 NEWC
 STSLICE
@@ -125,7 +125,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 50
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 47
 GETGLOB 11
 NEWC
 STSLICECONST x62_
@@ -146,7 +146,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 53
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 50
 LDU 128
 ENDS
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
@@ -160,16 +160,16 @@ CALLREF {
 THROW 0
 
 .macro repayLoan_84b49a55_internal_macro
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 56
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 53
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 58
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 54
 GETGLOB 10
 OVER
 GEQ
 THROWIFNOT 1005
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 60
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 55
 DUP
 GETGLOB 9
 PUSHSLICE xc0000000000000000000000000793e072a
@@ -180,7 +180,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 62
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 56
 GETGLOB 12
 NEWC
 STSLICECONST x62_
@@ -202,7 +202,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 66
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 60
 LDU 256
 ENDS
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
@@ -216,22 +216,22 @@ CALLREF {
 THROW 0
 
 .macro repayAccepted_18679522_internal_macro
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 69
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 63
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 70
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 64
 DUP
 GETGLOB 10
 LEQ
 THROWIFNOT 1008
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 71
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 65
 GETGLOB 10
 OVER
 SUB
 UFITS 256
 SETGLOB 10
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 73
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 66
 PUSHSLICE xc00000000000000000000000002d22417d
 NEWC
 STSLICE
@@ -239,7 +239,7 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 75
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 67
 GETGLOB 11
 NEWC
 STSLICECONST x62_
@@ -260,7 +260,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 78
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 70
 ENDS
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
 CALLREF {
@@ -273,11 +273,11 @@ CALLREF {
 THROW 0
 
 .macro repayRejected_0b3db69d_internal_macro
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 79
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 71
 PUSHINT 1000000000
 PUSHINT 0
 RAWRESERVE
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 81
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 72
 PUSHREF {
 	.blob x52656a65637421
 }
@@ -288,7 +288,7 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 82
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 73
 GETGLOB 11
 NEWC
 STSLICECONST x62_
@@ -309,7 +309,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 85
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 76
 ENDS
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
 CALLREF {
@@ -343,7 +343,7 @@ IFREF {
 THROW 0
 
 .macro getMoney_98e1b410_internal_macro
-.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 86
+.loc ../contracts/BankandUserWithFees/BankAccount.tsol, 77
 GETGLOB 10
 .loc ../contracts/BankandUserWithFees/BankAccount.tsol, 0
 

@@ -9,6 +9,7 @@ contract Bank {
     uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static userContractCode;
 
+
     uint public interestRate;
     uint public bankProfit;
     uint public loanNum;
@@ -55,29 +56,24 @@ contract Bank {
             },
             pubkey: owner,
             code: userContractCode
-
         })));
+
         return userAddress;
     }
 
     function loan(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
-
         require(isLoanAvailable, 1002);
         require(msg.sender == getAddress(bankAddress), 2000);
-
         loanNum = _loanNum;
         isLoanAvailable = false;
-
         emit LoanTaken(msg.sender, loanNum);
-
         BankAccount(msg.sender).loanReceived{value:0, flag:128}(loanNum);
     }
 
     function calculating() public view returns (uint) {
         uint TotalRepay;
         TotalRepay = loanNum * (100 + interestRate) / 100;
-
         return TotalRepay;
     }
 
@@ -93,9 +89,7 @@ contract Bank {
         BankAccount(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
         bankProfit += (_repayAmount - loanNum);
         loanNum = 0;
-
         isLoanAvailable = true;
-
         emit RepayfromUserSuccess(msg.sender, _repayAmount);
     }
 
