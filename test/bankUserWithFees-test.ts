@@ -27,7 +27,7 @@ describe("BankUserTest", async function () {
         const { code: userCode } = locklift.factory.getContractArtifacts("BankAccount");
       bank = await locklift.factory
         .deployContract({
-          contract: "bank",
+          contract: "Bank",
           initParams: {
             userContractCode: userCode,
           },
