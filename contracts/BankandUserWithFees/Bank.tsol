@@ -37,12 +37,13 @@ contract Bank {
     ) public {
         tvm.accept();
 //        owner = _owner;
-        interestRate = _interestRate;
+        //interestRate = _interestRate;
+        configuredInterestRate(_interestRate);
         owner = address(this);
         isLoanAvailable = true;
     }
 
-    function configuredInterestRate(uint _interestRate) external onlyOwner {
+    function configuredInterestRate(uint _interestRate) public onlyOwner {
         tvm.accept();
         interestRate = _interestRate;
     }
