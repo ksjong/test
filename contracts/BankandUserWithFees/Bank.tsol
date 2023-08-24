@@ -27,7 +27,7 @@ contract Bank {
     );
 //
     modifier onlyOwner {
-        require(msg.sender() == owner, 1001);
+        require(msg.sender == owner, 1001);
         _;
     }
 
@@ -37,8 +37,8 @@ contract Bank {
     ) public {
         tvm.accept();
         owner = _owner;
-//        interestRate = _interestRate;
-        configuredInterestRate(_interestRate);
+        interestRate = _interestRate;
+
 //        owner = address(this);
         bankAddress = address(this);
         isLoanAvailable = true;

@@ -76,7 +76,23 @@ describe("BankUserTest", async function () {
           }),
       );
       await traceTree?.beautyPrint();
+
+        // const { traceTree:change } = await locklift.tracing.trace(
+        //     bank.methods
+        //         .configuredInterestRate({
+        //             _amount: 1000,
+        //         })
+        //         .send({
+        //             from: userAccount.address,
+        //             amount: toNano(1),
+        //         }),
+        // );
+        await traceTree?.beautyPrint();
       const totalrepayAmount = await bank.methods.calculating().call();
+      //   await bank.methods.configuredInterestRate({_interestRate:6}).send({
+      //      from:bankWallet.address,
+      //       amount: toNano(1),
+      //   });
       // \
 
       const { traceTree: repaid } = await locklift.tracing.trace(

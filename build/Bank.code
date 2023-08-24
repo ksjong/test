@@ -40,6 +40,44 @@ CALLREF {
 }
 THROW 0
 
+.macro configuredInterestRate
+DROP
+GETGLOB 6
+THROWIFNOT 76
+GETGLOB 2
+ISNULL
+IFREF {
+	CALL $c4_to_c7$
+}
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 47
+LDU 256
+ENDS
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 0
+CALLREF {
+	CALL $configuredInterestRate_34bc7de2_internal_macro$
+}
+DROP
+CALLREF {
+	CALL $c7_to_c4$
+}
+THROW 0
+
+.globl	configuredInterestRate_34bc7de2_internal
+.type	configuredInterestRate_34bc7de2_internal, @function
+CALL $configuredInterestRate_34bc7de2_internal_macro$
+
+.macro configuredInterestRate_34bc7de2_internal_macro
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 30
+GETGLOB 9
+GETGLOB 10
+SDEQ
+THROWIFNOT 1001
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 48
+ACCEPT
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 49
+SETGLOB 12
+.loc ../contracts/BankandUserWithFees/Bank.tsol, 0
+
 .macro getAddress
 DROP
 GETGLOB 6
@@ -50,18 +88,10 @@ IFREF {
 	CALL $c4_to_c7$
 }
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 52
-OVER
-PUSHCONT {
-	LDREF
-	ENDS
-	CTOS
-}
-IF
-LDMSGADDR
 ENDS
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 0
 CALLREF {
-	CALL $getAddress_ae22c57d_internal_macro$
+	CALL $getAddress_38cc4831_internal_macro$
 }
 OVER
 PUSHCONT {
@@ -78,7 +108,7 @@ PUSHCONT {
 	STUR 98
 	SWAP
 	NEWC
-	STSLICECONST xd8ff1231
+	STSLICECONST x8cc5a413
 	STSLICE
 	STBREFR
 	ENDC
@@ -95,13 +125,12 @@ CALLREF {
 }
 THROW 0
 
-.globl	getAddress_ae22c57d_internal
-.type	getAddress_ae22c57d_internal, @function
-CALL $getAddress_ae22c57d_internal_macro$
+.globl	getAddress_38cc4831_internal
+.type	getAddress_38cc4831_internal, @function
+CALL $getAddress_38cc4831_internal_macro$
 
-.macro getAddress_ae22c57d_internal_macro
+.macro getAddress_38cc4831_internal_macro
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 53
-DROP
 ACCEPT
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 54
 GETGLOB 2
@@ -166,9 +195,8 @@ GETGLOB 15
 THROWIFNOT 1002
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 69
 GETGLOB 9
-GETGLOB 10
 CALLREF {
-	CALL $getAddress_ae22c57d_internal_macro$
+	CALL $getAddress_38cc4831_internal_macro$
 }
 SDEQ
 THROWIFNOT 2000
@@ -288,9 +316,8 @@ PUSHINT 0
 RAWRESERVE
 .loc ../contracts/BankandUserWithFees/Bank.tsol, 84
 GETGLOB 9
-GETGLOB 10
 CALLREF {
-	CALL $getAddress_ae22c57d_internal_macro$
+	CALL $getAddress_38cc4831_internal_macro$
 }
 SDEQ
 THROWIFNOT 1003
@@ -765,7 +792,7 @@ THROW 0
 
 .macro public_function_selector
 DUP
-PUSHINT 571497742
+PUSHINT 478587532
 LEQ
 IFJMPREF {
 	DUP
@@ -773,6 +800,12 @@ IFJMPREF {
 	EQUAL
 	IFJMPREF {
 		CALL $constructor$
+	}
+	DUP
+	PUSHINT 214279187
+	EQUAL
+	IFJMPREF {
+		CALL $getAddress$
 	}
 	DUP
 	PUSHINT 353487513
@@ -786,17 +819,17 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $getInterestRate$
 	}
+}
+DUP
+PUSHINT 735588267
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 571497742
 	EQUAL
 	IFJMPREF {
 		CALL $getProfit$
 	}
-}
-DUP
-PUSHINT 994403762
-LEQ
-IFJMPREF {
 	DUP
 	PUSHINT 614430605
 	EQUAL
@@ -810,6 +843,17 @@ IFJMPREF {
 		CALL $interestRate$
 	}
 	DUP
+	PUSHINT 735588267
+	EQUAL
+	IFJMPREF {
+		CALL $configuredInterestRate$
+	}
+}
+DUP
+PUSHINT 1594609630
+LEQ
+IFJMPREF {
+	DUP
 	PUSHINT 989214594
 	EQUAL
 	IFJMPREF {
@@ -821,11 +865,6 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $repaying$
 	}
-}
-DUP
-PUSHINT 1821883651
-LEQ
-IFJMPREF {
 	DUP
 	PUSHINT 995555877
 	EQUAL
@@ -833,28 +872,27 @@ IFJMPREF {
 		CALL $isLoanAvailable$
 	}
 	DUP
-	PUSHINT 1493111345
-	EQUAL
-	IFJMPREF {
-		CALL $getAddress$
-	}
-	DUP
 	PUSHINT 1594609630
 	EQUAL
 	IFJMPREF {
 		CALL $owner$
 	}
+}
+DUP
+PUSHINT 1898875963
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 1821883651
 	EQUAL
 	IFJMPREF {
 		CALL $calculating$
 	}
-}
-DUP
-PUSHINT 1898875963
-EQUAL
-IFJMPREF {
-	CALL $loanNum$
+	DUP
+	PUSHINT 1898875963
+	EQUAL
+	IFJMPREF {
+		CALL $loanNum$
+	}
 }
 

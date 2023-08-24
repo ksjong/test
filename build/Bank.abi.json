@@ -13,9 +13,16 @@
 			]
 		},
 		{
+			"name": "configuredInterestRate",
+			"inputs": [
+				{"name":"_interestRate","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "getAddress",
 			"inputs": [
-				{"name":"_bankAddress","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"address"}
