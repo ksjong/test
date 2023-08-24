@@ -7,9 +7,12 @@ let user: Contract<FactorySource["user"]>;
 
 let signer1: Signer;
 
+let signer2: Signer;
+
 describe("BankUserTest", async function () {
   before(async () => {
-    signer1 = (await locklift.keystore.getSigner("0"))!;
+      signer1 = (await locklift.keystore.getSigner("0"))!;
+      signer2 = (await locklift.keystore.getSigner("1"))!;
   });
   describe("Contracts", async function () {
     it("Deploy Bank and User Contract", async function () {
@@ -41,7 +44,7 @@ describe("BankUserTest", async function () {
             _initialBalance: 222,
           },
           value: toNano(10),
-          publicKey: signer1.publicKey,
+          publicKey: signer2.publicKey,
         })
         .then(res => res.contract);
     });
@@ -67,7 +70,9 @@ describe("BankUserTest", async function () {
         );
         await traceTree?.beautyPrint();
       }
-
+        const {traceTree:change rate} = await locklift.tracing.trace(
+            user.m
+        )
       const response = await bank.methods.getProfit({}).call();
       console.log(response);
       const response2 = await user.methods.getMoney().call();

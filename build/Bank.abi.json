@@ -6,15 +6,8 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_interestRate","type":"uint256"}
-			],
-			"outputs": [
-			]
-		},
-		{
-			"name": "configuredInterestRate",
-			"inputs": [
-				{"name":"_interestRate","type":"uint256"}
+				{"name":"_interestRate","type":"uint256"},
+				{"name":"_owner","type":"address"}
 			],
 			"outputs": [
 			]
@@ -107,6 +100,14 @@
 			"outputs": [
 				{"name":"isLoanAvailable","type":"bool"}
 			]
+		},
+		{
+			"name": "bankAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankAddress","type":"address"}
+			]
 		}
 	],
 	"data": [
@@ -141,6 +142,7 @@
 		{"name":"interestRate","type":"uint256"},
 		{"name":"bankProfit","type":"uint256"},
 		{"name":"loanNum","type":"uint256"},
-		{"name":"isLoanAvailable","type":"bool"}
+		{"name":"isLoanAvailable","type":"bool"},
+		{"name":"bankAddress","type":"address"}
 	]
 }

@@ -14,7 +14,7 @@ contract Bank {
     uint public bankProfit;
     uint public loanNum;
     bool public isLoanAvailable;
-//    address public bankAddress;
+    address public bankAddress;
 
     event LoanTaken(
         address user,
@@ -25,21 +25,22 @@ contract Bank {
         address user,
         uint TotalRepay
     );
-
+//
     modifier onlyOwner {
-        require(msg.pubkey() == tvm.pubkey(), 1001);
+        require(msg.sender() == owner, 1001);
         _;
     }
 
     constructor(
-        uint _interestRate
-//        uint256 _owner
+        uint _interestRate,
+        address _owner
     ) public {
         tvm.accept();
-//        owner = _owner;
-        //interestRate = _interestRate;
+        owner = _owner;
+//        interestRate = _interestRate;
         configuredInterestRate(_interestRate);
-        owner = address(this);
+//        owner = address(this);
+        bankAddress = address(this);
         isLoanAvailable = true;
     }
 
@@ -48,12 +49,12 @@ contract Bank {
         interestRate = _interestRate;
     }
 
-    function getAddress(address _bankAddress) public returns(address) {
+    function getAddress() public returns(address) {
         tvm.accept();
         address userAddress = address(tvm.hash(tvm.buildStateInit({
             contr: BankAccount,
             varInit: {
-                bankAddress: _bankAddress
+                bankAddress: bankAddress
             },
             pubkey: tvm.pubkey(),
             code: userContractCode
@@ -65,7 +66,7 @@ contract Bank {
     function loan(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(isLoanAvailable, 1002);
-        require(msg.sender == getAddress(owner), 2000);
+        require(msg.sender == getAddress(), 2000);
         loanNum = _loanNum;
         isLoanAvailable = false;
         emit LoanTaken(msg.sender, loanNum);
@@ -80,7 +81,7 @@ contract Bank {
 
     function repaying(uint128 _repayAmount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
-        require(msg.sender == getAddress(owner), 1003);
+        require(msg.sender == getAddress(), 1003);
 
         if(_repayAmount != calculating()){
             BankAccount(msg.sender).repayRejected{value:0, flag:128}();

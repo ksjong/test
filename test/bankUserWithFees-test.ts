@@ -6,7 +6,7 @@ let bank: Contract<FactorySource["Bank"]>;
 let bankAccount : Contract<FactorySource["BankAccount"]>;
 
 let userAccount: Account;
-
+let bankWallet: Account;
 let signer1: Signer;
 
 describe("BankUserTest", async function () {
@@ -23,7 +23,14 @@ describe("BankUserTest", async function () {
 
         })
         .then(res => (userAccount = res.account));
+        await locklift.factory.accounts
+            .addNewAccount({
+                type: WalletTypes.EverWallet,
+                value: toNano(10),
+                publicKey: signer1.publicKey,
 
+            })
+            .then(res => (bankWallet = res.account));
         const { code: userCode } = locklift.factory.getContractArtifacts("BankAccount");
       bank = await locklift.factory
         .deployContract({
@@ -34,6 +41,7 @@ describe("BankUserTest", async function () {
           constructorParams: {
             _interestRate: 5,
             // _owner: `0x${signer1.publicKey}`,
+              _owner: bankWallet.address
           },
           value: toNano(10),
           publicKey: signer1.publicKey,
