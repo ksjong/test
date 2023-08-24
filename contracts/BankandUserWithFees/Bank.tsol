@@ -5,7 +5,7 @@ pragma ever-solidity >= 0.62.0;
 import "BankAccount.tsol";
 
 contract Bank {
-    uint256 public owner;
+    address public owner;
     uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static userContractCode;
 
@@ -14,7 +14,7 @@ contract Bank {
     uint public bankProfit;
     uint public loanNum;
     bool public isLoanAvailable;
-    address public bankAddress;
+//    address public bankAddress;
 
     event LoanTaken(
         address user,
@@ -27,18 +27,18 @@ contract Bank {
     );
 
     modifier onlyOwner {
-        require(msg.pubkey() == owner, 1001);
+        require(msg.pubkey() == tvm.pubkey(), 1001);
         _;
     }
 
     constructor(
-        uint _interestRate,
-        uint256 _owner
+        uint _interestRate
+//        uint256 _owner
     ) public {
         tvm.accept();
-        owner = _owner;
+//        owner = _owner;
         interestRate = _interestRate;
-        bankAddress = address(this);
+        owner = address(this);
         isLoanAvailable = true;
     }
 
@@ -54,7 +54,7 @@ contract Bank {
             varInit: {
                 bankAddress: _bankAddress
             },
-            pubkey: owner,
+            pubkey: tvm.pubkey(),
             code: userContractCode
         })));
 
@@ -64,7 +64,7 @@ contract Bank {
     function loan(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         require(isLoanAvailable, 1002);
-        require(msg.sender == getAddress(bankAddress), 2000);
+        require(msg.sender == getAddress(owner), 2000);
         loanNum = _loanNum;
         isLoanAvailable = false;
         emit LoanTaken(msg.sender, loanNum);
@@ -79,7 +79,7 @@ contract Bank {
 
     function repaying(uint128 _repayAmount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
-        require(msg.sender == getAddress(bankAddress), 1003);
+        require(msg.sender == getAddress(owner), 1003);
 
         if(_repayAmount != calculating()){
             BankAccount(msg.sender).repayRejected{value:0, flag:128}();

@@ -33,7 +33,7 @@ describe("BankUserTest", async function () {
           },
           constructorParams: {
             _interestRate: 5,
-            _owner: `0x${signer1.publicKey}`,
+            // _owner: `0x${signer1.publicKey}`,
           },
           value: toNano(10),
           publicKey: signer1.publicKey,
