@@ -4,25 +4,32 @@ pragma ever-solidity >= 0.62.0;
 
 import "BankAccount.tsol";
 
-contract bank {
+contract Bank {
     uint256 public owner;
-    uint128 constant MIN_CONTRACT_BALANCE = 10 ever;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static userContractCode;
 
     uint public interestRate;
     uint public bankProfit;
     uint public loanNum;
     bool public isLoanAvailable;
+    address public bankAddress;
 
-    event LoanTaken(address user, uint loanNum);
-    event RepayfromUserSuccess(address user, uint TotalRepay);
-    // 함수 변경자로 owner만이 함수를 사용할 수 있게함.
+    event LoanTaken(
+        address user,
+        uint loanNum
+    );
+
+    event RepayfromUserSuccess(
+        address user,
+        uint TotalRepay
+    );
+
     modifier onlyOwner {
         require(msg.pubkey() == owner, 1001);
         _;
     }
 
-    // 최초 이자율 설정
     constructor(
         uint _interestRate,
         uint256 _owner
@@ -30,6 +37,7 @@ contract bank {
         tvm.accept();
         owner = _owner;
         interestRate = _interestRate;
+        bankAddress = address(this);
         isLoanAvailable = true;
     }
 
@@ -37,12 +45,13 @@ contract bank {
         tvm.accept();
         interestRate = _interestRate;
     }
-    function getAddress(address _bank_address) public returns(address) {
+
+    function getAddress(address _bankAddress) public returns(address) {
         tvm.accept();
         address userAddress = address(tvm.hash(tvm.buildStateInit({
             contr: BankAccount,
             varInit: {
-                bank_address: _bank_address
+                bankAddress: _bankAddress
             },
             pubkey: owner,
             code: userContractCode
@@ -51,20 +60,13 @@ contract bank {
         return userAddress;
     }
 
-    function loan(
-        uint _loanNum,
-        address _bank_address
-    ) external {
+    function loan(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
 
-//        console.log(format("ADDRESS {}", getAddress(_bank_address)));
-//        console.log(format("ADDRESS {}", msg.sender));
-
-    require(isLoanAvailable, 1002);
-        require(msg.sender == getAddress(_bank_address), 2000);
+        require(isLoanAvailable, 1002);
+        require(msg.sender == getAddress(bankAddress), 2000);
 
         loanNum = _loanNum;
-
         isLoanAvailable = false;
 
         emit LoanTaken(msg.sender, loanNum);
@@ -72,36 +74,31 @@ contract bank {
         BankAccount(msg.sender).loanReceived{value:0, flag:128}(loanNum);
     }
 
-    // check comments in User.repayLoan
     function calculating() public view returns (uint) {
         uint TotalRepay;
         TotalRepay = loanNum * (100 + interestRate) / 100;
 
         return TotalRepay;
     }
-    function repaying(
-        uint128 _repayAmount,
-        address _bank_address
-    ) external {
+
+    function repaying(uint128 _repayAmount) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE,0);
-        require(msg.sender == getAddress(_bank_address), 1003);
+        require(msg.sender == getAddress(bankAddress), 1003);
 
         if(_repayAmount != calculating()){
-//            console.log(format("repayAmount {} calc {}",_repayAmount,calculating()));
             BankAccount(msg.sender).repayRejected{value:0, flag:128}();
             return;
         }
-        BankAccount(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
 
+        BankAccount(msg.sender).repayAccepted{value:0, flag:128}(_repayAmount);
         bankProfit += (_repayAmount - loanNum);
-//        console.log(format("profit {}", bankProfit));
         loanNum = 0;
 
         isLoanAvailable = true;
 
-
         emit RepayfromUserSuccess(msg.sender, _repayAmount);
     }
+
     function getInterestRate() external view returns (uint) {
         return interestRate;
     }

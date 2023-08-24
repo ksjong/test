@@ -23,7 +23,7 @@
 		{
 			"name": "getAddress",
 			"inputs": [
-				{"name":"_bank_address","type":"address"}
+				{"name":"_bankAddress","type":"address"}
 			],
 			"outputs": [
 				{"name":"value0","type":"address"}
@@ -32,8 +32,7 @@
 		{
 			"name": "loan",
 			"inputs": [
-				{"name":"_loanNum","type":"uint256"},
-				{"name":"_bank_address","type":"address"}
+				{"name":"_loanNum","type":"uint256"}
 			],
 			"outputs": [
 			]
@@ -49,8 +48,7 @@
 		{
 			"name": "repaying",
 			"inputs": [
-				{"name":"_repayAmount","type":"uint128"},
-				{"name":"_bank_address","type":"address"}
+				{"name":"_repayAmount","type":"uint128"}
 			],
 			"outputs": [
 			]
@@ -110,6 +108,14 @@
 			"outputs": [
 				{"name":"isLoanAvailable","type":"bool"}
 			]
+		},
+		{
+			"name": "bankAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"bankAddress","type":"address"}
+			]
 		}
 	],
 	"data": [
@@ -144,6 +150,7 @@
 		{"name":"interestRate","type":"uint256"},
 		{"name":"bankProfit","type":"uint256"},
 		{"name":"loanNum","type":"uint256"},
-		{"name":"isLoanAvailable","type":"bool"}
+		{"name":"isLoanAvailable","type":"bool"},
+		{"name":"bankAddress","type":"address"}
 	]
 }

@@ -2,7 +2,7 @@ import {Contract, Signer, toNano, WalletTypes} from "locklift";
 import {FactorySource} from "../build/factorySource";
 import {Account} from "everscale-standalone-client";
 
-let bank: Contract<FactorySource["bank"]>;
+let bank: Contract<FactorySource["Bank"]>;
 let bankAccount : Contract<FactorySource["BankAccount"]>;
 
 let userAccount: Account;
@@ -43,11 +43,11 @@ describe("BankUserTest", async function () {
         .deployContract({
           contract: "BankAccount",
           initParams: {
-                bank_address: bank.address
+                bankAddress: bank.address
           },
           constructorParams: {
             _initialBalance: 222,
-              _user_address: userAccount.address
+              _userAddress: userAccount.address
           },
           value: toNano(10),
           publicKey: signer1.publicKey,

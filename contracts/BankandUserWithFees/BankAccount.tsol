@@ -1,32 +1,37 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma ever-solidity >= 0.62.0;
-import "bank.tsol";
+import "Bank.tsol";
 import "locklift/src/console.tsol";
 
 contract BankAccount {
-    // user가 소유한 돈 (대출하면 추가)
     uint public money;
-    bank public Bank;
-    address static bank_address;
-    address public user_address;
+    address public userAddress;
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
 
-    uint128 constant MIN_CONTRACT_BALANCE = 10 ever;
+    address static bankAddress;
 
-    event BorrowedMoney(address user, uint _amount);
-    event LoanRepay(address user, uint repayAmount);
-    event receivedSuccess( uint _loanNum);
+
+    event BorrowedMoney(
+        address user,
+        uint _amount
+    );
+
+    event LoanRepay(
+        address user,
+        uint repayAmount
+    );
+
+    event receivedSuccess(uint _loanNum);
     event repaySuccess(uint _totalRepayAmount);
     event RepayRejected(string message);
 
     constructor(
         uint128 _initialBalance,
-        address _user_address
+        address _userAddress
     ) public {
         tvm.accept();
-        user_address = _user_address;
+        userAddress = _userAddress;
         money = _initialBalance;
-
-        Bank = bank(bank_address);
     }
 
     function borrowMoney(uint _amount) external {
@@ -34,26 +39,15 @@ contract BankAccount {
 
         emit BorrowedMoney(msg.sender, _amount);
 
-        Bank.loan{value:0, flag:128}(
-            _amount,
-            bank_address
-        );
-
-        //todo you need to increase money after receiving callback from Bank, so the chain will be looks like this
-        //User.borrowMoney -> Bank.loan -> User.loanReceived
-
+        Bank(bankAddress).loan{value:0, flag:128}(_amount);
     }
 
-    // function loanReceived(...) // function that can be called only by Bank contract
-    // and only after it we need to increase our money, and emit an event
-    function loanReceived(
-        uint _loanNum
-    ) external {
+    function loanReceived(uint _loanNum) external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
         money += _loanNum;
         emit receivedSuccess( _loanNum);
 
-        user_address.transfer({value:0, flag:128});
+        userAddress.transfer({value:0, flag:128});
     }
 
     function repayLoan(
@@ -65,14 +59,10 @@ contract BankAccount {
 
         emit LoanRepay(msg.sender, _repayAmount);
 
-        Bank.repaying{value:0, flag:128}(
-             _repayAmount,
-            bank_address
-        );
+        Bank(bankAddress).repaying{value:0, flag:128}(_repayAmount);
 
     }
-// User.repayAccepted()/User.repayRejected()
-    //    function repayLoan(
+
     function repayAccepted(
         uint _totalRepayAmount
     ) external {
@@ -82,16 +72,16 @@ contract BankAccount {
 
         emit repaySuccess(_totalRepayAmount);
 
-        user_address.transfer({value:0, flag:128});
+        userAddress.transfer({value:0, flag:128});
     }
 
     function repayRejected() external {
         tvm.rawReserve(MIN_CONTRACT_BALANCE, 0);
 
         emit RepayRejected("Reject!");
-        user_address.transfer({value:0, flag:128});
-
+        userAddress.transfer({value:0, flag:128});
     }
+
     function getMoney() external view returns (uint _money){
         _money = money;
     }
