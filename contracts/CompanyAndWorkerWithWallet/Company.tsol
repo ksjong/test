@@ -10,17 +10,22 @@ contract Company {
 
     uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
     TvmCell static workerContractCode;
-
+    address public companyAddress;
 
 //    event WorkRegistered(address worker);
     event RegisterWorker(address worker);
     event DoWork(address worker);
     event CompanyRegisterAccept(address sender, string message);
 
-    constructor(uint256 _salary) public {
+    constructor(
+        uint256 _salary,
+        address _owner
+    ) public {
         tvm.accept();
-        owner = address(this);
+        owner = _owner;
+        companyAddress = address(this);
         salary = _salary;
+
     }
 
     // 이렇게 구현하면 msg.sender는 Wallet의 주소가 나오고
@@ -37,7 +42,7 @@ contract Company {
             contr: Worker,
             varInit: {
                 workerPubkey:  _workerPubkey,
-                companyAddress: owner
+                companyAddress: companyAddress
             },
             pubkey: _workerPubkey,
             code: workerContractCode
@@ -45,7 +50,7 @@ contract Company {
         return workerAddress;
     }
 
-    function registerWorker(address _worker) external {
+    function registerWorker(address _worker) external onlyOwner {
         tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
         console.log(format("ADDRESS{}", msg.sender));
         console.log(format("ADDRESS{}", owner));

@@ -94,6 +94,7 @@ describe("Company Worker Test", async function () {
           },
           constructorParams: {
             _salary: 100,
+            _owner : companyAccount.address
           },
           value: toNano(10),
           publicKey: signer1.publicKey,
@@ -107,6 +108,7 @@ describe("Company Worker Test", async function () {
           },
           constructorParams: {
             _salary: 100,
+            _owner: companyAccount2.address
           },
           value: toNano(10),
           publicKey: signer2.publicKey,
