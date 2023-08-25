@@ -10,12 +10,12 @@ IFREF {
 GETGLOB 6
 THROWIF 51
 ENDS
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 20
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 22
 ACCEPT
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 22
-GETGLOB 13
-SETGLOB 11
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 23
+MYADDR
+SETGLOB 13
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 CALLREF {
 	CALL $c7_to_c4$
 }
@@ -30,9 +30,9 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 25
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 25
 ENDS
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 CALLREF {
 	CALL $registerdAccept_eb7dfcb9_internal_macro$
 }
@@ -43,12 +43,16 @@ CALLREF {
 THROW 0
 
 .macro registerdAccept_eb7dfcb9_internal_macro
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 27
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 26
+PUSHINT 1000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 27
 GETGLOB 9
-GETGLOB 13
+GETGLOB 12
 SDEQ
 THROWIFNOT 1234
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 28
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 28
 PUSHREF {
 	.blob x41636365707421
 }
@@ -61,17 +65,17 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 29
-GETGLOB 11
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 29
+GETGLOB 12
 NEWC
 STSLICECONST x62_
 STSLICE
-PUSHINT 42045022170482489768618347945393405442362343313494
-STUR 167
+PUSHINT 1082282070
+STUR 143
 ENDC
-PUSHINT 0
+PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 
 .macro working
 DROP
@@ -82,12 +86,11 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 32
-LDREF
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 32
 ENDS
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 CALLREF {
-	CALL $working_b0e32cd7_internal_macro$
+	CALL $working_9f08a68c_internal_macro$
 }
 DROP
 CALLREF {
@@ -95,10 +98,12 @@ CALLREF {
 }
 THROW 0
 
-.macro working_b0e32cd7_internal_macro
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 33
-ACCEPT
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 35
+.macro working_9f08a68c_internal_macro
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 33
+PUSHINT 1000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 34
 PUSHREF {
 	.blob x49276d20776f726b696e67
 }
@@ -109,20 +114,19 @@ STREF
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 36
-GETGLOB 12
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 35
 GETGLOB 11
+GETGLOB 12
 NEWC
 STSLICECONST x62_
 STSLICE
-PUSHINT 42045022170482489768618347945393405442363236204447
-STUR 167
+PUSHINT 204584159
+STUR 143
 STU 256
-STREF
 ENDC
-PUSHINT 0
+PUSHPOW2 7
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 
 .macro badWork
 DROP
@@ -133,7 +137,7 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 39
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 38
 OVER
 PUSHCONT {
 	LDREF
@@ -143,7 +147,7 @@ PUSHCONT {
 IF
 LDMSGADDR
 ENDS
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 CALLREF {
 	CALL $badWork_562f6722_internal_macro$
 }
@@ -154,25 +158,32 @@ CALLREF {
 THROW 0
 
 .macro badWork_562f6722_internal_macro
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 40
-ACCEPT
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 41
-PUSHREF {
-	.blob x4170706c65
-}
-GETGLOB 12
-ROT
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 39
+PUSHINT 1000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 40
+DUP
+PUSHSLICE xc00000000000000000000000003052effc
 NEWC
-STSLICECONST x62_
 STSLICE
-PUSHINT 42045022170482489768618347945393405442363236204447
-STUR 167
-STU 256
-STREF
+STSLICE
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 41
+GETGLOB 11
+SWAP
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 204584159
+STUR 143
+STU 256
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 
 .macro receivedSalary
 DROP
@@ -183,10 +194,10 @@ ISNULL
 IFREF {
 	CALL $c4_to_c7$
 }
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 44
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 44
 LDU 256
 ENDS
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 CALLREF {
 	CALL $receivedSalary_97548959_internal_macro$
 }
@@ -197,12 +208,16 @@ CALLREF {
 THROW 0
 
 .macro receivedSalary_97548959_internal_macro
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 45
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 45
+PUSHINT 1000000000
+PUSHINT 0
+RAWRESERVE
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 46
 GETGLOB 10
 OVER
 ADD
 SETGLOB 10
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 46
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 47
 GETGLOB 9
 PUSHSLICE xc00000000000000000000000003702e54a
 NEWC
@@ -212,7 +227,17 @@ STU 256
 ENDC
 PUSHINT 0
 SENDRAWMSG
-.loc ../contracts/CompanyAndWorker/Worker.tsol, 0
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 48
+GETGLOB 13
+NEWC
+STSLICECONST x62_
+STSLICE
+PUSHINT 111
+STZEROES
+ENDC
+PUSHPOW2 7
+SENDRAWMSG
+.loc ../contracts/CompanyAndWorkerWithWallet/Worker.tsol, 0
 
 .macro c4_to_c7
 PUSHROOT
@@ -222,10 +247,6 @@ LDU 64 ; pubkey timestamp c4
 LDU 1 ; ctor flag
 NIP
 LDU 256
-LDREF
-ENDS
-CTOS
-LDMSGADDR
 LDU 256
 LDREF
 ENDS
@@ -236,7 +257,6 @@ ENDS
 CTOS
 LDMSGADDR
 ENDS
-SETGLOB 14
 SETGLOB 13
 SETGLOB 12
 SETGLOB 11
@@ -255,11 +275,8 @@ PUSHCONT {
 	CTOS
 	PLDDICT ; D
 	PUSHINT 0
-	PUSHREFSLICE {
-		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
-	}
 	PUSHINT 1
-	PUSH S3
+	PUSH S2
 	PUSHINT 64
 	DICTUGET
 	ZEROSWAPIFNOT
@@ -268,7 +285,7 @@ PUSHCONT {
 	}
 	IF
 	PUSHINT 2
-	PUSH S4
+	PUSH S3
 	PUSHINT 64
 	DICTUGET
 	PUSHCONT {
@@ -280,7 +297,6 @@ PUSHCONT {
 	PUSHREFSLICE {
 		.blob x8000000000000000000000000000000000000000000000000000000000000000001_
 	}
-	SETGLOB 14
 	SETGLOB 13
 	SETGLOB 12
 	SETGLOB 11
@@ -298,7 +314,6 @@ IFREFELSE {
 }
 
 .macro c7_to_c4
-GETGLOB 14
 GETGLOB 13
 GETGLOB 12
 GETGLOB 11
@@ -310,9 +325,6 @@ STU 256
 STU 64
 STONE
 STU 256
-ROLLREV 4
-NEWC
-STSLICE
 STU 256
 ROTREV
 NEWC
@@ -320,7 +332,6 @@ STSLICE
 SWAP
 NEWC
 STSLICE
-STBREFR
 STBREFR
 STBREFR
 ENDC
@@ -434,7 +445,7 @@ PUSHCONT {
 IF
 THROW 0
 
-.macro comp
+.macro workerPubkey
 DROP
 ENDS
 CALLREF {
@@ -443,27 +454,7 @@ CALLREF {
 GETGLOB 11
 OVER
 PUSHCONT {
-	PUSHSLICE xc0000000000000000000000000fa3cc1e1
-	NEWC
-	STSLICE
-	STSLICE
-	ENDC
-	PUSHINT 0
-	SENDRAWMSG
-}
-IF
-THROW 0
-
-.macro worker_pubkey
-DROP
-ENDS
-CALLREF {
-	CALL $c4_to_c7$
-}
-GETGLOB 12
-OVER
-PUSHCONT {
-	PUSHSLICE xc0000000000000000000000000cdb1ea50
+	PUSHSLICE xc0000000000000000000000000b14662c1
 	NEWC
 	STSLICE
 	STU 256
@@ -474,16 +465,16 @@ PUSHCONT {
 IF
 THROW 0
 
-.macro company_address
+.macro companyAddress
 DROP
 ENDS
 CALLREF {
 	CALL $c4_to_c7$
 }
-GETGLOB 13
+GETGLOB 12
 OVER
 PUSHCONT {
-	PUSHSLICE xc0000000000000000000000000abaae928
+	PUSHSLICE xc0000000000000000000000000a6fd2e2f
 	NEWC
 	STSLICE
 	STSLICE
@@ -494,16 +485,16 @@ PUSHCONT {
 IF
 THROW 0
 
-.macro workerAddress
+.macro owner
 DROP
 ENDS
 CALLREF {
 	CALL $c4_to_c7$
 }
-GETGLOB 14
+GETGLOB 13
 OVER
 PUSHCONT {
-	PUSHSLICE xc0000000000000000000000000cf3da210
+	PUSHSLICE xc0000000000000000000000000df0bcfde
 	NEWC
 	STSLICE
 	STSLICE
@@ -516,32 +507,32 @@ THROW 0
 
 .macro public_function_selector
 DUP
-PUSHINT 1329439248
+PUSHINT 1594609630
 LEQ
 IFJMPREF {
 	DUP
-	PUSHINT 732621096
-	EQUAL
-	IFJMPREF {
-		CALL $company_address$
-	}
-	DUP
-	PUSHINT 1183613837
+	PUSHINT 556439015
 	EQUAL
 	IFJMPREF {
 		CALL $working$
 	}
 	DUP
-	PUSHINT 1303505488
+	PUSHINT 654126639
 	EQUAL
 	IFJMPREF {
-		CALL $worker_pubkey$
+		CALL $companyAddress$
 	}
 	DUP
-	PUSHINT 1329439248
+	PUSHINT 826696385
 	EQUAL
 	IFJMPREF {
-		CALL $workerAddress$
+		CALL $workerPubkey$
+	}
+	DUP
+	PUSHINT 1594609630
+	EQUAL
+	IFJMPREF {
+		CALL $owner$
 	}
 }
 DUP
@@ -574,20 +565,9 @@ IFJMPREF {
 	}
 }
 DUP
-PUSHINT 2050802145
-LEQ
+PUSHINT 2041750070
+EQUAL
 IFJMPREF {
-	DUP
-	PUSHINT 2041750070
-	EQUAL
-	IFJMPREF {
-		CALL $receivedSalary$
-	}
-	DUP
-	PUSHINT 2050802145
-	EQUAL
-	IFJMPREF {
-		CALL $comp$
-	}
+	CALL $receivedSalary$
 }
 

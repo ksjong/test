@@ -1,0 +1,72 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "locklift/src/console.tsol";
+import "Worker.tsol";
+
+contract Company {
+    address public owner;
+    uint256 public salary;
+    mapping(address => bool) public worker;
+
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+    TvmCell static workerContractCode;
+
+
+//    event WorkRegistered(address worker);
+    event RegisterWorker(address worker);
+    event DoWork(address worker);
+    event CompanyRegisterAccept(address sender, string message);
+
+    constructor(uint256 _salary) public {
+        tvm.accept();
+        owner = address(this);
+        salary = _salary;
+    }
+
+    // 이렇게 구현하면 msg.sender는 Wallet의 주소가 나오고
+    // owner는 Company의 주소가 나오게된다. 따라서 실행이안되버리는데 ?
+    modifier onlyOwner() {
+        console.log(format("ADDRESS{}", msg.sender));
+        console.log(format("ADDRESS{}", owner));
+        require(msg.sender == owner, 1001);
+        _;
+    }
+
+    function getAddress(uint256 _workerPubkey) public view returns(address){
+        address workerAddress = address(tvm.hash(tvm.buildStateInit({
+            contr: Worker,
+            varInit: {
+                workerPubkey:  _workerPubkey,
+                companyAddress: owner
+            },
+            pubkey: _workerPubkey,
+            code: workerContractCode
+        })));
+        return workerAddress;
+    }
+
+    function registerWorker(address _worker) external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        console.log(format("ADDRESS{}", msg.sender));
+        console.log(format("ADDRESS{}", owner));
+        emit RegisterWorker(_worker);
+        Worker(_worker).registerdAccept{value:0, flag:128}();
+    }
+
+    function comRegisteredAccept() external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        worker[msg.sender] = true;
+
+        emit CompanyRegisterAccept(msg.sender,"Accept");
+        msg.sender.transfer({value:0, flag:128});
+    }
+
+    function doWork(uint256 _workPubKey) external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        require(worker[msg.sender], 1002);
+        require(getAddress(_workPubKey) == msg.sender, 1003);
+
+        emit DoWork(msg.sender);
+        Worker(msg.sender).receivedSalary{value:0, flag:128}(salary);
+    }
+}

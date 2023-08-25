@@ -20,7 +20,6 @@
 		{
 			"name": "working",
 			"inputs": [
-				{"name":"_comp_name","type":"string"}
 			],
 			"outputs": [
 			]
@@ -28,7 +27,7 @@
 		{
 			"name": "badWork",
 			"inputs": [
-				{"name":"company","type":"address"}
+				{"name":"_company","type":"address"}
 			],
 			"outputs": [
 			]
@@ -50,41 +49,33 @@
 			]
 		},
 		{
-			"name": "comp",
+			"name": "workerPubkey",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"comp","type":"address"}
+				{"name":"workerPubkey","type":"uint256"}
 			]
 		},
 		{
-			"name": "worker_pubkey",
+			"name": "companyAddress",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"worker_pubkey","type":"uint256"}
+				{"name":"companyAddress","type":"address"}
 			]
 		},
 		{
-			"name": "company_address",
+			"name": "owner",
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"company_address","type":"address"}
-			]
-		},
-		{
-			"name": "workerAddress",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"workerAddress","type":"address"}
+				{"name":"owner","type":"address"}
 			]
 		}
 	],
 	"data": [
-		{"key":1,"name":"worker_pubkey","type":"uint256"},
-		{"key":2,"name":"company_address","type":"address"}
+		{"key":1,"name":"workerPubkey","type":"uint256"},
+		{"key":2,"name":"companyAddress","type":"address"}
 	],
 	"events": [
 		{
@@ -106,6 +97,14 @@
 			]
 		},
 		{
+			"name": "BadWork",
+			"inputs": [
+				{"name":"company","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
 			"name": "Working",
 			"inputs": [
 				{"name":"message","type":"string"}
@@ -119,9 +118,8 @@
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
 		{"name":"TotalSalary","type":"uint256"},
-		{"name":"comp","type":"address"},
-		{"name":"worker_pubkey","type":"uint256"},
-		{"name":"company_address","type":"address"},
-		{"name":"workerAddress","type":"address"}
+		{"name":"workerPubkey","type":"uint256"},
+		{"name":"companyAddress","type":"address"},
+		{"name":"owner","type":"address"}
 	]
 }

@@ -40,44 +40,6 @@ CALLREF {
 }
 THROW 0
 
-.macro configuredInterestRate
-DROP
-GETGLOB 6
-THROWIFNOT 76
-GETGLOB 2
-ISNULL
-IFREF {
-	CALL $c4_to_c7$
-}
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 47
-LDU 256
-ENDS
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 0
-CALLREF {
-	CALL $configuredInterestRate_34bc7de2_internal_macro$
-}
-DROP
-CALLREF {
-	CALL $c7_to_c4$
-}
-THROW 0
-
-.globl	configuredInterestRate_34bc7de2_internal
-.type	configuredInterestRate_34bc7de2_internal, @function
-CALL $configuredInterestRate_34bc7de2_internal_macro$
-
-.macro configuredInterestRate_34bc7de2_internal_macro
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 30
-GETGLOB 9
-GETGLOB 10
-SDEQ
-THROWIFNOT 1001
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 48
-ACCEPT
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 49
-SETGLOB 12
-.loc ../contracts/BankandUserWithFees/Bank.tsol, 0
-
 .macro getAddress
 DROP
 GETGLOB 6
@@ -821,7 +783,7 @@ IFJMPREF {
 	}
 }
 DUP
-PUSHINT 735588267
+PUSHINT 989214594
 LEQ
 IFJMPREF {
 	DUP
@@ -843,22 +805,16 @@ IFJMPREF {
 		CALL $interestRate$
 	}
 	DUP
-	PUSHINT 735588267
-	EQUAL
-	IFJMPREF {
-		CALL $configuredInterestRate$
-	}
-}
-DUP
-PUSHINT 1594609630
-LEQ
-IFJMPREF {
-	DUP
 	PUSHINT 989214594
 	EQUAL
 	IFJMPREF {
 		CALL $bankProfit$
 	}
+}
+DUP
+PUSHINT 1821883651
+LEQ
+IFJMPREF {
 	DUP
 	PUSHINT 994403762
 	EQUAL
@@ -877,22 +833,17 @@ IFJMPREF {
 	IFJMPREF {
 		CALL $owner$
 	}
-}
-DUP
-PUSHINT 1898875963
-LEQ
-IFJMPREF {
 	DUP
 	PUSHINT 1821883651
 	EQUAL
 	IFJMPREF {
 		CALL $calculating$
 	}
-	DUP
-	PUSHINT 1898875963
-	EQUAL
-	IFJMPREF {
-		CALL $loanNum$
-	}
+}
+DUP
+PUSHINT 1898875963
+EQUAL
+IFJMPREF {
+	CALL $loanNum$
 }
 

@@ -1,474 +1,3047 @@
 {
   "map": {
-    "0980281d292b4c1f81b0f9832ce198204780db0a5bd3ac69ed75d3bc007f2cf6": {
+    "0c6d676eadd7ee8b6a14d54427d7b901c5cf0890d7be69a5e4f22895c4ccd74f": {
       "0": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "16": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "32": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "40": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
       },
-      "56": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "64": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
+        "filename": "stdlib.sol",
+        "line": 260
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 64
-      },
-      "120": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "128": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "144": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "304": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "312": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "320": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "328": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "336": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "344": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      },
-      "352": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
+        "filename": "stdlib.sol",
+        "line": 260
       }
     },
-    "23873118e8e81aa7fea6c42be44c691885c7c12b0fad60336afc2178ce9fe403": {
+    "11aab1340721b5d42c323f2ae8435a04289f4cf9a515715c7c6f74ca801d37fe": {
       "0": {
-        "filename": "Company.code",
-        "line": 42
+        "filename": "stdlib.sol",
+        "line": 187
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 187
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 187
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 188
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 188
+      }
+    },
+    "12ba783d844cb57ba0998c92ad42c055ee5e070d7adc34e6f3a14d8a929b81b5": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 99
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 100
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 100
+      },
+      "40": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 279
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 104
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 105
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 105
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 105
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 105
+      },
+      "104": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 321
+      },
+      "112": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 322
+      },
+      "120": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 323
+      }
+    },
+    "136041ffa02d8ebace1d13fd7d01fb11fde854aadfa9b5252647dea01cc5206d": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 260
       },
       "8": {
+        "filename": "stdlib.sol",
+        "line": 260
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 260
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 261
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 261
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 261
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 262
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 262
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 262
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "160": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "168": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "176": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "184": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "208": {
+        "filename": "stdlib.sol",
+        "line": 264
+      },
+      "216": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1214
+      }
+    },
+    "13e0a5390fe50df0e1084562bda6f99920d8fa8af56198cfd1558c3003367c55": {
+      "0": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      }
+    },
+    "19797aa07b4c1dec37cac0e4ceab135bceaf40a33d5dd828118bbe918c23bc41": {
+      "0": {
         "filename": "Company.code",
-        "line": 43
+        "line": 356
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 357
       },
       "24": {
         "filename": "Company.code",
-        "line": 44
+        "line": 358
       },
-      "48": {
+      "40": {
         "filename": "Company.code",
-        "line": 45
+        "line": 359
       },
-      "64": {
+      "56": {
         "filename": "Company.code",
-        "line": 46
+        "line": 360
       },
       "72": {
         "filename": "Company.code",
-        "line": 47
+        "line": 391
+      }
+    },
+    "1c358c128edfeea8814615b99d6fb9e62a0475a2b7dc32df7e609e9653a42988": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 230
       },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 40
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 230
       },
-      "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 40
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 230
       },
       "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 40
+        "filename": "stdlib.sol",
+        "line": 230
       },
       "120": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "136": {
+        "filename": "stdlib.sol",
+        "line": 230
+      }
+    },
+    "1cdc1d18b185bbfa76ed1a978b884661509da0c3cae3eaf3de1db25e5815eb9b": {
+      "0": {
         "filename": "Company.code",
-        "line": 55
+        "line": 28
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 29
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 30
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 31
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 32
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 33
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 33
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 33
+      },
+      "112": {
+        "filename": "Company.code",
+        "line": 40
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 43
       },
       "136": {
         "filename": "Company.code",
-        "line": 58
+        "line": 44
       },
-      "144": {
+      "152": {
         "filename": "Company.code",
-        "line": 59
+        "line": 45
       },
       "160": {
         "filename": "Company.code",
-        "line": 60
+        "line": 46
       },
       "168": {
         "filename": "Company.code",
-        "line": 61
+        "line": 47
       },
-      "176": {
+      "184": {
         "filename": "Company.code",
-        "line": 62
+        "line": 48
       },
-      "192": {
+      "200": {
         "filename": "Company.code",
-        "line": 63
+        "line": 49
       },
       "208": {
         "filename": "Company.code",
-        "line": 64
+        "line": 50
       },
       "216": {
         "filename": "Company.code",
-        "line": 65
+        "line": 51
       },
       "224": {
         "filename": "Company.code",
-        "line": 66
+        "line": 52
       },
-      "232": {
+      "248": {
         "filename": "Company.code",
-        "line": 67
+        "line": 53
       },
       "256": {
         "filename": "Company.code",
-        "line": 68
+        "line": 54
       },
       "264": {
         "filename": "Company.code",
-        "line": 69
+        "line": 55
       },
-      "272": {
+      "288": {
         "filename": "Company.code",
-        "line": 70
+        "line": 56
       },
       "296": {
         "filename": "Company.code",
-        "line": 71
+        "line": 57
       },
       "304": {
         "filename": "Company.code",
-        "line": 72
+        "line": 58
       },
-      "312": {
+      "352": {
         "filename": "Company.code",
-        "line": 73
+        "line": 59
       },
       "360": {
         "filename": "Company.code",
-        "line": 74
+        "line": 60
       },
       "368": {
         "filename": "Company.code",
-        "line": 75
+        "line": 61
       },
       "376": {
         "filename": "Company.code",
-        "line": 76
+        "line": 62
       },
       "384": {
         "filename": "Company.code",
-        "line": 77
+        "line": 63
       },
-      "392": {
+      "400": {
         "filename": "Company.code",
-        "line": 78
+        "line": 65
       },
       "408": {
         "filename": "Company.code",
-        "line": 80
+        "line": 66
       },
       "416": {
         "filename": "Company.code",
-        "line": 81
+        "line": 68
       },
       "424": {
         "filename": "Company.code",
-        "line": 83
+        "line": 69
       },
-      "432": {
+      "440": {
         "filename": "Company.code",
-        "line": 84
+        "line": 72
+      }
+    },
+    "22de507d26fd32330327210bc4e8dfeb3edb853911a717e0c451d7e2b917472b": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 306
       },
-      "448": {
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 306
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 306
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 306
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 306
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 306
+      },
+      "72": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1452
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 311
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 311
+      }
+    },
+    "301f0ce23450f01d7a42b551bc4e64b568af9c1e5105d6cd77b8c0a001688d2f": {
+      "0": {
         "filename": "Company.code",
-        "line": 87
+        "line": 433
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 434
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 435
+      },
+      "40": {
+        "filename": "Company.code",
+        "line": 436
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 437
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 438
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 439
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 440
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 441
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 442
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 443
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 444
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 445
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 446
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 447
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 448
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 452
+      },
+      "224": {
+        "filename": "Company.code",
+        "line": 453
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 454
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 455
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 456
+      },
+      "288": {
+        "filename": "Company.code",
+        "line": 460
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 461
+      },
+      "312": {
+        "filename": "Company.code",
+        "line": 464
       }
     },
     "34991383855855a1c15fd211ec1ce896d05a16301b15e3b404ad05cedc0d8afb": {
       "0": {
         "filename": "Company.code",
-        "line": 327
+        "line": 375
       }
     },
-    "554d4f672532959f5fd679c47a82d3384cd6cd7e3d9af4eed87fde51748f1e4f": {
+    "37e7c9f340086bb9a974d5fa82d328aa0fe93de457aeb6cab3fedbf0d4864d14": {
       "0": {
-        "filename": "Company.code",
-        "line": 388
+        "filename": "stdlib.sol",
+        "line": 242
       },
       "16": {
-        "filename": "Company.code",
-        "line": 389
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 390
-      },
-      "40": {
-        "filename": "Company.code",
-        "line": 391
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 392
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 393
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 394
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 395
-      },
-      "104": {
-        "filename": "Company.code",
-        "line": 396
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 397
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 398
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 399
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 400
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 401
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 402
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 403
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 407
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 408
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 409
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 410
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 411
-      },
-      "288": {
-        "filename": "Company.code",
-        "line": 415
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 416
-      },
-      "312": {
-        "filename": "Company.code",
-        "line": 419
-      }
-    },
-    "57f7615025af051c0ac4ce2b5d447f6847d90cd129af7c92121c871124e90bb3": {
-      "0": {
-        "filename": "Company.code",
-        "line": 502
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 503
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 504
+        "filename": "stdlib.sol",
+        "line": 242
       },
       "32": {
-        "filename": "Company.code",
-        "line": 507
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 508
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 509
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 510
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 511
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 512
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 513
-      },
-      "256": {
-        "filename": "Company.code",
-        "line": 514
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 515
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 516
-      },
-      "288": {
-        "filename": "Company.code",
-        "line": 518
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 519
-      }
-    },
-    "59b7da54af92a8b961a90ff21d199a42bfa94a553314a4db81a105915de7f3a7": {
-      "0": {
-        "filename": "Company.code",
-        "line": 307
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 308
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 309
+        "filename": "stdlib.sol",
+        "line": 242
       },
       "40": {
-        "filename": "Company.code",
-        "line": 310
+        "filename": "stdlib.sol",
+        "line": 243
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 243
       },
       "56": {
-        "filename": "Company.code",
-        "line": 311
+        "filename": "stdlib.sol",
+        "line": 244
       },
       "72": {
-        "filename": "Company.code",
-        "line": 344
+        "filename": "stdlib.sol",
+        "line": 244
       }
     },
-    "5aebd75e63f6fe66279808d17101ab4d8301fc8fc0d1686d501bd839620eb735": {
+    "3c0db4adbb8aaed164960e7fed7f9936b15d46c12b2551d2a3009a7553b15b39": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 307
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 307
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 307
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 308
+      }
+    },
+    "436e8a68834a48e1ff73e788877ff35b50517d0dca714f59e20e7da5d2f1369d": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "16": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "32": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "40": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "112": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "128": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "144": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      }
+    },
+    "4812ec0c5918b3aa67389a580e3e1ccfd2877b2d09b4b17af75bc5426490d31b": {
       "0": {
         "filename": "Company.code",
-        "line": 542
+        "line": 604
       },
       "8": {
         "filename": "Company.code",
-        "line": 543
+        "line": 605
       },
       "56": {
         "filename": "Company.code",
-        "line": 544
+        "line": 606
       },
       "64": {
         "filename": "Company.code",
-        "line": 545
+        "line": 607
       },
       "80": {
         "filename": "Company.code",
-        "line": 571
+        "line": 610
       },
       "88": {
         "filename": "Company.code",
-        "line": 572
+        "line": 611
       },
       "136": {
         "filename": "Company.code",
-        "line": 573
+        "line": 612
       },
       "144": {
         "filename": "Company.code",
-        "line": 574
+        "line": 613
       },
       "160": {
         "filename": "Company.code",
-        "line": 600
+        "line": 616
       },
       "168": {
         "filename": "Company.code",
-        "line": 601
+        "line": 617
       },
       "216": {
         "filename": "Company.code",
-        "line": 602
+        "line": 618
       },
       "224": {
         "filename": "Company.code",
+        "line": 619
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 622
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 623
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 624
+      },
+      "304": {
+        "filename": "Company.code",
+        "line": 625
+      }
+    },
+    "4f084a631bf14632484266865fad51757dce2bc8d642fb90988481393dc21f9f": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 237
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 237
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 238
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 238
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 238
+      },
+      "64": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1061
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 240
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 240
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 240
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 241
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 241
+      },
+      "128": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1103
+      }
+    },
+    "5141b01dd67d09d3b5ac19013650d098abd0e2acf95ce620abd46ea13ce9017d": {
+      "0": {
+        "filename": "Company.code",
+        "line": 600
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 601
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 602
+      },
+      "64": {
+        "filename": "Company.code",
         "line": 603
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 629
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 630
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 631
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 632
+      }
+    },
+    "522ef9af16e0ba46532733188d5b753c976495c2e49e03b66d4069258db355dc": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 210
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 210
+      }
+    },
+    "53d19af497bff21cc5e36cd784dfd604879989e8b5803820b87d93e2a70e9b67": {
+      "0": {
+        "filename": "Company.code",
+        "line": 206
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 207
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 208
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 209
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 210
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 211
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 54
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 217
+      },
+      "112": {
+        "filename": "Company.code",
+        "line": 220
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 221
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 224
+      }
+    },
+    "55e962a49658b20a7be77bc109088a31d6dae5f62e608e1d0f19de63c95ffe68": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "16": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 49
+      },
+      "32": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "40": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "200": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "208": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "216": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "224": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "232": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "240": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 50
+      },
+      "256": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "264": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "288": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "296": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "344": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "368": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "376": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      },
+      "392": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 51
+      }
+    },
+    "585c39a6d6014f18b55179ee73cfb8e442e5fb7b43c9ebfb67f0279d44b131ce": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 296
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 296
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 296
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 297
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 297
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 297
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 299
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 299
+      }
+    },
+    "5b0c370cba823121499362e9052033dd42096b51acc1c440daae3e4d10147ee3": {
+      "0": {
+        "filename": "Company.code",
+        "line": 545
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 546
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 547
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 550
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 551
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 552
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 553
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 554
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 555
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 556
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 557
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 558
+      },
+      "280": {
+        "filename": "Company.code",
+        "line": 559
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 561
+      },
+      "304": {
+        "filename": "Company.code",
+        "line": 562
+      }
+    },
+    "5bb4254387b17a5440815284ae99337fbb114ed7503fa82036754f98412c0a59": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 230
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 232
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 232
+      },
+      "40": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1168
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 258
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 258
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 258
+      },
+      "88": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1218
+      },
+      "104": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1338
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 284
+      }
+    },
+    "5bd883a0a18d1b5061d2c6d2dfd4ab3ae494a9017b7a46b750073d9f6fba226b": {
+      "0": {
+        "filename": "Company.code",
+        "line": 396
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 397
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 398
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 399
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 400
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 401
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 402
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 403
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 404
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 405
+      },
+      "152": {
+        "filename": "Company.code",
+        "line": 406
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 407
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 408
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 409
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 410
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 411
+      },
+      "224": {
+        "filename": "Company.code",
+        "line": 412
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 413
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 414
+      }
+    },
+    "5cbfd9ec1a7ea6b79a143d6556c53e0b09e9e031bacd45708a4ff24dcd20b924": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 181
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 182
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 182
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 182
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 182
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 182
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 183
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 183
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 184
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 184
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 189
+      },
+      "136": {
+        "filename": "stdlib.sol",
+        "line": 189
+      },
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 189
+      },
+      "168": {
+        "filename": "stdlib.sol",
+        "line": 189
+      },
+      "176": {
+        "filename": "stdlib.sol",
+        "line": 191
+      },
+      "192": {
+        "filename": "stdlib.sol",
+        "line": 191
+      },
+      "200": {
+        "filename": "stdlib.sol",
+        "line": 191
+      },
+      "208": {
+        "filename": "stdlib.sol",
+        "line": 191
+      },
+      "216": {
+        "filename": "stdlib.sol",
+        "line": 191
+      }
+    },
+    "5cc62d0ac06b5104dec4ef8410b4a4e3d65400f41e4fcb5ba9ad53ee0c1bcc2d": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 214
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 214
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 214
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 215
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 215
+      },
+      "64": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 951
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 220
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 220
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 220
+      },
+      "120": {
+        "filename": "stdlib.sol",
+        "line": 220
+      },
+      "136": {
+        "filename": "stdlib.sol",
+        "line": 221
+      },
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 221
+      },
+      "152": {
+        "filename": "stdlib.sol",
+        "line": 222
+      },
+      "160": {
+        "filename": "stdlib.sol",
+        "line": 222
+      },
+      "184": {
+        "filename": "stdlib.sol",
+        "line": 222
+      },
+      "192": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 966
+      },
+      "200": {
+        "filename": "stdlib.sol",
+        "line": 223
+      },
+      "208": {
+        "filename": "stdlib.sol",
+        "line": 223
+      },
+      "216": {
+        "filename": "stdlib.sol",
+        "line": 223
+      },
+      "224": {
+        "filename": "stdlib.sol",
+        "line": 224
+      },
+      "232": {
+        "filename": "stdlib.sol",
+        "line": 224
+      },
+      "248": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1008
+      },
+      "256": {
+        "filename": "stdlib.sol",
+        "line": 229
+      },
+      "272": {
+        "filename": "stdlib.sol",
+        "line": 229
+      },
+      "288": {
+        "filename": "stdlib.sol",
+        "line": 229
+      },
+      "304": {
+        "filename": "stdlib.sol",
+        "line": 230
+      }
+    },
+    "60365ebf97d1cd5a996b1f968878afe9c775137a45eddbe3064b99792400711e": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 106
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 106
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 106
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 106
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 107
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 107
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 107
       }
     },
     "61ab4641fa30d9310391025086eec65d200d79268e1b7cd402565e01ba64be3c": {
       "0": {
         "filename": "Company.code",
+        "line": 366
+      }
+    },
+    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+      "0": {
+        "filename": "<internal-selector>",
+        "line": 1
+      },
+      "24": {
+        "filename": "<internal-selector>",
+        "line": 2
+      }
+    },
+    "8105a1ce93547f8117cc751b4753c69f59567a530262ae3466dbf09dc601f66a": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 259
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 259
+      },
+      "24": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1216
+      }
+    },
+    "81df4ded704a340d9c728fd62730d5a9566c91e18dfc9e1c6aa9c4307e6b885d": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 101
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 101
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 102
+      }
+    },
+    "912f3861e3d320532d0e2339f4a5cfca8efb19964243be01486583353c6aa336": {
+      "0": {
+        "filename": "Company.code",
+        "line": 525
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 526
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 527
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 530
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 531
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 532
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 533
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 534
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 535
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 536
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 537
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 538
+      },
+      "280": {
+        "filename": "Company.code",
+        "line": 539
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 541
+      },
+      "304": {
+        "filename": "Company.code",
+        "line": 542
+      }
+    },
+    "91c231345beb709825120c92a18c9cbefc19023a5d44634c6c5995b19c5fa62b": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 47
+      },
+      "48": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 47
+      },
+      "56": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 47
+      },
+      "72": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "96": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "168": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "184": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "200": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      },
+      "216": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 48
+      }
+    },
+    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+    "9ba9196ad1ea13f3abf2d002bca9bf66d06c00e5d8d016f307eb6496d5433ce6": {
+      "0": {
+        "filename": "Company.code",
+        "line": 505
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 506
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 507
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 510
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 511
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 512
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 513
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 514
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 515
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 516
+      },
+      "256": {
+        "filename": "Company.code",
+        "line": 517
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 518
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 519
+      },
+      "288": {
+        "filename": "Company.code",
+        "line": 521
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 522
+      }
+    },
+    "9d3a85ef4f175bc9c069f01dab19d114c6d6dd9b0f4dd2523532c13e3917a753": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 225
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 225
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 225
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 226
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 226
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 227
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 227
+      }
+    },
+    "a1771d5df532065f48a412c5608507e70c73784a1f77cf057efd4a01923cb6b9": {
+      "0": {
+        "filename": "Company.code",
+        "line": 4
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 5
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 6
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 7
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 10
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 11
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 12
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 13
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 21
+      },
+      "120": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 22
+      },
+      "136": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 22
+      },
+      "152": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 23
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 22
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 25
+      }
+    },
+    "a3bf89dc50921743cb1ebc20abe5eecb2d0a37b73ff01dd92d90ed65ae883b88": {
+      "0": {
+        "filename": "Company.code",
+        "line": 361
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 362
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 363
+      },
+      "32": {
+        "filename": "Company.code",
+        "line": 364
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 365
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 368
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 369
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 370
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 371
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 372
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 373
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 374
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 378
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 379
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 380
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 381
+      },
+      "192": {
+        "filename": "Company.code",
+        "line": 382
+      },
+      "208": {
+        "filename": "Company.code",
+        "line": 383
+      },
+      "224": {
+        "filename": "Company.code",
+        "line": 384
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 385
+      },
+      "256": {
+        "filename": "Company.code",
+        "line": 386
+      },
+      "280": {
+        "filename": "Company.code",
+        "line": 387
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 388
+      },
+      "304": {
+        "filename": "Company.code",
+        "line": 389
+      }
+    },
+    "a647082e1c94c15456cfb1a40422cc8358ac2bb42ce2f1c2a0bba7602bf9fa07": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      }
+    },
+    "a6be9d969a7da83cad6e394f4a06beb24a3cbc15e2c89984b5b5ce2e63b65304": {
+      "0": {
+        "filename": "Company.code",
+        "line": 118
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 119
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 120
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 121
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 122
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 123
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "96": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "112": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "120": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "128": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "136": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "152": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 46
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 137
+      },
+      "176": {
+        "filename": "Company.code",
+        "line": 140
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 141
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 144
+      }
+    },
+    "ac0924ee58cc41b457f7202bfd198ae664710f042af501dca8bd7e70b0583135": {
+      "0": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "8": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "16": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "24": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "32": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "40": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      },
+      "48": {
+        "filename": "../node_modules/locklift/src/console.tsol",
+        "line": 10
+      }
+    },
+    "b5fe7595e4588ee45ad21fcb2f53b3ce7d2207b2572e16f120cfa5e0bea11b2f": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 233
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 235
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 235
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 236
+      },
+      "120": {
+        "filename": "stdlib.sol",
+        "line": 236
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 236
+      },
+      "144": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1105
+      },
+      "160": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "168": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1166
+      }
+    },
+    "c223e0582e5a34440d328777ab1c36a5e19282dab215cabe81f46681f32143d8": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 267
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 267
+      },
+      "24": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1262
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 274
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 274
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 274
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 275
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 275
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 276
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 276
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 276
+      },
+      "128": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1336
+      }
+    },
+    "c68215a3d2c52d81ed3c0357a370f193e73280dc3b7cf61cf19f73d2bf057947": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "8": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "16": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "32": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "40": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "48": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "64": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "80": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "96": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "112": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "120": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "128": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "144": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "160": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "176": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "184": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "192": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "208": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "224": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "232": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "248": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "256": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "272": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "280": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "304": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "320": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "336": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "352": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "360": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "376": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "384": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "416": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "432": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      },
+      "440": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 34
+      }
+    },
+    "c8bb6e4b551c2a78fe557a4a73be40aad6a3dd084230803e3f4242a6a717f994": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "152": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "160": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "176": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "184": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "192": {
+        "filename": "stdlib.sol",
+        "line": 298
+      },
+      "208": {
+        "filename": "stdlib.sol",
+        "line": 298
+      }
+    },
+    "c8bd2460c64be6d5206aadf9514c458f26b6fb1783bbbb003b7d484882be13b2": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 55
+      },
+      "48": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 55
+      },
+      "56": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 55
+      },
+      "72": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "112": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "128": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "136": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "160": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "176": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 56
+      },
+      "192": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "200": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "216": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "376": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "384": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "392": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "400": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "408": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "416": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "424": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 58
+      },
+      "440": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "456": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "464": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "488": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "496": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "512": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "528": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "536": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      },
+      "552": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 59
+      }
+    },
+    "c8e24fd8c3174d2dc319d6e62094f5cbf2331a3db9d353c07490b4fcbe03685b": {
+      "0": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 63
+      },
+      "48": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 63
+      },
+      "56": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 63
+      },
+      "72": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "128": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "144": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "160": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "168": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "192": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "200": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 64
+      },
+      "224": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 65
+      },
+      "240": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 65
+      },
+      "256": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 65
+      },
+      "272": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 65
+      },
+      "296": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "312": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "472": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "480": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "488": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "496": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "504": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "512": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 67
+      },
+      "528": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "544": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "560": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "568": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "592": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "600": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "648": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "672": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "688": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "696": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      },
+      "712": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 68
+      }
+    },
+    "da9172db17d932bc8b650a0c470c7f0c773dac1c98f77f40fabf5fcd4e99d73a": {
+      "0": {
+        "filename": "Company.code",
+        "line": 334
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 335
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 336
+      },
+      "40": {
+        "filename": "Company.code",
+        "line": 337
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 338
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 339
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 340
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 341
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 342
+      },
+      "112": {
+        "filename": "Company.code",
+        "line": 343
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 344
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 345
+      },
+      "152": {
+        "filename": "Company.code",
+        "line": 346
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 347
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 348
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 349
+      },
+      "200": {
+        "filename": "Company.code",
+        "line": 350
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 351
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 352
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 353
+      }
+    },
+    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+      "0": {
+        "filename": "Company.code",
+        "line": 417
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 418
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 419
+      },
+      "40": {
+        "filename": "Company.code",
+        "line": 420
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 421
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 422
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 423
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 424
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 425
+      },
+      "112": {
+        "filename": "Company.code",
+        "line": 426
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 427
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 428
+      },
+      "144": {
+        "filename": "Company.code",
         "line": 429
       }
     },
-    "6a930cccdcab05edd1a6f42b45be10b8356b01ea769a8175020f338c7f6be72d": {
+    "e826643f23ce55d4f6479962052a45548811ebaed2f27f2adf4bb2e6eb08a9ac": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 247
+      },
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 247
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 248
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 248
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 248
+      },
+      "64": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1115
+      },
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 250
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 250
+      },
+      "104": {
+        "filename": "stdlib.sol",
+        "line": 250
+      },
+      "112": {
+        "filename": "stdlib.sol",
+        "line": 251
+      },
+      "120": {
+        "filename": "stdlib.sol",
+        "line": 251
+      },
+      "128": {
+        "filename": "stdlib.sol",
+        "line": 252
+      },
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 252
+      },
+      "152": {
+        "filename": "stdlib.sol",
+        "line": 252
+      },
+      "160": {
+        "filename": "stdlib.sol",
+        "line": 253
+      },
+      "176": {
+        "filename": "stdlib.sol",
+        "line": 253
+      },
+      "200": {
+        "filename": "stdlib.sol",
+        "line": 253
+      },
+      "208": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1155
+      },
+      "216": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "232": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "240": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "248": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "256": {
+        "filename": "stdlib.sol",
+        "line": 255
+      },
+      "264": {
+        "filename": "stdlib.sol",
+        "line": 255
+      }
+    },
+    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+      "0": {
+        "filename": "Company.code",
+        "line": 449
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 450
+      }
+    },
+    "f7f8c18d0d90148047029f97f4fd503ae60b34374c726728f73e899c57c8d0f0": {
+      "0": {
+        "filename": "Company.code",
+        "line": 266
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 267
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 268
+      },
+      "48": {
+        "filename": "Company.code",
+        "line": 269
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 270
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 271
+      },
+      "88": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 62
+      },
+      "104": {
+        "filename": "../contracts/CompanyAndWorkerWithWallet/Company.tsol",
+        "line": 62
+      },
+      "112": {
+        "filename": "Company.code",
+        "line": 278
+      },
+      "128": {
+        "filename": "Company.code",
+        "line": 281
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 282
+      },
+      "152": {
+        "filename": "Company.code",
+        "line": 285
+      }
+    },
+    "fa38d6128bb3eed46772dccac57113cdcf0db99792f668d672c2573b53047209": {
+      "0": {
+        "filename": "Company.code",
+        "line": 633
+      },
+      "8": {
+        "filename": "Company.code",
+        "line": 634
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 635
+      },
+      "64": {
+        "filename": "Company.code",
+        "line": 636
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 639
+      },
+      "88": {
+        "filename": "Company.code",
+        "line": 640
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 641
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 642
+      },
+      "160": {
+        "filename": "Company.code",
+        "line": 645
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 646
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 647
+      },
+      "224": {
+        "filename": "Company.code",
+        "line": 648
+      },
+      "240": {
+        "filename": "Company.code",
+        "line": 651
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 652
+      },
+      "296": {
+        "filename": "Company.code",
+        "line": 653
+      },
+      "304": {
+        "filename": "Company.code",
+        "line": 654
+      }
+    },
+    "fb38924f8a3e6215a051571153e55c795f30dbc44f1a3505d4e42623badccfc7": {
+      "0": {
+        "filename": "Company.code",
+        "line": 468
+      },
+      "16": {
+        "filename": "Company.code",
+        "line": 469
+      },
+      "24": {
+        "filename": "Company.code",
+        "line": 470
+      },
+      "40": {
+        "filename": "Company.code",
+        "line": 471
+      },
+      "56": {
+        "filename": "Company.code",
+        "line": 472
+      },
+      "72": {
+        "filename": "Company.code",
+        "line": 473
+      },
+      "80": {
+        "filename": "Company.code",
+        "line": 476
+      },
+      "96": {
+        "filename": "Company.code",
+        "line": 477
+      },
+      "104": {
+        "filename": "Company.code",
+        "line": 478
+      },
+      "120": {
+        "filename": "Company.code",
+        "line": 481
+      },
+      "136": {
+        "filename": "Company.code",
+        "line": 482
+      },
+      "144": {
+        "filename": "Company.code",
+        "line": 483
+      },
+      "152": {
+        "filename": "Company.code",
+        "line": 484
+      },
+      "168": {
+        "filename": "Company.code",
+        "line": 485
+      },
+      "184": {
+        "filename": "Company.code",
+        "line": 486
+      },
+      "192": {
+        "filename": "Company.code",
+        "line": 487
+      },
+      "208": {
+        "filename": "Company.code",
+        "line": 488
+      },
+      "216": {
+        "filename": "Company.code",
+        "line": 489
+      },
+      "232": {
+        "filename": "Company.code",
+        "line": 490
+      },
+      "248": {
+        "filename": "Company.code",
+        "line": 491
+      },
+      "264": {
+        "filename": "Company.code",
+        "line": 493
+      },
+      "272": {
+        "filename": "Company.code",
+        "line": 494
+      },
+      "288": {
+        "filename": "Company.code",
+        "line": 495
+      },
+      "296": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "312": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "320": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "328": {
+        "filename": "stdlib.sol",
+        "line": 61
+      },
+      "344": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "352": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "368": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "392": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "400": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "440": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "448": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "456": {
+        "filename": "stdlib.sol",
+        "line": 62
+      },
+      "472": {
+        "filename": "stdlib.sol",
+        "line": 63
+      },
+      "488": {
+        "filename": "Company.code",
+        "line": 497
+      },
+      "504": {
+        "filename": "Company.code",
+        "line": 498
+      },
+      "512": {
+        "filename": "Company.code",
+        "line": 499
+      },
+      "528": {
+        "filename": "Company.code",
+        "line": 502
+      }
+    },
+    "fbded309e5350fc5d4a42395316de2df8cdf6f5b2ef98e293b37fe200038ee01": {
+      "0": {
+        "filename": "stdlib.sol",
+        "line": 216
+      },
+      "16": {
+        "filename": "stdlib.sol",
+        "line": 216
+      },
+      "32": {
+        "filename": "stdlib.sol",
+        "line": 216
+      },
+      "40": {
+        "filename": "stdlib.sol",
+        "line": 217
+      },
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 217
+      },
+      "56": {
+        "filename": "stdlib.sol",
+        "line": 218
+      },
+      "64": {
+        "filename": "stdlib.sol",
+        "line": 218
+      }
+    },
+    "feb9e97e1f9199e9d02db46cdd8fa6af8c5b5b83204626a3528bceac37ae93d3": {
       "0": {
         "filename": "<entry-selector>",
         "line": 1
@@ -514,1421 +3087,90 @@
         "line": 11
       }
     },
-    "73867e37ec1ffb9ecb087a37d71892215b0b805a73c127da219a28729084e2e0": {
+    "ff6251682ac8f28ccace16692b91c85a74b63f24b8fbaebbd0a1e5602e9e23b2": {
       "0": {
-        "filename": "<internal-selector>",
-        "line": 1
-      },
-      "24": {
-        "filename": "<internal-selector>",
-        "line": 2
-      }
-    },
-    "846981acb4912cfaf5d4fb76496b41077d4233d629ddc839a290b9692f058228": {
-      "0": {
-        "filename": "Company.code",
-        "line": 522
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 523
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 524
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 527
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 528
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 529
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 530
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 531
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 532
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 533
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 534
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 535
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 536
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 538
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 539
-      }
-    },
-    "8eed1679060a165a6f70656e5ae5c15ef08a57318b7de52861a74c51fdaa58bd": {
-      "0": {
-        "filename": "Company.code",
-        "line": 136
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 137
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 138
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 139
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 140
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 141
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "96": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "120": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "128": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "136": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "152": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 55
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 155
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 158
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 159
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 162
-      }
-    },
-    "9455b9c5549f3a7f9f3c4178146b2edd6be9e9777972f9b4ba2a1b7eb16013ae": {
-      "0": {
-        "filename": "Company.code",
-        "line": 312
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 313
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 314
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 315
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 316
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 317
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 318
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 321
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 322
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 323
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 324
-      },
-      "112": {
-        "filename": "Company.code",
-        "line": 325
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 326
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 330
-      },
-      "152": {
-        "filename": "Company.code",
-        "line": 331
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 332
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 333
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 334
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 335
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 336
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 337
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 338
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 339
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 340
-      },
-      "320": {
-        "filename": "Company.code",
-        "line": 341
-      },
-      "328": {
-        "filename": "Company.code",
-        "line": 342
-      }
-    },
-    "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
-    "a0182bca9826ab28962133e35c3af4f23afbac822611c45f085325b8e4699039": {
-      "0": {
-        "filename": "Company.code",
-        "line": 283
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 284
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 285
-      },
-      "40": {
-        "filename": "Company.code",
-        "line": 286
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 287
-      },
-      "72": {
-        "filename": "Company.code",
+        "filename": "stdlib.sol",
         "line": 288
       },
-      "80": {
-        "filename": "Company.code",
+      "8": {
+        "filename": "stdlib.sol",
+        "line": 288
+      },
+      "24": {
+        "filename": "stdlib.sol",
+        "line": 288
+      },
+      "40": {
+        "filename": "stdlib.sol",
         "line": 289
       },
-      "96": {
-        "filename": "Company.code",
+      "48": {
+        "filename": "stdlib.sol",
+        "line": 289
+      },
+      "64": {
+        "filename": "stdlib.sol",
         "line": 290
       },
-      "112": {
-        "filename": "Company.code",
+      "72": {
+        "filename": "stdlib.sol",
+        "line": 290
+      },
+      "80": {
+        "filename": "stdlib.sol",
+        "line": 291
+      },
+      "88": {
+        "filename": "stdlib.sol",
+        "line": 291
+      },
+      "96": {
+        "filename": "stdlib.sol",
+        "line": 291
+      },
+      "104": {
+        "filename": "stdlib.sol",
         "line": 291
       },
       "120": {
-        "filename": "Company.code",
+        "filename": "stdlib.sol",
+        "line": 291
+      },
+      "128": {
+        "filename": "stdlib_sol_0_62_0.tvm",
+        "line": 1366
+      },
+      "136": {
+        "filename": "stdlib.sol",
         "line": 292
       },
-      "128": {
-        "filename": "Company.code",
+      "144": {
+        "filename": "stdlib.sol",
+        "line": 292
+      },
+      "152": {
+        "filename": "stdlib.sol",
+        "line": 292
+      },
+      "160": {
+        "filename": "stdlib.sol",
         "line": 293
       },
-      "136": {
-        "filename": "Company.code",
-        "line": 294
-      },
-      "152": {
-        "filename": "Company.code",
-        "line": 295
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 296
-      },
       "176": {
-        "filename": "Company.code",
-        "line": 297
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 298
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 299
-      },
-      "216": {
-        "filename": "Company.code",
+        "filename": "stdlib.sol",
         "line": 300
       },
-      "232": {
-        "filename": "Company.code",
-        "line": 301
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 302
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 303
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 304
-      }
-    },
-    "a484e71c3575132eb818726c0d165c93eed4ef81618640e877ba64b3167deb8a": {
-      "0": {
-        "filename": "Company.code",
-        "line": 482
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 483
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 484
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 487
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 488
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 489
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 490
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 491
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 492
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 493
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 494
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 495
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 496
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 498
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 499
-      }
-    },
-    "a647082e1c94c15456cfb1a40422cc8358ac2bb42ce2f1c2a0bba7602bf9fa07": {
-      "0": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 66
-      }
-    },
-    "aadc0e81d3dbeb3057a0e3be08d0404f254987c0023ce37591502e6463cc921e": {
-      "0": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 77
-      },
-      "16": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 78
-      },
-      "32": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 78
-      },
-      "48": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 78
-      },
-      "72": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "136": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "144": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "328": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "352": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "368": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "376": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      },
-      "384": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 81
-      }
-    },
-    "b5e1e22cb7e692a63a2b62c44a84996c38ea257258c89b9086bb55d77633548b": {
-      "0": {
-        "filename": "Company.code",
-        "line": 546
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 547
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 548
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 549
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 552
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 553
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 554
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 555
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 558
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 559
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 560
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 561
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 564
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 565
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 566
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 567
-      }
-    },
-    "b62d494751c683ea0fa34acebbd2caf1c61264a0f0e33123a0024735363fb3d3": {
-      "0": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "16": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "24": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "32": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "40": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "48": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "56": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "64": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "80": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 36
-      },
-      "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 58
-      },
-      "128": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "136": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "160": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "168": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "352": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "376": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "384": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      },
-      "392": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 59
-      }
-    },
-    "b6ca420b46c15913029da1026fb1dbf31bbca02c84dda06c0bca3af585e7d606": {
-      "0": {
-        "filename": "Company.code",
-        "line": 423
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 424
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 425
-      },
-      "40": {
-        "filename": "Company.code",
-        "line": 426
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 427
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 428
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 431
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 432
-      },
-      "104": {
-        "filename": "Company.code",
-        "line": 433
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 436
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 437
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 438
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 439
-      },
-      "176": {
-        "filename": "Company.code",
-        "line": 440
-      },
-      "192": {
-        "filename": "Company.code",
-        "line": 441
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 442
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 443
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 444
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 445
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 446
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 447
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 448
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 450
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 451
-      },
-      "320": {
-        "filename": "Company.code",
-        "line": 452
-      },
-      "328": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "344": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "352": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "360": {
-        "filename": "stdlib.sol",
-        "line": 61
-      },
-      "376": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "384": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "400": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "424": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "432": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "472": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "480": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "488": {
-        "filename": "stdlib.sol",
-        "line": 62
-      },
-      "504": {
-        "filename": "stdlib.sol",
-        "line": 63
-      },
-      "520": {
-        "filename": "Company.code",
-        "line": 454
-      },
-      "536": {
-        "filename": "Company.code",
-        "line": 455
-      },
-      "544": {
-        "filename": "Company.code",
-        "line": 456
-      },
-      "560": {
-        "filename": "Company.code",
-        "line": 459
-      }
-    },
-    "b8cc2e8ef74666bf2088fc358337c1bb00d1b3a1d0000082d683dc3565d8ce37": {
-      "0": {
-        "filename": "Company.code",
-        "line": 191
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 192
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 193
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 194
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 195
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 196
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 63
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 202
-      },
-      "112": {
-        "filename": "Company.code",
-        "line": 205
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 206
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 209
-      }
-    },
-    "bcc8f972fa6b861d54b70cba28d9f0dd69de9f3f5b7ea65ee5b16c02ec3d7ed0": {
-      "0": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 41
-      },
-      "8": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 41
-      },
-      "24": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "32": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "40": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "56": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "64": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "72": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "120": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "136": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "144": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "152": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "168": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
       "184": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
+        "filename": "stdlib.sol",
+        "line": 300
       },
       "200": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
+        "filename": "stdlib.sol",
+        "line": 300
       },
       "208": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "216": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "232": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "248": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "256": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "272": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "280": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "296": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "304": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "328": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "344": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "360": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "376": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "384": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "400": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "408": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "440": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "456": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      },
-      "464": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 42
-      }
-    },
-    "c81d66cac4dd33dd0ba84c431dfd5a4ce2763075b1097a48696454ba824d0606": {
-      "0": {
-        "filename": "Company.code",
-        "line": 575
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 576
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 577
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 578
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 581
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 582
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 583
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 584
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 587
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 588
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 589
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 590
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 593
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 594
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 595
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 596
-      }
-    },
-    "c94b26961ff7f036e5a79e96f60b81ef7e2c1bd619f4a5c15313068da9a3cc73": {
-      "0": {
-        "filename": "Company.code",
-        "line": 4
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 5
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 6
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 7
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 10
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 11
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 12
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 13
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 14
-      },
-      "112": {
-        "filename": "Company.code",
-        "line": 15
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 16
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 17
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 19
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 20
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 22
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 23
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 24
-      },
-      "192": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 28
-      },
-      "208": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 29
-      },
-      "216": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 29
-      },
-      "232": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 30
-      },
-      "248": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 31
-      },
-      "264": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 31
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 36
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 39
-      }
-    },
-    "d08fa1a26876d906ec6191bdc0bdd60795dcf10c32c9b0dcab447b8ac97e55a2": {
-      "0": {
-        "filename": "Company.code",
-        "line": 462
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 463
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 464
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 467
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 468
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 469
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 470
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 471
-      },
-      "240": {
-        "filename": "Company.code",
-        "line": 472
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 473
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 474
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 475
-      },
-      "280": {
-        "filename": "Company.code",
-        "line": 476
-      },
-      "296": {
-        "filename": "Company.code",
-        "line": 478
-      },
-      "304": {
-        "filename": "Company.code",
-        "line": 479
-      }
-    },
-    "e4540d61770be88a9b118bacb007cf7ac89a53d99ca24c2e083a626d94358f22": {
-      "0": {
-        "filename": "Company.code",
-        "line": 237
-      },
-      "8": {
-        "filename": "Company.code",
-        "line": 238
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 239
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 240
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 241
-      },
-      "72": {
-        "filename": "Company.code",
-        "line": 242
-      },
-      "88": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 69
-      },
-      "104": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 69
-      },
-      "112": {
-        "filename": "../contracts/CompanyAndWorker/Company.tsol",
-        "line": 69
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 250
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 253
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 254
-      },
-      "160": {
-        "filename": "Company.code",
-        "line": 257
-      }
-    },
-    "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
-      "0": {
-        "filename": "Company.code",
-        "line": 372
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 373
-      },
-      "24": {
-        "filename": "Company.code",
-        "line": 374
-      },
-      "40": {
-        "filename": "Company.code",
-        "line": 375
-      },
-      "56": {
-        "filename": "Company.code",
-        "line": 376
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 377
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 378
-      },
-      "88": {
-        "filename": "Company.code",
-        "line": 379
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 380
-      },
-      "112": {
-        "filename": "Company.code",
-        "line": 381
-      },
-      "128": {
-        "filename": "Company.code",
-        "line": 382
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 383
-      },
-      "144": {
-        "filename": "Company.code",
-        "line": 384
-      }
-    },
-    "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
-      "0": {
-        "filename": "Company.code",
-        "line": 404
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 405
-      }
-    },
-    "f436ffab9d68fa66143275ea503ddb95a21df94d6502b87497220646e663576d": {
-      "0": {
-        "filename": "Company.code",
-        "line": 349
-      },
-      "16": {
-        "filename": "Company.code",
-        "line": 350
-      },
-      "32": {
-        "filename": "Company.code",
-        "line": 351
-      },
-      "48": {
-        "filename": "Company.code",
-        "line": 352
-      },
-      "64": {
-        "filename": "Company.code",
-        "line": 353
-      },
-      "80": {
-        "filename": "Company.code",
-        "line": 354
-      },
-      "96": {
-        "filename": "Company.code",
-        "line": 355
-      },
-      "112": {
-        "filename": "Company.code",
-        "line": 356
-      },
-      "120": {
-        "filename": "Company.code",
-        "line": 357
-      },
-      "136": {
-        "filename": "Company.code",
-        "line": 358
-      },
-      "152": {
-        "filename": "Company.code",
-        "line": 359
-      },
-      "168": {
-        "filename": "Company.code",
-        "line": 360
-      },
-      "184": {
-        "filename": "Company.code",
-        "line": 361
-      },
-      "200": {
-        "filename": "Company.code",
-        "line": 362
-      },
-      "216": {
-        "filename": "Company.code",
-        "line": 363
-      },
-      "224": {
-        "filename": "Company.code",
-        "line": 364
-      },
-      "232": {
-        "filename": "Company.code",
-        "line": 365
-      },
-      "248": {
-        "filename": "Company.code",
-        "line": 366
-      },
-      "256": {
-        "filename": "Company.code",
-        "line": 367
-      },
-      "264": {
-        "filename": "Company.code",
-        "line": 368
-      },
-      "272": {
-        "filename": "Company.code",
-        "line": 369
+        "filename": "stdlib.sol",
+        "line": 300
       }
     }
   }

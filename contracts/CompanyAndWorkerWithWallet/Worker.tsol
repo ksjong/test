@@ -1,0 +1,50 @@
+// SPDX-License-Identifier: UNLICENSED
+pragma ever-solidity >= 0.62.0;
+import "Company.tsol";
+
+contract Worker {
+    uint256 public TotalSalary;
+
+    uint256 public static workerPubkey;
+    address public static companyAddress;
+    address public owner;
+
+    uint128 constant MIN_CONTRACT_BALANCE = 1 ever;
+
+
+
+    event ReceivedSalary(address user, uint256 _salary);
+    event RegisteredAccept(address sender, string message);
+    event BadWork(address company);
+    event Working( string message);
+
+    constructor() public {
+        tvm.accept();
+        owner = address(this);
+    }
+    function registerdAccept() external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        require(msg.sender == companyAddress, 1234);
+        emit RegisteredAccept(msg.sender, "Accept!");
+        Company(companyAddress).comRegisteredAccept{value:0, flag:128}();
+    }
+
+    function working() external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        emit Working( "I'm working");
+        Company(companyAddress).doWork{value:0, flag:128}(workerPubkey);
+    }
+
+    function badWork(address _company) external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        emit BadWork(_company);
+        Company(_company).doWork{value:0, flag:128}(workerPubkey);
+    }
+
+    function receivedSalary(uint _salary) external {
+        tvm.rawReserve( MIN_CONTRACT_BALANCE, 0);
+        TotalSalary += _salary;
+        emit ReceivedSalary(msg.sender, _salary);
+        owner.transfer({value:0, flag:128});
+    }
+}

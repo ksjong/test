@@ -6,7 +6,6 @@
 		{
 			"name": "constructor",
 			"inputs": [
-				{"name":"_owner","type":"uint256"},
 				{"name":"_salary","type":"uint256"}
 			],
 			"outputs": [
@@ -15,8 +14,7 @@
 		{
 			"name": "getAddress",
 			"inputs": [
-				{"name":"_worker_pubkey","type":"uint256"},
-				{"name":"_comp_name","type":"string"}
+				{"name":"_workerPubkey","type":"uint256"}
 			],
 			"outputs": [
 				{"name":"value0","type":"address"}
@@ -40,8 +38,7 @@
 		{
 			"name": "doWork",
 			"inputs": [
-				{"name":"_workpubKey","type":"uint256"},
-				{"name":"_comp_name","type":"string"}
+				{"name":"_workPubKey","type":"uint256"}
 			],
 			"outputs": [
 			]
@@ -51,7 +48,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"owner","type":"uint256"}
+				{"name":"owner","type":"address"}
 			]
 		},
 		{
@@ -60,14 +57,6 @@
 			],
 			"outputs": [
 				{"name":"salary","type":"uint256"}
-			]
-		},
-		{
-			"name": "comp_address",
-			"inputs": [
-			],
-			"outputs": [
-				{"name":"comp_address","type":"address"}
 			]
 		},
 		{
@@ -84,9 +73,17 @@
 	],
 	"events": [
 		{
-			"name": "WorkRegistered",
+			"name": "RegisterWorker",
 			"inputs": [
-				{"name":"_worker","type":"address"}
+				{"name":"worker","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "DoWork",
+			"inputs": [
+				{"name":"worker","type":"address"}
 			],
 			"outputs": [
 			]
@@ -105,9 +102,8 @@
 		{"name":"_pubkey","type":"uint256"},
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
-		{"name":"owner","type":"uint256"},
+		{"name":"owner","type":"address"},
 		{"name":"salary","type":"uint256"},
-		{"name":"comp_address","type":"address"},
 		{"name":"worker","type":"map(address,bool)"},
 		{"name":"workerContractCode","type":"cell"}
 	]

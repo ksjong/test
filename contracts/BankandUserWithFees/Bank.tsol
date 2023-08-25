@@ -44,10 +44,10 @@ contract Bank {
         isLoanAvailable = true;
     }
 
-    function configuredInterestRate(uint _interestRate) public onlyOwner {
-        tvm.accept();
-        interestRate = _interestRate;
-    }
+//    function configuredInterestRate(uint _interestRate) public onlyOwner {
+//        tvm.accept();
+//        interestRate = _interestRate;
+//    }
 
     function getAddress() public returns(address) {
         tvm.accept();
